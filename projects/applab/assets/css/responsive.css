@@ -1,0 +1,541 @@
+/*----------------------------- Responsive ------------------------------------------*/
+@media only screen and  (min-width:1600px){
+
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	.h1,h1{font-size:60px;margin-bottom:20px;line-height:74px;}
+	.h2,h2{font-size:48px;margin-bottom:20px;}
+	.h3,h3{font-size:40px;margin-bottom:18px;}
+	.h4,h4{font-size:36px;margin-bottom:14px;}
+	.h5,h5{font-size:22px;margin-bottom:15px;}
+	.h6,h6{font-size:20px;margin-bottom:7px;}
+
+	/* About
+	------------------------------------------------------------------------------*/
+	.about{padding:0px 0px 12px 0px;background-size:89%;background-position:98px -4px;}
+	.about .about-info{width:55%;padding:0px 40px 0px 70px;}
+	.about .about-img{width:45%;text-align:center;padding-left:24px;}
+	.about .about-info p{font-size:18px;}
+	.about .about-info p.editor-choice{padding:0px 47px 0px 0px;}
+	.about .about-info ul.btn-group{margin-top:36px;}
+	.about .about-info ul.btn-group li{margin-right:29px;}
+
+	/* Trusted Compaines
+	------------------------------------------------------------------------------*/
+	.trusted-companies{padding:110px 0px;}
+
+	/* Jackpots
+	------------------------------------------------------------------------------*/
+	.smart-jackpots .heading{padding-bottom:50px;}
+	.smart-jackpots .heading h3{padding:0px 55px;}
+	.smart-jackpots .heading p{padding:8px 0px 0px 52px;}
+	.smart-jackpots ul.jackpots-list{margin-top:60px;}
+	.smart-jackpots ul.jackpots-list li .feature-icon{margin-bottom:28px;}
+
+	/* Integration   Note : Common Css ( Awesome Features )
+	------------------------------------------------------------------------------*/
+	.awesome-feature.code-integration{}
+
+	/* Why Us
+	------------------------------------------------------------------------------*/
+	.why-us{padding:120px 0px 60px 0px;}
+	.why-us .heading{margin-bottom:88px;}
+	.why-us ul.why-us-list li{margin-bottom:67px;}
+
+	/* Ultimate
+	------------------------------------------------------------------------------*/
+	.ultimate-features .feature-img img {max-width: 800px;}	
+	.ultimate-features .feature-info .heading{max-width: 400px;}
+
+	/* Our Price
+	------------------------------------------------------------------------------*/
+	.our-price {padding: 110px 0px;}
+	.our-price .heading {margin-bottom: 74px;}
+	.our-price .heading h4 {margin-bottom: 30px;}
+
+	.our-price .plans-price{padding:50px 15px 32px 15px;}
+
+	.our-price .plans-details{padding:36px 15px 25px 15px;}
+	.our-price .plans-details ul li{margin-bottom:24px;}
+	.our-price .plans-details a.btn{margin-top:35px;}
+	.our-price .plans-details p{margin-top:23px;}	
+
+
+	/* Testimonial
+	------------------------------------------------------------------------------*/
+	.testimonial {padding: 140px 0px;}	
+	.testimonial .testimonial-img img {right: 45%;max-width: 820px;top: 49px;}
+	.testimonial .testimonial-info {width: 60%;padding: 0px 10px 0px 118px;}
+
+	/* Faq
+	------------------------------------------------------------------------------*/
+	.faq .heading {margin-bottom: 58px;}
+	.faq .heading h3 {margin-bottom: 27px;}
+	.accordion h6{padding:15px 53px 15px 53px;margin-bottom:12px;}
+	.accordion h6.active{padding: 42px 53px 42px 53px;}
+	.accordion p{padding:10px 50px 70px 50px;margin-top:-22px;margin-bottom:15px;}
+	.accordion h6:after{right:39px;top:23px;width:17px;height:17px;}
+
+	/* Download
+	------------------------------------------------------------------------------*/
+	.download .download-img img{right: 152px;bottom: 36px;max-width: 835px;}	
+	.download .download-info{width:60%;padding:27px 30px 0px 13px;}
+
+	/* Footer
+	------------------------------------------------------------------------------*/
+	footer{padding:115px 0px;}
+	footer .logo{margin-bottom:47px;}
+	footer nav{margin-bottom:44px;}
+	footer .social-links {margin-bottom: 78px;}		
+
+}
+
+@media only screen and (max-width:1299px){
+
+	/* About
+	------------------------------------------------------------------------------*/
+	.about .about-info{padding:0px 40px 0px 40px;}
+	.about .about-img{padding-left: 0px;max-width: 350px;margin: 0 auto; }
+
+	/* Awesome Features
+	------------------------------------------------------------------------------*/
+	.awesome-feature .feature-img {max-width: 500px;margin: 0 auto;}
+	.awesome-feature .feature-info{margin:0 auto;}
+	.awesome-feature  ul.feature-list{margin-top:40px;}
+	.awesome-feature  ul.feature-list li{margin-bottom:30px;}
+
+	/* Ultimate
+	------------------------------------------------------------------------------*/
+	.ultimate-features .feature-img img {max-width:500px;}
+
+	/* Testimonial
+	------------------------------------------------------------------------------*/
+	.testimonial .testimonial-img {width: 50%;}
+	.testimonial .testimonial-img img {position:unset;max-width: 600px;}
+	.testimonial .testimonial-info {width: 50%;padding:0px 20px 0px 0px;}
+
+
+
+}
+
+@media only screen and (max-width:1199px){
+
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	body{font-size:16px;}
+	.h1,h1{font-size:45px;line-height:55px;}
+	.h2,h2{font-size:40px;}
+	.h3,h3{font-size:30px;line-height:45px;}
+	.h4,h4{font-size:27px;}
+	.h5,h5{font-size:22px;}
+	.h6,h6{font-size:20px;}
+
+
+	/* Trusted Companies 
+	------------------------------------------------------------------------------*/
+	.trusted-companies{padding:70px 0px 40px 0px;}
+
+	/* Jackpots
+	------------------------------------------------------------------------------*/	
+
+
+	/* Integration   Note : Common Css ( Awesome Features )
+	------------------------------------------------------------------------------*/
+	.awesome-feature.code-integration{padding:50px 0px;}
+
+	/* Why Us
+	------------------------------------------------------------------------------*/
+	.why-us{padding:50px 0px 0px 0px;}
+
+	/* Ultimate
+	------------------------------------------------------------------------------*/
+	.ultimate-features .feature-info {width: 65%;padding: 0px 30px;}
+	.ultimate-features .feature-img {width: 35%;}
+	.ultimate-features .feature-img img{right: 18%;}
+	.ultimate-features  ul.feature-list li {padding: 0px 45px 0px 0px;margin-bottom: 40px;}
+	.ultimate-features .feature-info .heading {max-width: 300px;}	
+
+	/* Our Price
+	------------------------------------------------------------------------------*/
+	.our-price {padding: 50px 0px;}
+	.our-price .heading{margin-bottom:30px;}
+	.priceToggle{margin: 0px 0 17px 0;}	
+
+
+	/* Testimonial
+	------------------------------------------------------------------------------*/
+	.testimonial{padding:50px 0px;}
+	.testimonial .testimonial-img img {max-width: 100%;}
+
+	/* Download
+	------------------------------------------------------------------------------*/
+	.download .download-info ul.btn-group li img {max-width: 151px;}	
+
+}
+
+@media only screen and (min-width:992px){
+    .mobile-menu{display:none;}
+}
+
+@media only screen and (max-width:991px){
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	body {font-size: 16px;}
+	.h1, h1 {font-size: 40px;}
+	.h2, h2 {font-size: 35px;}
+	.h3, h3 {font-size: 27px;}
+	.h4,h4 {font-size: 24px;}
+	.h5,h5 {font-size: 20px;}
+	.h6,h6 {font-size: 18px;}	
+	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 50px;}
+	
+	/* Header
+	------------------------------------------------------------------------------*/	
+	header{padding:20px 0px;}
+	header .logo {width: 50%;}
+	.mobile-menu-icon{display:inline-block;}
+    .desktop-menu{display:none;}
+	
+	body.body-hide {overflow: hidden !important;}
+	body.body-hide:after{content:'';position:absolute;height:100%;width:100%;top:0;left:0;min-height:50000px;background:rgba(0,0,0,0.9);z-index:10;}    
+
+	/* About
+	------------------------------------------------------------------------------*/
+	.about .container{flex-direction:column-reverse;}	
+	.about .about-info {width:100%;padding: 0px;text-align: center;}
+	.about .about-img{width:100%;margin:0 auto;margin-bottom:30px;}
+	.about .about-info ul.btn-group{justify-content:center;}
+	.about {padding: 10px 0px 60px 0px;}
+	.about .about-info p.editor-choice{margin-bottom:20px;}
+	
+	/* Trusted Companies
+	------------------------------------------------------------------------------*/	
+	.trusted-companies ul.trusted-companies-slider li{width:33.33%;}
+
+	/* Awesome Features
+	------------------------------------------------------------------------------*/
+	.awesome-feature .container{flex-direction:column;}
+	.awesome-feature .feature-img,
+	.awesome-feature .feature-info{width:100%;}
+	.awesome-feature .feature-info{max-width:600px;padding: 20px 0px 0px 0px;}
+	.awesome-feature .feature-info .heading{text-align:center;}
+	.awesome-feature  ul.feature-list .feature-icon {text-align:center;}
+	
+	/* Jackpots
+	------------------------------------------------------------------------------*/	
+	.smart-jackpots .heading h3{padding: 0px 30px 0px 15px;}
+	.smart-jackpots .heading p{padding:0px 0px 0px 30px;}
+	.smart-jackpots ul.jackpots-list li{padding:0px 15px 0px 15px;}
+	.smart-jackpots ul.jackpots-list li .feature-icon img {width: 80px;}
+
+	/* Integration   Note : Common Css ( Awesome Features )
+	------------------------------------------------------------------------------*/
+	.awesome-feature.code-integration{text-align:center;}	
+	.awesome-feature.code-integration .feature-img,
+	.awesome-feature.code-integration .feature-info{width:100%;}	
+	.awesome-feature.code-integration .feature-info{max-width:450px;padding: 20px 0px 0px 0px;}
+	.awesome-feature.code-integration .feature-info h4{margin: 20px 0px 15px 0px;}
+	.awesome-feature.code-integration .feature-info p{margin-bottom: 25px;}
+
+	/* Why Us
+	------------------------------------------------------------------------------*/	
+	.why-us {padding: 40px 0px 0px 0px;}
+	.why-us ul.why-us-list li{width: 50%;padding: 0px 40px;max-width: 400px;margin: 0 auto;margin-bottom: 45px;}
+	.why-us .feature-icon img {width: 80px;}
+
+	/* Ultimate
+	------------------------------------------------------------------------------*/
+	.ultimate-features .container{flex-direction:column-reverse;}	
+	.ultimate-features .feature-info {width: 100%;text-align: center;padding:0px;}
+	.ultimate-features .feature-img {width: 100%;text-align:center;margin-bottom:20px;}
+	.ultimate-features .feature-img img{position:unset;max-width: 500px;text-align: center;margin: 0 auto;margin-bottom: 40px;}
+	.ultimate-features  ul.feature-list li {padding: 0px 40px;max-width:400px;margin:0 auto;margin-bottom: 40px;}
+	.ultimate-features .feature-info .heading {max-width: 500px;margin:0 auto;margin-bottom:40px;text-align:center;}	
+	.ultimate-features .feature-info a.btn{margin:0px;margin-top:30px;}	
+
+	/* Testimonial
+	------------------------------------------------------------------------------*/
+	.testimonial .container{flex-direction:column;}
+	.testimonial .testimonial-img{width:100%;text-align:center;}		
+	.testimonial .testimonial-info{width:100%;padding:50px 50px 0px 50px;}
+
+	/* Download
+	------------------------------------------------------------------------------*/
+	.download {padding: 50px 0px;margin-bottom:0px;}
+	.download .container{flex-direction: column-reverse;}
+	.download .download-info{width:100%;text-align:center;padding: 15px 20px;}	
+	.download .download-info ul.btn-group{justify-content:center;}	
+	.download .download-img{width:100%;text-align: center;}
+	.download .download-img img {position: unset;max-width: 600px;margin-left: -30px;}
+
+
+}
+
+@media only screen and (max-width:767px){
+	
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	.h1, h1 {font-size: 37px;line-height:45px;}
+	.h2, h2 {font-size: 33px;line-height:normal;}
+	.h3, h3 {font-size: 23px;line-height:normal;}
+	.h4,h4 {font-size: 20px;line-height:normal;}
+	.h5,h5 {font-size: 18px;line-height:normal;}
+	.h6,h6 {font-size: 18px;line-height:normal;}
+	select {padding-left: 15px;padding-right: 35px;background-size: 10px;background-position: right 15px center;font-size: 18px;}
+	p {font-size: 16px;}
+	.btn {padding: 8px 30px;font-size: 16px;font-weight:400;}
+	
+	/* About
+	------------------------------------------------------------------------------*/	
+	.about .about-info p.editor-choice{font-size:16px;}	
+
+	/* Awesome Features
+	------------------------------------------------------------------------------*/	
+	.awesome-feature ul.feature-list .feature-icon {width: 20%;padding-right: 20px;}
+	.awesome-feature ul.feature-list .feature-icon img {width:80px;}
+	.awesome-feature ul.feature-list .feature-details {width: 80%;padding-right: 0px;}
+
+
+	/* Trusted Companies 
+	------------------------------------------------------------------------------*/
+	.trusted-companies ul.trusted-companies-slider {padding:0px 50px;}
+
+	/* Jackpots
+	------------------------------------------------------------------------------*/		
+	.smart-jackpots ul.jackpots-list li{width:50%;margin-bottom:40px;}
+	.smart-jackpots ul.jackpots-list li:last-child{margin-bottom:0px;}
+
+
+	/* Why Us
+	------------------------------------------------------------------------------*/	
+	.why-us {padding: 20px 0px  40px 0px;}
+	.why-us .heading {max-width: 500px;}
+
+	/* Ultimate
+	------------------------------------------------------------------------------*/
+	.ultimate-features ul.feature-list .feature-icon img {width:80px;}
+	.ultimate-features .feature-info a.btn{padding: 8px 30px;}
+
+
+	/* Our Price
+	------------------------------------------------------------------------------*/
+	.our-price {padding: 0px 0px 50px 0px;}
+	.price-switch span.monthly-btn{font-size: 14px;left: 48px;}
+	.price-switch span.annualy-btn{right: 45px;font-size: 14px;}
+	.price-switch i{width: 230px;height: 45px;}
+	.price-switch i::after{height: 37px;}
+	.price-switch input:checked + i::after{transform: translate3d(111px,3px,0);}
+
+	/* Testimonial
+	------------------------------------------------------------------------------*/
+	.testimonial{padding:20px 0px 50px 0px;}	
+	.testimonial .testimonial-info{padding:40px 20px 0px 20px;}
+	.testimonial ul.testimonial-slider .profile-img figure {width: 75px;}
+	.testimonial ul.testimonial-slider .profile-details h6, .testimonial ul.testimonial-slider .profile-details p{font-size:16px;}	
+	.testimonial ul.testimonial-slider .slick-prev, .testimonial ul.testimonial-slider .slick-next{width: 45px;height: 45px;}
+	.testimonial ul.testimonial-slider .slick-prev:after{right:-13px;top:10px;}
+
+	/* Faq
+	------------------------------------------------------------------------------*/
+	.faq {padding: 0px 0px 50px 0px;}	
+	.accordion h6:after{right: 22px;top: 22px;width: 14px;height: 14px;}
+	.accordion h6.active{padding: 15px 25px;}
+	.accordion h6{padding: 15px 40px 15px 25px;}
+	.accordion p{padding: 10px 25px 20px 25px;}
+
+	/* Download
+	------------------------------------------------------------------------------*/	
+	.download .download-img img {max-width: 100%;margin-left:0px;margin-left:-30px;}
+	.download .download-info ul.btn-group li img{max-width: 130px;}
+	.download .download-info ul.btn-group li{margin: 0px 5px 0px 7px;}
+	.download .download-info ul.btn-group{padding-top:15px;}
+
+	/* Footer
+	------------------------------------------------------------------------------*/
+	footer nav ul li {padding: 0px 10px;}	
+
+
+}
+
+@media only screen and (max-width:640px){
+
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	.h1, h1 {font-size: 33px;}
+	.h2, h2 {font-size: 28px;}
+	.h3, h3 {font-size: 22px;}
+	.h4,h4 {font-size: 20px;}
+	.h5,h5 {font-size: 18px;}
+	.h6,h6 {font-size: 18px;}
+	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 40px;}
+	
+	/* Trusted Companies
+	------------------------------------------------------------------------------*/
+	
+	.trusted-companies ul.trusted-companies-slider li{width:50%;}
+
+	.trusted-companies ul.trusted-companies-slider .slick-prev,
+	.trusted-companies ul.trusted-companies-slider .slick-next{width:30px;height:30px;}
+
+	.trusted-companies ul.trusted-companies-slider .slick-prev:before,
+	.trusted-companies ul.trusted-companies-slider .slick-next:before{height:30px;width:30px;}
+
+	/* Why Us
+	------------------------------------------------------------------------------*/	
+	.why-us ul.why-us-list li{padding: 0px 20px;}
+
+	/* Ultimate
+	------------------------------------------------------------------------------*/
+	.ultimate-features ul.feature-list li {padding: 0px 20px;max-width:400px;margin:0 auto;margin-bottom: 40px;}
+
+	/* Our Price
+	------------------------------------------------------------------------------*/
+	.our-price ul.our-plans-list > li{width: 49%;}
+	.our-price ul.our-plans-list > li:nth-child(odd){margin-right:1%;}
+	.our-price ul.our-plans-list > li:nth-child(even){margin-left:1%;}
+	.our-price .plans-price p{font-size:15px;}
+	.our-price .plans-price{padding:20px 12px;}
+	.our-price .plans-details ul{font-size:15px;}	
+			
+
+}
+
+@media only screen and (max-width:479px){
+
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	.h1,h1{font-size:27px;}
+	.h2,h2{font-size:24px;}
+	.h3,h3{font-size:22px;}
+	.h4,h4{font-size:20px;}
+	.h5,h5{font-size:18px;}
+	.h6,h6{font-size:16px;}
+	p{font-size:15px;}
+	.btn{font-size:15px;}
+	
+	/* Header
+	------------------------------------------------------------------------------*/	
+	.mobile-menu-icon{top:14px;}	
+	header .logo img {width: 100px;}
+	.bar1, .bar2, .bar3{height: 3px;}
+	.change .bar1{-webkit-transform:rotate(-45deg) translate(-6px,5px);transform:rotate(-45deg) translate(-6px,5px);}
+	.change .bar3{-webkit-transform:rotate(45deg) translate(-7px,-8px);transform:rotate(45deg) translate(-7px,-8px);}
+
+	/* About
+	------------------------------------------------------------------------------*/
+	.about .about-img{margin-bottom:0px;}
+	.about .about-info ul.btn-group{flex-direction:column;margin-top:28px;}
+	.about .about-info ul.btn-group li{margin:0px;margin-bottom:20px;}
+	.about .about-info ul.btn-group li:last-child{margin-bottom:0px;}
+	.about .about-info p.editor-choice{font-size:14px;padding:0px 10px 0px 0px;}
+
+	/* Awesome Features
+	------------------------------------------------------------------------------*/
+	.awesome-feature .feature-img{max-width:100%;}
+	.awesome-feature .feature-info {max-width: 100%;padding: 20px 0px 0px 0px;}
+	.awesome-feature  ul.feature-list .feature-icon {width: 30%;}
+	.awesome-feature  ul.feature-list .feature-icon img{width:70px;}	
+	.awesome-feature  ul.feature-list .feature-details {width: 70%;}	
+	.awesome-feature .feature-info p{font-size:15px;}
+
+	/* Trusted Companies
+	------------------------------------------------------------------------------*/
+	.trusted-companies {padding: 50px 0px 20px 0px;}	
+
+	/* Jackpots
+	------------------------------------------------------------------------------*/
+	.smart-jackpots ul.jackpots-list li .feature-icon img {width: 70px;}
+	.smart-jackpots .heading{flex-direction:column;text-align:center;max-width:300px;margin:0 auto;}	
+	.smart-jackpots .heading h3{border-right:0px;border-bottom:1px solid #eee;padding:0px;padding-bottom:20px;margin-bottom:20px;width:100%;}
+	.smart-jackpots .heading p{padding:0px;width:100%;}
+	.smart-jackpots ul.jackpots-list li{width: 100%;text-align: center;max-width: 100%;margin:0px;padding:20px 0px;border-bottom:1px solid #eee;max-width: 310px;margin: 0 auto;}
+	.smart-jackpots ul.jackpots-list li:first-child{padding-top:0px;}	
+	.smart-jackpots ul.jackpots-list li:last-child{padding-bottom:0px;border:none;}	
+
+	/* Why Us
+	------------------------------------------------------------------------------*/	
+	.why-us ul.why-us-list li{width:100%;padding: 20px 50px;margin:0px auto;border-bottom:1px solid #eee;}
+	.why-us ul.why-us-list li:first-child{padding-top:0px;}	
+	.why-us ul.why-us-list li:last-child{padding-bottom:0px;border:none;}		
+	.why-us .feature-icon img {width: 70px;}
+
+
+	/* Ultimate
+	------------------------------------------------------------------------------*/
+	.ultimate-features  ul.feature-list .feature-icon img {width:70px;}
+	.ultimate-features  ul.feature-list li{width:100%;padding: 20px 50px;margin:0px auto;border-bottom:1px solid #eee;}
+	.ultimate-features  ul.feature-list li:first-child{padding-top:0px;}	
+	.ultimate-features  ul.feature-list li:last-child{padding-bottom:0px;border:none;}
+	.ultimate-features .feature-img img{max-width:100%;}	
+	.ultimate-features .feature-info a.btn{margin-top:50px;}
+
+	/* Our Price
+	------------------------------------------------------------------------------*/
+	.our-price ul.our-plans-list{max-width:300px;margin:0 auto;}
+	.our-price ul.our-plans-list > li{width: 100%;margin-bottom:30px;}
+	.our-price ul.our-plans-list > li:last-child{width: 100%;margin-bottom:0px;}
+	.our-price ul.our-plans-list > li:nth-child(odd){margin-right:0%;}
+	.our-price ul.our-plans-list > li:nth-child(even){margin-left:0%;}
+
+
+	/* Testimonial
+	------------------------------------------------------------------------------*/
+
+	.testimonial .testimonial-info {padding: 40px 0px 50px 0px;text-align:center;}
+	.testimonial .testimonial-info .heading{text-align:center;margin-bottom:20px;}
+	
+	.testimonial ul.ratings{justify-content:center;}
+	.testimonial ul.testimonial-slider .slick-prev, .testimonial ul.testimonial-slider .slick-next {width: 35px;height: 35px;}
+	.testimonial ul.testimonial-slider .slick-prev{right:0;bottom:-50px;left:-50px;margin:0 auto;}
+	.testimonial ul.testimonial-slider .slick-prev:after{display:none;}
+	.testimonial ul.testimonial-slider .slick-next {right: 0;bottom: -50px;left: 50px;margin: 0 auto;}
+	
+	.testimonial ul.testimonial-slider .profile-info{padding-top:15px;display:flex;justify-content:center;}
+	.testimonial ul.testimonial-slider .profile-img figure{width:65px;}
+
+	/* Faq
+	------------------------------------------------------------------------------*/
+	.accordion h6:after{right:15px;top: 20px;}
+	.accordion h6.active{padding: 15px 20px;}
+	.accordion h6{padding: 15px 40px 15px 20px;}
+	.accordion p{padding: 10px 20px 20px 20px;}	
+
+
+	/* Footer
+	------------------------------------------------------------------------------*/
+	footer {padding: 60px 0px 45px 0px;}
+	footer nav ul{flex-direction:column;}
+	footer nav ul li{padding:0px;margin-bottom:15px;}
+	footer nav ul li:last-child{margin-bottom:0px;}
+	footer .social-links ul li a{font-size:24px;}
+	footer .social-links{margin-bottom:30px;}		
+
+}
+
+@media only screen and (max-width:359px){
+
+	/* Awesome Features
+	------------------------------------------------------------------------------*/
+	.awesome-feature  ul.feature-list li{flex-direction:column;text-align:center;margin:0px;padding:25px 0px;border-bottom:1px solid #eee;}
+	.awesome-feature  ul.feature-list li:last-child{padding-bottom:0px;border-bottom:none;}
+	.awesome-feature  ul.feature-list .feature-icon,
+	.awesome-feature  ul.feature-list .feature-details {width: 100%;padding:0px;}
+	.awesome-feature  ul.feature-list .feature-icon{margin-bottom:20px;}
+
+	/* Why Us
+	------------------------------------------------------------------------------*/	
+	.why-us ul.why-us-list li{width:100%;padding: 20px 20px;}
+
+	/* Ultimate
+	------------------------------------------------------------------------------*/
+	.ultimate-features  ul.feature-list li{padding: 20px 20px;}
+
+	/* Download
+	------------------------------------------------------------------------------*/	
+	.download .download-info ul.btn-group{flex-direction:column;}
+	.download .download-info ul.btn-group li{margin:5px 0px;}
+	.download .download-info ul.btn-group li:last-child{margin-bottom:0px;}
+
+
+
+}

@@ -20,6 +20,15 @@
 	.h6,h6 {font-size: 20px;}	
 	.btn {padding: 12px 15px;}	
 
+	.portfolio .grid .project-info-wrap a.comming-soon:before{font-size:20px;}	
+
+	footer .logo img{width:220px;}
+
+	.home,.about,.portfolio,.contact{padding:50px 0px;}
+
+}
+@media only screen and (min-width:992px){
+    .mobile-menu{display:none;}
 }
 @media only screen and (max-width:991px){
 
@@ -32,8 +41,34 @@
 	.h6,h6 {font-size: 18px;}	
 	.btn {padding: 10px;font-size: 12px;}
 	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 50px;}
-	
 	.heading h2,.heading h1.h2{margin: 0px 0px 30px;}
+
+	/* Header
+	------------------------------------------------------------------------------*/	
+	header{padding:10px 0px;}
+	header .logo {width: 50%;}
+	header .logo img {width: 200px;}	
+	.mobile-menu-icon{display:inline-block;}
+    .desktop-menu{display:none;}
+	
+	body.body-hide {overflow: hidden !important;}
+	body.body-hide:after{content:'';position:absolute;height:100%;width:100%;top:0;left:0;min-height:50000px;background:rgba(0,0,0,0.9);z-index:10;}
+
+	.portfolio .grid{margin-left:-1% ;margin-right:-1%;}
+	.portfolio .grid .element-item{width:48%;margin:0 1%;margin-bottom:15px;}	
+
+	/* Footer
+	------------------------------------------------------------------------------*/	
+	footer{padding:50px 0px;}
+	footer .social-links ul li a{font-size: 18px;height: 40px;width: 40px;}    
+	footer .container{flex-direction:column;}
+	footer .logo{margin-bottom: 25px;}
+	footer nav{margin-bottom: 30px;}
+	footer .logo img{width:200px;}
+
+	.back-to-top #scrollToTop {right: 10px;bottom: 227px;width:60px;}
+	.portfolio #filters li button{font-size:13px;padding:0px;}
+
 }
 @media only screen and (max-width:767px){
 
@@ -48,22 +83,73 @@
 	select {padding-left: 15px;padding-right: 35px;background-size: 10px;background-position: right 15px center;font-size: 18px;}
 	p {font-size: 15px;}	
 
+	footer nav ul li {padding: 0 10px;}
+
+	.portfolio  #filters{display:none;}
+ 	.portfolio .mobile-filter-wrap{display:block;position:relative;}
+ 	.portfolio #filters.mobile-filter {justify-content: center;flex-direction: column;padding-bottom: 0px;background:#000;position:absolute;top:54px;left:0;width:100%;z-index:5;}
+ 	.portfolio #filters.mobile-filter li {width: 100%;display:flex;align-items: center;line-height: normal;margin: 0px;padding: 16px 0px;border-bottom: 1px solid rgba(255,255,255,0.2)}	
+	.portfolio #filters.mobile-filter li button {color: #fff;}
+	.portfolio #filters.mobile-filter li button.active {color: #f00;}	
+	.portfolio .grid .project-info a.btn {font-size: 11px;padding: 7px 15px;} 	
+	.home:before{height:300px;width:300px;background-size:100%;}
+	.home{min-height:500px;}
+
+
+
 }
 @media only screen and (max-width:640px){
-	.h1, h1 {font-size: 33px;}
-	.h2, h2 {font-size: 28px;}
+
+	.h1, h1 {font-size: 30px;}
+	.h2, h2 {font-size: 27px;}
 	.h3, h3 {font-size: 22px;}
 	.h4,h4 {font-size: 20px;}
 	.h5,h5 {font-size: 18px;}
-	.h6,h6 {font-size: 18px;}
+	.h6,h6 {font-size: 18px;}	
+
 	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 40px;}
+	.portfolio .grid .project-info-wrap a.comming-soon:before{font-size:16px;}
+	.portfolio .grid .project-info h5{font-size:16px;margin-bottom:10px;}
+	.portfolio .grid .project-info a.btn{margin-top:0px;}
 
 
 }
 @media only screen and (max-width:479px){
+	.h1, h1 {font-size: 27px;}
+	.h2, h2 {font-size: 24px;}
+	.h3, h3 {font-size: 22px;}
+	.h4,h4 {font-size: 20px;}
+	.h5,h5 {font-size: 18px;}
+	.h6,h6 {font-size: 18px;}
+
+
+	/* Header
+	------------------------------------------------------------------------------*/	
+	header .logo {width: 70%;}
+	
+	.portfolio .grid{margin-left:0% ;margin-right:0%;}
+	.portfolio .grid .element-item{width:100%;margin:0 0%;margin-bottom:15px;}	
+
+	.home:before{height:200px;width:200px;}
+	.home{min-height:450px;}
+
+	.portfolio #filters-btn{font-size: 14px;padding:5px 10px;}
+	.portfolio #filters.mobile-filter{top: 44px;}
+	.portfolio #filters.mobile-filter li{padding: 12px 0px;}
+	.portfolio #filters li button{font-size:12px;}
 
 
 }
 @media only screen and (max-width:359px){
 
+
+footer nav ul{flex-direction:column;}
+footer nav ul li{padding:0px;}
+footer .social-links ul li a {font-size: 16px;height: 35px;width: 35px;}
+footer .social-links ul li{margin:0px 5px;}
+.back-to-top #scrollToTop{bottom:327px;width:55px;right:0px;}
+
+.home ul.btn-group{flex-direction:column;}
+.home ul.btn-group li{margin:0px 0px 10px 0px;}
+.home ul.btn-group li:last-child{margin-bottom:0px;}
 }
