@@ -1,69 +1,210 @@
-/*Responsive*/
+/*----------------------------- Responsive ------------------------------------------*/
 
-@media only screen and  (min-width: 1600px) {
-	.h1, h1 {font-size: 55px;}
-	.h2, h2 {font-size: 50px;}
-	.h3, h3 {font-size: 40px;}
-	.h4,h4 {font-size: 29px;}
-	.h5,h5 {font-size: 24px;}
-	.h6,h6 {font-size: 22px;}
+/*Min*/
+
+@media only screen and  (min-width:1400px){
+
+	/* Home Banner
+	------------------------------------------------------------------------------*/	
+	.home-banner{background-size:114vw;background-position:54% 15%;min-height:650px;}
+
+}
+
+@media only screen and  (min-width:1600px){
+
+	.h1,h1 {font-size: 44px;margin-bottom: 33px;line-height: 62px;}
+	.h2,h2 {font-size: 39px;margin-bottom: 20px;}
+	.h3,h3 {font-size: 35px;margin-bottom: 18px;}
+	.h4,h4 {font-size: 30px;margin-bottom: 17px;}
+	.h5,h5 {font-size: 22px;margin-bottom: 15px;}
+	.h6,h6 {font-size: 18px;margin-bottom: 10px;}	
+
+	/* Home Banner
+	------------------------------------------------------------------------------*/	
+	.home-banner{background-size:100vw;background-position:25% 24%;min-height:800px;}
+}
+
+@media only screen and  (min-width:1900px){
+
+	/* Home Banner
+	------------------------------------------------------------------------------*/
+	.home-banner{padding:175px 0px 100px 0px;background-size:cover;background-position: 100% 57%;min-height: 1050px;}
+	.home-banner .banner-info{width: 49%;}
+	.home-banner .banner-img{width:51%;}
+	.home-banner .banner-info ul.btn-group{padding-top:35px;margin-left:7px;}
+	.home-banner .banner-info ul.btn-group li{margin-right:27px;}	
+
+}
+
+@media only screen and  (min-width:2400px){
+	/* Home Banner
+	------------------------------------------------------------------------------*/	
+	.home-banner{display:flex;align-items:center;background-position:25% 15%;min-height:1100px;}
+}
+
+@media only screen and  (min-width:2900px){
+
+	/* Home Banner
+	------------------------------------------------------------------------------*/	
+	.home-banner{background-position:25% 8%;}
+}
+
+
+/*Max*/
+
+
+@media only screen and (max-width:1399px){
+	
+	/* Home Banner
+	------------------------------------------------------------------------------*/	
+	.home-banner {background-size: 126vw;background-position: 56% 7%;}
+
+}
+
+@media only screen and (max-width:1299px){
+
+	/* Home Banner
+	------------------------------------------------------------------------------*/
+	.home-banner{background-size: 126vw;background-position: 56% 14%;display: flex;}
+	.home-banner .banner-info{padding:0px;}
+	.home-banner .banner-img img{max-width:500px;position:unset;}
 
 }
 
 @media only screen and (max-width:1199px){
-	body {font-size: 16px;}
-	.h1, h1 {font-size: 45px;}
-	.h2, h2 {font-size: 40px;}
-	.h3, h3 {font-size: 30px;}
-	.h4,h4 {font-size: 27px;}
-	.h5,h5 {font-size: 22px;}
-	.h6,h6 {font-size: 20px;}	
-	.btn {padding: 12px 15px;}	
+
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	body{font-size:16px;}
+	.h1,h1{font-size:38px;margin-bottom:20px;}
+	.h2,h2{font-size:32px;}
+	.h3,h3{font-size:28px;}
+	.h4,h4{font-size:24px;}
+	.h5,h5{font-size:18px;}
+	.h6,h6{font-size:16px;}	
+
+	/* Home Banner
+	------------------------------------------------------------------------------*/	
+	.home-banner {padding: 60px 0px 0px 0px;background-size: 115vw;background-position: 75% 11%;min-height: unset;}	
+	.home-banner .banner-info ul.btn-group{padding-top:20px;}
 
 }
+
+@media only screen and (min-width:992px){
+    .mobile-menu{display:none;}
+}
+
 @media only screen and (max-width:991px){
-
-	body {font-size: 16px;}
-	.h1, h1 {font-size: 40px;}
-	.h2, h2 {font-size: 35px;}
-	.h3, h3 {font-size: 27px;}
-	.h4,h4 {font-size: 24px;}
-	.h5,h5 {font-size: 20px;}
-	.h6,h6 {font-size: 18px;}	
-	.btn {padding: 10px;font-size: 12px;}
-	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 50px;}
-	
-	.heading h2,.heading h1.h2{margin: 0px 0px 30px;}
-}
-@media only screen and (max-width:767px){
-
-
-	.h1, h1 {font-size: 37px;}
-	.h2, h2 {font-size: 33px;}
-	.h3, h3 {font-size: 23px;}
-	.h4,h4 {font-size: 20px;}
-	.h5,h5 {font-size: 18px;}
-	.h6,h6 {font-size: 18px;}
-	.btn {padding: 10px;font-size: 12px;}
-	select {padding-left: 15px;padding-right: 35px;background-size: 10px;background-position: right 15px center;font-size: 18px;}
-	p {font-size: 15px;}	
-
-}
-@media only screen and (max-width:640px){
+	/* Base Typography
+	------------------------------------------------------------------------------*/
 	.h1, h1 {font-size: 33px;}
 	.h2, h2 {font-size: 28px;}
 	.h3, h3 {font-size: 22px;}
 	.h4,h4 {font-size: 20px;}
 	.h5,h5 {font-size: 18px;}
-	.h6,h6 {font-size: 18px;}
+	.h6,h6 {font-size: 16px;}	
+
+
+	body {font-size: 16px;}	
+
+	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 50px;}
+	
+	/* Header
+	------------------------------------------------------------------------------*/	
+	header{padding:20px 0px;}
+	header .logo {width: 50%;}
+	.mobile-menu-icon{display:inline-block;}
+    .desktop-menu{display:none;}
+	
+	body.body-hide {overflow: hidden !important;}
+	body.body-hide:after{content:'';position:absolute;height:100%;width:100%;top:0;left:0;min-height:50000px;background:rgba(0,0,0,0.9);z-index:10;}   
+
+	/* Home Banner
+	------------------------------------------------------------------------------*/
+	.home-banner {padding: 50px 0px 0px 0px;background-position: 34% 0%;background-size: 119vw;}
+	.home-banner .container{flex-direction:column-reverse;}	
+	.home-banner .banner-info {width:100%;padding: 0px;text-align: center;max-width:500px;margin:0 auto;}
+	.home-banner .banner-img{width:100%;margin:0 auto;margin-bottom:30px;}
+	.home-banner .banner-info ul.btn-group{justify-content:center;}
+
+
+}
+
+@media only screen and (max-width:767px){
+	
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	.h1, h1 {font-size: 30px;line-height:normal;}
+	.h2, h2 {font-size: 26px;line-height:normal;}
+	.h3, h3 {font-size: 22px;line-height:normal;}
+	.h4,h4 {font-size: 20px;line-height:normal;}
+	.h5,h5 {font-size: 18px;line-height:normal;}
+	.h6,h6 {font-size: 16px;line-height:normal;}
+
+	select {padding-left: 15px;padding-right: 35px;background-size: 10px;background-position: right 15px center;font-size: 18px;}
+	p {font-size: 16px;}
+	.btn {padding: 8px 30px;font-size: 16px;font-weight:400;}
+
+		/* Home Banner
+	------------------------------------------------------------------------------*/
+	.home-banner {padding: 80px 0px 0px 0px;background-position: 21% 0%;background-size: 180vw;}	
+	.home-banner .banner-img img {max-width: 400px;}
+
+
+
+}
+
+@media only screen and (max-width:640px){
+
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+
 	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 40px;}
 
+		/* Home Banner
+	------------------------------------------------------------------------------*/
 
+	
 }
+
 @media only screen and (max-width:479px){
 
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	.h1,h1{font-size:27px;}
+	.h2,h2{font-size:24px;}
+	.h3,h3{font-size:21px;}
+	.h4,h4{font-size:18px;}
+	.h5,h5{font-size:17px;}
+	.h6,h6{font-size:16px;}
+	p{font-size:15px;}
+	.btn{font-size:15px;}
+	
+	/* Header
+	------------------------------------------------------------------------------*/	
+	.mobile-menu-icon{top:22px;}	
+	header .logo img {width: 100px;}
+	.bar1, .bar2, .bar3{height: 3px;}
+	.change .bar1{-webkit-transform:rotate(-45deg) translate(-6px,5px);transform:rotate(-45deg) translate(-6px,5px);}
+	.change .bar3{-webkit-transform:rotate(45deg) translate(-7px,-8px);transform:rotate(45deg) translate(-7px,-8px);}
 
+
+	/* Home Banner
+	------------------------------------------------------------------------------*/
+	.home-banner {padding: 80px 0px 50px 0px;background-position: 25% 0%;background-size: 249vw;}
+	.home-banner .banner-img{margin-bottom:0px;}
+	.home-banner .banner-img img{max-width: 300px;}
+	.home-banner .banner-info ul.btn-group{flex-direction:column;}
+	.home-banner .banner-info ul.btn-group li{margin:0px;margin-bottom:20px;}
+	.home-banner .banner-info ul.btn-group li:last-child{margin-bottom:0px;}
+
+	/* Footer
+	------------------------------------------------------------------------------*/
+	footer {}
 }
+
 @media only screen and (max-width:359px){
+
+
 
 }
