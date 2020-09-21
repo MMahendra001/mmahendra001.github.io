@@ -21,7 +21,7 @@
 => Preloader
 => Container 
 =>Home Banner
-=> 
+=> Help You
 => 
 =>     
 =>  
@@ -54,9 +54,9 @@ textarea:focus,input:focus,a,div,img {outline: none;}
 ------------------------------------------------------------------------------*/
 body {color:#242f51;font-size: 18px;font-family: 'Poppins', sans-serif;font-weight: 400;background:#fff;overflow: hidden;overflow-y: scroll;}
 address {font-style: italic;margin: 0 0 20px;}
-.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {color: #263546;font-family: 'Poppins', sans-serif;font-weight:400;}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {color: #263546;font-family: 'Poppins', sans-serif;font-weight:600;}
 
-.h1,h1{font-size:40px;margin-bottom:33px;line-height:45px;}
+.h1,h1{font-size:40px;margin-bottom:33px;line-height:45px;font-weight:400;}
 .h2,h2{font-size:34px;margin-bottom: 20px;}
 .h3,h3{font-size:30px;margin-bottom: 18px;}
 .h4,h4{font-size:27px;margin-bottom: 17px;}
@@ -152,10 +152,14 @@ select::-ms-expand {display: none;}
 /* Buttons
 ------------------------------------------------------------------------------*/
 
-.btn{display:inline-block;vertical-align:top;padding:15px 39px;font-size:16px;line-height:normal;text-align:center;text-transform:inherit;color:#fff;background-color:#2500f9;background: -moz-linear-gradient( -1deg, rgb(0,198,255) 0%, rgb(0,156,255) 55%, rgb(0,114,255) 100%);background: -webkit-linear-gradient( -1deg, rgb(0,198,255) 0%, rgb(0,156,255) 55%, rgb(0,114,255) 100%);background: -ms-linear-gradient( -1deg, rgb(0,198,255) 0%, rgb(0,156,255) 55%, rgb(0,114,255) 100%);
-  letter-spacing:unset;border:none;border-radius:50px;transition:all ease 0.3s;font-weight:bold;}
+.btn{display:inline-block;vertical-align:top;padding:18px 45px 18px 37px;font-size:16px;line-height:normal;text-align:center;text-transform:inherit;color:#fff;background-color:#2500f9;background:-moz-linear-gradient(-1deg,rgb(0,198,255) 0%,rgb(0,156,255) 55%,rgb(0,114,255) 100%);background:-webkit-linear-gradient(-1deg,rgb(0,198,255) 0%,rgb(0,156,255) 55%,rgb(0,114,255) 100%);background:-ms-linear-gradient(-1deg,rgb(0,198,255) 0%,rgb(0,156,255) 55%,rgb(0,114,255) 100%);letter-spacing:unset;border:none;border-radius:50px;transition:all ease 0.3s;font-weight:300;position:relative;box-shadow:2px 5px 75px -14px rgba(0,156,255,1);-webkit-box-shadow:2px 5px 75px -14px rgba(0,156,255,1);-moz-box-shadow:2px 5px 75px -14px rgba(0,156,255,1);}
 .btn:hover,
 .btn:focus {color: #fff;text-decoration: none;background-color:#2500f9;background: -moz-linear-gradient( 180deg, rgb(0,198,255) 0%, rgb(0,156,255) 55%, rgb(0,114,255) 100%);background: -webkit-linear-gradient( 180deg, rgb(0,198,255) 0%, rgb(0,156,255) 55%, rgb(0,114,255) 100%);background: -ms-linear-gradient( 180deg, rgb(0,198,255) 0%, rgb(0,156,255) 55%, rgb(0,114,255) 100%);}
+
+.btn:after{content:'';background-image:url(../images/btn-arrow.png);height:10px;width:10px;position:absolute;right:25px;background-size:auto;top:25px;background-repeat:no-repeat;}
+
+.btn:hover:after{right:21px;}
+
 .btn.white{background:#fff;color:#263546;}
 
 
@@ -277,7 +281,7 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 ------------------------------------------------------------------------------*/
 
 
-.home-banner{padding: 100px 0px 100px 0px;background-size: 122vw;background-position: 56% 15%;min-height: 600px;overflow:hidden;}
+.home-banner{padding: 100px 0px 100px 0px;background-size: 122vw;background-position: 56% 15%;min-height: 1000px;overflow: hidden;}
 .home-banner .container{display:flex;align-items:center;flex-wrap:wrap;}
 .home-banner .banner-info{width:49%;}
 .home-banner .banner-img{width: 51%;text-align: center;padding-left: 0px;position: relative;}
@@ -286,6 +290,26 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .home-banner .banner-info ul.btn-group li{padding:0px;margin:0px;margin-right:29px;}
 .home-banner .banner-info ul.btn-group li:last-child{margin-right:0px;}
 .home-banner .banner-info ul.btn-group li a:hover{opacity:0.9;}
+
+
+/* Help You
+------------------------------------------------------------------------------*/
+.help-you{padding:0px 0px 100px 0px;overflow:hidden;margin-top:-100px;}
+.help-you .container{max-width:1390px;display:flex;flex-wrap:wrap;align-items:center;}
+.help-you .help-info{width:20%;padding:0px 48px 0px 11px;}
+.help-you .help-info h4 {margin-bottom: 35px;}
+.help-you .help-info p {line-height: 33px}
+.help-you .help-info .btn {margin-top: 28px;}
+.help-you .help-list{width:80%;padding-left:22px;padding-top:30px;}
+.help-you .help-list ul{display:flex;flex-wrap:wrap;align-items:flex-start;list-style:none;margin:0px;padding:0px;margin-left:-2.5%;margin-right:-2.5%;}
+.help-you .help-list ul li{width:20%;text-align:center;padding:0px 0px;margin:0 2.5%;}
+.help-you .help-list figure{width:175px;height:87px;display:flex;align-items:center;justify-content:center;border-top-left-radius:87px;border-top-right-radius:87px;border:double 2px transparent;background-image:linear-gradient(white,white),radial-gradient(circle at top left,#00c6ff,#0072ff);background-origin:border-box;background-clip:content-box,border-box;border-bottom:none;margin:0 auto;margin-bottom:25px;}
+.help-you .help-list figure.border-sky{background-image:linear-gradient(white,white),radial-gradient(circle at top left,#00c6ff,#0072ff);}
+.help-you .help-list figure.border-purple{background-image:linear-gradient(white,white),radial-gradient(circle at top left,#9a33f9,#f72f82);}
+.help-you .help-list figure.border-green{background-image:linear-gradient(white,white),radial-gradient(circle at top left,#097094,#00de88);}
+.help-you .help-list figure.border-yellow{background-image:linear-gradient(white,white),radial-gradient(circle at top left,#fb872b,#fcee21);}
+.help-you .help-list figure img {margin-top: 46px;width: 50px;height: 51px}
+.help-you .help-list h6{margin:0px;padding:0px 20px;font-weight:500;}
 
 
 /* Footer

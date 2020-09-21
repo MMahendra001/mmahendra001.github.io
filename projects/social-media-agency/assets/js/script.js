@@ -59,7 +59,7 @@ jQuery(document).ready(function(){
       $(window).scroll(function() {
 
       if ($(this).scrollTop() > 1){  
-          $('header').addClass("sticky");
+          $('header').addClass("stickyl");
         }
         else{
           $('header').removeClass("sticky");
