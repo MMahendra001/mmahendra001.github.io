@@ -9,7 +9,8 @@
 	<link rel="icon" type="image/ico" href="assets/images/favicon.png">
 	<link rel="stylesheet" href="assets/fonts/fonts.css">  
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">    
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">     
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+	<link rel="stylesheet" href="assets/css/video-js.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">	
 </head>
@@ -177,7 +178,40 @@
             </div>
         </section>
 
- 
+        <!-- Media Mgmt -->
+
+        <section class="media-mgmt" id="media-mgmt" style="background-image:url('assets/images/media-mgmt-bg.png');">
+            <div class="container">
+                <div class="heading">
+                    <h4>Introduction to the <br> Social Media Management </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do. usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                </div>	   
+				<div class="media-vid">				  	
+					<video
+					  id="vid1"
+					  class="video-js intro-video"
+					  controls			  
+					  poster="assets/images/video-thumbnail.png"
+					  data-setup='{ "techOrder": ["youtube"],"sources": [{ "type": "video/youtube","src": "https://www.youtube.com/embed/MdAKrzOLQTg"}] }'
+					>
+					</video>	
+				</div>			  		             
+            </div>
+        </section>
+
+        <!-- How Easy -->
+
+        <section class="how-easy" id="how-easy">
+            <div class="container">
+            	<div class="heading">
+            		<h4>How easy can be?</h4>
+            		<p>See how easy is to use Kallyas Social Media Management.</p>
+            	</div>
+
+			</div>
+        </section>        
+
+
         <!-- Footer -->        
     	
     	<footer>
@@ -189,8 +223,10 @@
     </main>
         
 	<script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
-    <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script>    
-	<script type='text/javascript' src='assets/js/script.js'></script>
+    <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script> 
+	<script src="assets/js/video.min.js"></script>	
+	<script src="assets/js/Youtube.min.js"></script>
+	<script type='text/javascript' src='assets/js/script.js'></script> 	
 </body>
 </html>
 

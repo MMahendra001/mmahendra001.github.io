@@ -311,6 +311,27 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .help-you .help-list figure img {margin-top: 46px;width: 50px;height: 51px}
 .help-you .help-list h6{margin:0px;padding:0px 20px;font-weight:500;}
 
+/* Meadia Mgmt
+------------------------------------------------------------------------------*/
+.media-mgmt{position: relative;background-repeat: no-repeat;background-size: cover;z-index: 1;padding: 70px 20px 0px 20px;}
+.media-mgmt:before { content: '';background: linear-gradient(-171deg, rgba(0, 198, 255, 1) 0%, rgba(0, 114, 255, 1) 100%);position: absolute;height: 100%;width: 100%;opacity: 0.95;z-index: -1;top: 0;left: 0;}
+.media-mgmt .heading {max-width: 730px;margin: 0 auto;padding-right: 5px;margin-bottom:-30px;}
+.media-mgmt .heading h4 {color:#fff;margin-bottom:20px;}
+.media-mgmt .heading p {color: #fff;line-height:27px;}
+.media-mgmt .media-vid {position: relative;max-width: 600px;margin: 0 auto;top:80px;}
+
+.intro-video{width:100%;height:auto;max-width:600px;min-height:338px;margin:0 auto;border-radius:15px;overflow:hidden;}
+.intro-video .vjs-loading-spinner{display:none}
+.intro-video  .vjs-poster {background-size: cover;background-blend-mode: multiply;background-color: rgba(0,0,0,0.27);}
+.intro-video .vjs-big-play-button,
+.intro-video .vjs-big-play-button:focus,
+.intro-video .vjs-big-play-button:active{position:absolute;top:50%;left:0;right:0;margin:0 auto;border-radius:10px;background:rgba(0,0,0,0.9);border:none;width:65px;height:45px;outline:none;}
+.intro-video .vjs-big-play-button:hover,.intro-video:hover .vjs-big-play-button,
+.intro-video .vjs-big-play-button:focus,.intro-video .vjs-big-play-button:active{background: rgba(255,0,0,1);color:#fff;}
+
+/* How Easy
+------------------------------------------------------------------------------*/
+.how-easy{padding:200px 0px 100px 0px;}
 
 /* Footer
 ------------------------------------------------------------------------------*/
