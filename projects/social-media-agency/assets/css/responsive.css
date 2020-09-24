@@ -47,6 +47,38 @@
 	.media-mgmt .media-vid {max-width: 785px;top: 126px;}
 	.intro-video{max-width:785px;min-height:436px;}	
 
+	/* How Easy
+	------------------------------------------------------------------------------*/
+	.how-easy{padding:230px 0px 40px 0px;}
+	.how-easy .container{max-width:1630px;}
+	.how-easy .heading{margin-bottom:82px;}
+	.how-easy ul.how-easy-list li {margin-bottom:260px;}
+	.how-easy ul.how-easy-list li:last-child {margin-bottom: 115px;}
+	.how-easy ul.how-easy-list li .list-img {-webkit-box-shadow: 10px 50px 80px 0px rgba(0, 0, 0, 0.19);-moz-box-shadow:10px 50px 80px 0px rgba(0, 0, 0, 0.19);box-shadow:10px 50px 80px 0px rgba(0, 0, 0, 0.19);}
+	.how-easy ul.how-easy-list li:last-child .list-img{-webkit-box-shadow:-27px 86px 112px 0px rgba(0,0,0,0.19);-moz-box-shadow:-27px 86px 112px 0px rgba(0,0,0,0.19);box-shadow:-27px 86px 112px 0px rgba(0,0,0,0.19);}	
+	.how-easy ul.how-easy-list .list-info span.title-bar {margin-bottom: 30px;}
+	.how-easy ul.how-easy-list .list-info h2 {margin-bottom: 60px;}
+	.how-easy ul.how-easy-list .list-info p {line-height: 35px;}
+	.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding: 10px 126px 10px 0px;text-align:left;}
+	.how-easy ul.how-easy-list li:nth-child(even) .list-info{padding: 10px 0px 10px 126px;text-align:right;}
+
+	.how-easy .how-easy-info ul.how-easy-list li:first-child .list-img:after{width: 5000px;height: 185px;left: 81%;top: -13%;background: linear-gradient(90deg,rgba(0,198,255,1) 0%,rgba(0,114,255,1) 10%);}
+
+	.how-easy .how-easy-info ul.how-easy-list li:nth-child(2) .list-img:before{width:565px;height:763px;left:-166px;top:-71%;}
+	.how-easy .how-easy-info ul.how-easy-list li:nth-child(2) .list-img:after{width:5000px;height:1059px;position:top:-314%;right:42%;background:linear-gradient(-188deg,rgba(0,198,255,1) 0%,rgba(0,114,255,1) 100%);transform:rotate(34deg);border-radius:45%;}
+
+	.how-easy .how-easy-info ul.how-easy-list li:nth-child(3) .list-img:before{width:467px;height:965px;right:-18%;top:-73%;}
+	.how-easy .how-easy-info ul.how-easy-list li:nth-child(3) .list-img:after{width:5000px;height:965px;left:118%;top:-73%;}
+
+
+	.how-easy .service-info{padding:115px 0px;}
+	.how-easy .service-info ul.service-list{max-width:1030px;padding:30px 0px 30px 0px;}
+	.how-easy .service-info ul.service-list:after{bottom:44px;box-shadow:0px 13px 101px 50px rgba(0,156,255,1);-webkit-box-shadow:0px 13px 101px 50px rgba(0,156,255,1);-moz-box-shadow:0px 13px 101px 50px rgba(0,156,255,1);margin:0 auto;}
+	.how-easy .service-info ul.service-list li{padding:15px 30px 15px 30px;}
+	.how-easy .service-info ul.service-list li figure{margin-bottom:22px;}
+	.how-easy .service-info ul.service-list li h6{margin-bottom:9px;color:#fff;}
+	.how-easy .service-info ul.service-list li p{padding:0px 78px;margin-bottom:16px;}	
+
 
 
 }
@@ -129,6 +161,13 @@
 	.help-you .help-list {width: 75%;padding-left: 0px;padding-top: 0px;}
 	.help-you .help-list h6{padding:0px;}
 	.help-you .help-list h6 br{display:none;}	
+
+
+	/* How Easy
+	------------------------------------------------------------------------------*/
+	.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding: 10px 20px 10px 0px;}
+	.how-easy ul.how-easy-list li:nth-child(even) .list-info{padding: 10px 0px 10px 20px;}		
+
 }
 
 @media only screen and (min-width:992px){
@@ -179,6 +218,23 @@
 	.help-you .help-list h6 {padding: 0px 30px;}
 
 
+	/* How Easy
+	------------------------------------------------------------------------------*/
+	.how-easy .heading {margin-bottom: 50px;}
+	.how-easy ul.how-easy-list li{margin-bottom:70px;}
+	.how-easy ul.how-easy-list li:last-child{margin-bottom:100px;}
+	.how-easy .service-info {padding: 50px 0px 0px 0px;}
+	.how-easy ul.how-easy-list li .list-info{width:100%;margin-bottom:50px;}
+	.how-easy ul.how-easy-list li .list-img{width:100%;}
+	.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding: 10px;}
+	.how-easy ul.how-easy-list li:nth-child(even) .list-info{padding: 10px;}
+	.how-easy .service-info ul.service-list{padding: 20px 0px;}
+	.how-easy .service-info ul.service-list li p{margin-bottom:0px;padding:0px 20px;}
+	.how-easy .service-info ul.service-list:after{box-shadow:0px 13px 40px 33px rgba(0,156,255,1);-webkit-box-shadow:0px 13px 40px 33px rgba(0,156,255,1);-moz-box-shadow:0px 13px 40px 33px rgba(0,156,255,1);}
+
+
+
+
 }
 
 @media only screen and (max-width:767px){
@@ -218,6 +274,15 @@
 	.intro-video {max-width: 500px;min-height:282px;}
 	.intro-video .vjs-big-play-button, .intro-video .vjs-big-play-button:focus, .intro-video .vjs-big-play-button:active {border-radius: 9px;width: 55px;height: 31px;font-size: 20px;}	
 
+	/* How Easy
+	------------------------------------------------------------------------------*/	
+	.how-easy .service-info{padding:40px 0px 0px 0px;}
+	.how-easy .service-info ul.service-list li{padding:10px 20px;}
+	.how-easy .service-info ul.service-list:after{bottom: 43px;}
+	.how-easy ul.how-easy-list li{margin-bottom:50px;}
+	.how-easy ul.how-easy-list li:last-child{margin-bottom:85px;}
+	.how-easy ul.how-easy-list li .list-info{margin-bottom:30px;}
+	/*.how-easy ul.how-easy-list li .list-img,.how-easy ul.how-easy-list li:last-child .list-img{-webkit-box-shadow:10px 25px 40px 0px rgba(0,0,0,0.19);-moz-box-shadow:10px 25px 40px 0px rgba(0,0,0,0.19);box-shadow:10px 25px 40px 0px rgba(0,0,0,0.19);}*/
 
 }
 
@@ -242,6 +307,20 @@
 	.intro-video {max-width: 500px;min-height:282px;}
 	.intro-video {max-width: 400px;min-height: 226px;}	
 	
+
+	/* How Easy
+	------------------------------------------------------------------------------*/
+	.how-easy .service-info ul.service-list {padding: 15px 0px;border-radius: 30px;}
+	.how-easy .service-info ul.service-list:after {box-shadow: 0px 13px 35px 25px rgba(0,156,255,1);-webkit-box-shadow: 0px 13px 35px 25px rgba(0,156,255,1);-moz-box-shadow: 0px 13px 35px 25px rgba(0,156,255,1);}
+	.how-easy .service-info ul.service-list li{padding:5px 10px}
+	.how-easy .service-info ul.service-list li figure {margin-bottom: 15px;}
+	.how-easy .service-info ul.service-list li h6 {margin-bottom:7px;font-size: 13px;}
+	.how-easy .service-info ul.service-list li p {font-size:13px;}
+	.how-easy .how-easy-info ul.how-easy-list li:first-child .list-img:after {height: 70px;left: 82%;top:-7%;}
+	.how-easy .how-easy-info ul.how-easy-list li:nth-child(2) .list-img:before {width: 165px;height: 300px;left: -31px;top: -27%;}
+	.how-easy .how-easy-info ul.how-easy-list li:nth-child(3) .list-img:before {width: 200px;height: 300px;right: -22%;}
+
+
 }
 
 @media only screen and (max-width:479px){
@@ -284,6 +363,20 @@
 	.intro-video {min-height: 197px;}
 
 
+	/* How Easy
+	------------------------------------------------------------------------------*/	
+	.how-easy .service-info ul.service-list {padding: 15px 25px;max-width: 350px;}
+	.how-easy .service-info ul.service-list li{width:100%;padding: 25px 10px;border-bottom: 1px solid rgba(255,255,255,0.3);border-right: none;}
+	.how-easy ul.how-easy-list li:nth-child(odd) .list-info,.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding:0px;}
+	.how-easy .how-easy-info ul.how-easy-list li:first-child .list-img:after {height: 60px;top: -8%;}
+	.how-easy .how-easy-info ul.how-easy-list li:nth-child(2) .list-img:before {width: 150px;height: 120px;top: -23%;}
+	.how-easy .how-easy-info ul.how-easy-list li:nth-child(3) .list-img:before {width: 170px;height: 200px;right: -23%;}
+	.how-easy .how-easy-info ul.how-easy-list li:nth-child(3) .list-img:before {width: 200px;height: 200px;right: -132px;}
+
+	.how-easy {padding: 120px 0px 40px 0px;}
+	.how-easy ul.how-easy-list .list-info span.title-bar:before{height: 4px;width:25px;}
+	.how-easy .service-info {padding: 0px;}
+
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -304,6 +397,11 @@
 	/* Meadia Mgmt
 	------------------------------------------------------------------------------*/
 	.intro-video {min-height: 159px;}
+
+		/* How Easy
+	------------------------------------------------------------------------------*/	
+	.how-easy .how-easy-info ul.how-easy-list li:first-child .list-img:after {top: -11%;}
+	.how-easy .how-easy-info ul.how-easy-list li:nth-child(2) .list-img:before {top: -37%;}
 
 
 }
