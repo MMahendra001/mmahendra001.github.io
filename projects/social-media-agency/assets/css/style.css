@@ -2,7 +2,7 @@
 
 /* -- -- .- .... . -. -.. .-. .- ----- ----- .---- */
 
-/*-----------------------------------------------------AppLab--------------------------------------------------------*/
+/*-----------------------------------------------------Social Media Agency --------------------------------------------------------*/
 
 
 /* CSS Document */
@@ -20,24 +20,17 @@
 => Scroll
 => Preloader
 => Container 
-=>Home Banner
+=> Home Banner
 => Help You
-=> 
-=>     
-=>  
-=>       
-=>     
-=>       
-=>  
-=>          
-=>      
+=> Meadia Mgmt
+=> How Easy     
+=> Plans  
 => Footer       
 */
 
 /* Clean Base
 ------------------------------------------------------------------------------*/
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,a,nav,section,summary,time,mark,audio,video {margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;background: transparent;text-decoration: none;outline: none;-webkit-font-smoothing: subpixel-antialiased;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
-
 html,body {-webkit-text-size-adjust: none;height: 100%;}
 
 article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {display: block;}
@@ -153,7 +146,7 @@ select::-ms-expand {display: none;}
 ------------------------------------------------------------------------------*/
 
 .btn{display:inline-block;vertical-align:top;padding:18px 45px 18px 37px;font-size:16px;line-height:normal;text-align:center;text-transform:inherit;color:#fff;background-color:#2500f9;background:-moz-linear-gradient(-1deg,rgb(0,198,255) 0%,rgb(0,156,255) 55%,rgb(0,114,255) 100%);background:-webkit-linear-gradient(-1deg,rgb(0,198,255) 0%,rgb(0,156,255) 55%,rgb(0,114,255) 100%);background:-ms-linear-gradient(-1deg,rgb(0,198,255) 0%,rgb(0,156,255) 55%,rgb(0,114,255) 100%);letter-spacing:unset;border:none;border-radius:50px;transition:all ease 0.3s;font-weight:300;position:relative;}
-.btn:before{content:"";position:absolute;z-index:-1;top:20px;left:0;right:0;width:50%;height:50%;-moz-border-radius:100%;border-radius:100%;box-shadow:5px 0px 60px 10px rgba(0,156,255,1);-webkit-box-shadow:5px 0px 60px 10px rgba(0,156,255,1);-moz-box-shadow:5px 0px 60px 10px rgba(0,156,255,1);margin:0 auto;}
+.btn:before{content:"";position:absolute;z-index:-1;top:20px;left:0;right:0;width:50%;height:50%;-moz-border-radius:100%;border-radius:100%;box-shadow:5px 0px 60px 10px rgba(0,156,255,1);-webkit-box-shadow:5px 0px 60px 10px rgba(0,156,255,1);-moz-box-shadow:5px 0px 60px 10px rgba(0,156,255,1);margin:0 auto;transition:all ease 0.3s;}
 
 .btn:hover,
 .btn:focus {color: #fff;text-decoration: none;background-color:#2500f9;background: -moz-linear-gradient( 180deg, rgb(0,198,255) 0%, rgb(0,156,255) 55%, rgb(0,114,255) 100%);background: -webkit-linear-gradient( 180deg, rgb(0,198,255) 0%, rgb(0,156,255) 55%, rgb(0,114,255) 100%);background: -ms-linear-gradient( 180deg, rgb(0,198,255) 0%, rgb(0,156,255) 55%, rgb(0,114,255) 100%);}
@@ -331,7 +324,7 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .intro-video .vjs-big-play-button:hover,.intro-video:hover .vjs-big-play-button,
 .intro-video .vjs-big-play-button:focus,.intro-video .vjs-big-play-button:active{background: rgba(255,0,0,1);color:#fff;}
 
-/* How Easy
+/* How Easy 
 ------------------------------------------------------------------------------*/
 .how-easy{padding:150px 0px 40px 0px;overflow:hidden;}
 .how-easy .heading{margin-bottom:82px;}
@@ -357,7 +350,6 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .how-easy .how-easy-info ul.how-easy-list li:first-child .list-img:after{content:'';background-color:#009cfe;width:5000px;height:115px;position:absolute;z-index:-1;left:72%;top:-10%;background:linear-gradient(90deg,rgba(0,198,255,1) 0%,rgba(0,114,255,1) 4%);border-radius:30px;}
 
 .how-easy .how-easy-info ul.how-easy-list li:nth-child(2) .list-img:before{content:'';background-image:url(../images/how-easy-before-2.png);width:665px;height:400px;position:absolute;left:-60px;top:-42%;background-repeat:no-repeat;z-index:-1;background-size:contain;}
-/*.how-easy .how-easy-info ul.how-easy-list li:nth-child(2) .list-img:after{content:'';background-color:#009cff;width:5000px;height:1059px;position:absolute;top:-314%;background-repeat:no-repeat;z-index:-1;right:42%;background:linear-gradient(-188deg,rgba(0,198,255,1) 0%,rgba(0,114,255,1) 100%);transform:rotate(34deg);border-radius:45%;}*/
 
 .how-easy .how-easy-info ul.how-easy-list li:nth-child(3) .list-img:before{content:'';background-image:url(../images/how-easy-before-3.png);width:200px;height:500px;position:absolute;right:-7%;top:-27%;background-repeat:no-repeat;z-index:-1;background-size:contain;}
 
@@ -373,53 +365,53 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .how-easy .service-info ul.service-list li h6{margin-bottom:9px;color:#fff;}
 .how-easy .service-info ul.service-list li p{font-size:14px;padding:0px 78px;font-weight:300;color:#474747;line-height:20px;margin-bottom:16px;}
 
-/* Plans
+/* Plans 
 ------------------------------------------------------------------------------*/
 .our-plans {padding: 60px 0px 110px 0px;}
-.our-plans .heading {max-width: 600px;margin: 0 auto;margin-bottom: 195px;}
+.our-plans .heading {max-width: 600px;margin: 0 auto;margin-bottom:120px;}
 .our-plans .heading h4 {padding: 0px 100px;margin-bottom: 31px;}
 .our-plans .plans-info {margin-bottom: 80px;}
 
 .our-plans .plans-info ul.plans-list{display:flex;flex-wrap:wrap;list-style:none;margin:0;padding:0;-webkit-box-shadow:10px 50px 80px 0px rgba(0,0,0,0.19);-moz-box-shadow:10px 50px 80px 0px rgba(0,0,0,0.19);box-shadow:0px 24px 100px 5px rgba(0,0,0,0.08);}
-.our-plans ul.plans-list > li{width:33.33%;border:1px solid #eee;border-radius:10px;overflow:hidden;}
-.our-plans ul.plans-list > li.basic{padding:0px 60px 0px 45px}
-.our-plans ul.plans-list > li.standard {padding: 0px 45px 0px 60px;}
+.our-plans ul.plans-list > li{width:33.33%;border:1px solid #eee;border-radius:10px;overflow:hidden;display: flex;flex-direction: column;justify-content: center;}
+.our-plans ul.plans-list > li.basic{padding:0px 50px 0px 25px;}
+.our-plans ul.plans-list > li.standard {padding: 0px 25px 0px 50px;}
 
-.our-plans ul.plans-list > li .price {display: flex;align-items: center;justify-content:space-between;padding:35px 0px;border-bottom:2px solid #eee;}
+.our-plans ul.plans-list > li .price {display: flex;align-items: center;justify-content:space-between;padding:25px 0px;border-bottom:2px solid #eee;}
 .our-plans ul.plans-list > li .price h3,.our-plans ul.plans-list > li .price h5 {margin: 0px;}
 .our-plans ul.plans-list > li .price h3{color:#adacac;}
 .our-plans ul.plans-list > li .price h5{color:#000;}
 
-.our-plans ul.plans-list > li .details{padding:46px 0px;}
-.our-plans ul.plans-list > li .details p{color:#5d5d5d;font-size:14px;margin-bottom:43px;}
+.our-plans ul.plans-list > li .details{padding:30px 0px;}
+.our-plans ul.plans-list > li .details p{color:#5d5d5d;font-size:14px;margin-bottom:30px;}
 .our-plans ul.plans-list > li .details ul{margin:0px;padding:0px;list-style:none;}
 .our-plans ul.plans-list > li .details li{color:#5d5d5d;font-size:14px;position:relative;padding-left:31px;margin-bottom:4px;}
 .our-plans ul.plans-list > li .details li:before{content:'';background-image:url(../images/checked-icon-1.png);height:14px;width:14px;position:absolute;left:4px;top:6px;background-size:100%;background-repeat:no-repeat;}
 .our-plans ul.plans-list > li .details a.btn{margin-top:24px;padding:13px 28px;font-weight:300;}
 .our-plans ul.plans-list > li .details a.btn:after{display:none;}
 
-.our-plans ul.plans-list > li.premium{transform: scale(1.15);z-index: 1;background: #fff;padding: 0px;}
-.our-plans ul.plans-list > li.premium .price{border-bottom:none;padding:23px 40px;}
+.our-plans ul.plans-list > li.premium{transform: scale(1.12);z-index: 1;background: #fff;padding: 0px;}
+.our-plans ul.plans-list > li.premium .price{border-bottom:none;padding:23px 30px;}
 .our-plans ul.plans-list > li.premium .price h3{color:#00abff;}
 .our-plans ul.plans-list > li.premium .price h5{color:#33cc66;}
-.our-plans ul.plans-list > li.premium  .details{padding: 36px 45px;background: linear-gradient(180deg,rgba(0,198,255,1) 0%,rgba(0,114,255,1) 100%);}
+.our-plans ul.plans-list > li.premium  .details{padding: 25px 30px;background: linear-gradient(180deg,rgba(0,198,255,1) 0%,rgba(0,114,255,1) 100%);}
 .our-plans ul.plans-list > li.premium .details p,.our-plans ul.plans-list > li.premium .details li{color:#fff;font-size:12px;font-weight:300;}
 
-.our-plans ul.plans-list > li.premium .details p {margin-bottom: 36px;}
-.our-plans ul.plans-list > li.premium .details li {padding-left: 21px;margin-bottom:2px;}
+.our-plans ul.plans-list > li.premium .details p {margin-bottom:25px;}
+.our-plans ul.plans-list > li.premium .details li {padding-left:21px;margin-bottom:2px;}
 .our-plans ul.plans-list > li.premium .details li:before{background-image:url(../images/checked-icon-2.png);height:10px;width:11px;position:absolute;left:-3px;top:5px;}
 .our-plans ul.plans-list > li.premium .details a.btn{margin-top: 28px;padding: 10px 20px;background: #fff;color: #0091ff;font-size: 15px;z-index:2;}
 .our-plans ul.plans-list > li.premium .details a.btn:before{z-index:1;box-shadow: 5px 0px 60px 10px rgb(239 243 245);-webkit-box-shadow: 5px 0px 60px 10px rgb(238 242 245);-moz-box-shadow: 5px 0px 60px 10px rgba(0,156,255,1);}
 
-.our-plans .check-plans {padding: 100px 0px 50px 0px;text-align: center;}
+.our-plans .check-plans {padding: 50px 0px 50px 0px;text-align: center;}
 .our-plans .check-plans h4 {margin-bottom: 51px;}
 .our-plans .check-plans a.btn {min-width: 180px;}
 
 
-/* Footer
+/* Footer 
 ------------------------------------------------------------------------------*/
 footer{position:relative;overflow:hidden;padding: 100px 0px 0px 0px;margin-top: -100px;}
-footer .footer-wrap{padding:65px 0px 0px 0px;position:relative;width:1170px;margin:0 auto;}
+footer .footer-wrap{padding:65px 0px 0px 0px;position:relative;max-width:1170px;margin:0 auto;}
 footer .footer-wrap:before{content:'';background-image:url(../images/footer-before-1.png);left:-226px;top:-98px;height:540px;width:252px;position:absolute;z-index:-1;background-repeat:no-repeat;background-size:100%;}
 footer .footer-wrap:after { content: ''; background-image: url(../images/footer-before-2.png); position: absolute; z-index: 2; right: -250px; top: 71px; height: 358px; width: 275px; background-repeat: no-repeat; background-size: 100%; }
 
