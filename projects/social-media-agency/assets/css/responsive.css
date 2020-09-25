@@ -79,6 +79,25 @@
 	.how-easy .service-info ul.service-list li h6{margin-bottom:9px;color:#fff;}
 	.how-easy .service-info ul.service-list li p{padding:0px 78px;margin-bottom:16px;}	
 
+	/* Footer
+	------------------------------------------------------------------------------*/
+	footer{padding: 100px 0px 0px 0px;margin-top: -100px;}
+	footer .footer-wrap{padding:65px 0px 0px 0px;width: 2017px;}
+	footer .footer-wrap:before{left:51px;top:-103px;height:760px;width:258px;}
+	footer .footer-wrap:after{right:51px;top:22px;height:681px;width:324px;}
+	footer .inner-wrap:before{height:100%;width:1642px;left:-9px;top:-70px;transform:perspective(51px) rotateX(1.2deg);border-top-left-radius: 60px;border-top-right-radius: 60px;}
+	footer .inner-wrap:after{height:0%;width:80%;top:124px;}
+	footer .main-footer .footer-links {width: 62%;}
+	footer .main-footer .footer-about {width: 38%;padding-right:0px;}
+	footer .main-footer .footer-links > ul >li{width:20%;}
+	footer .main-footer .footer-links > ul >li >ul >li {margin-bottom: 13px}
+	footer .main-footer h6 {font-size: 16px;margin-bottom: 19px;}
+
+	footer .footer-about h6 {margin-bottom: 12px;}
+	footer .footer-about p {line-height: 35px;}
+
+	footer .copywrite {padding: 7px 0px;text-align: center;}
+
 
 
 }
