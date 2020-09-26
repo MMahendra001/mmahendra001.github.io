@@ -313,8 +313,8 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .media-mgmt .heading {max-width: 730px;margin: 0 auto;padding-right: 5px;margin-bottom:-30px;}
 .media-mgmt .heading h4 {color:#fff;margin-bottom:20px;}
 .media-mgmt .heading p {color: #fff;line-height:27px;}
-.media-mgmt .media-vid {position: relative;max-width: 600px;margin: 0 auto;top:80px;}
 
+.media-vid {position: relative;max-width: 600px;margin: 0 auto;top:80px;}
 .intro-video{width:100%;height:auto;max-width:600px;min-height:338px;margin:0 auto;border-radius:15px;overflow:hidden;}
 .intro-video .vjs-loading-spinner{display:none}
 .intro-video  .vjs-poster {background-size: cover;background-blend-mode: multiply;background-color: rgba(0,0,0,0.27);}
@@ -407,6 +407,11 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .our-plans .check-plans h4 {margin-bottom: 51px;}
 .our-plans .check-plans a.btn {min-width: 180px;}
 
+
+/* Blog -Common Banner
+------------------------------------------------------------------------------*/
+.common-banner{position:relative;min-height:400px;overflow:hidden;}
+.common-banner::after{content:'';position:absolute;left:-157px;top:-50px;display:block;height:700px;width:125vw;background:hsla(0,0%,100%,0.5);background-image:url(../images/curve.svg);background-size:100% 100%;}
 
 /* Footer 
 ------------------------------------------------------------------------------*/

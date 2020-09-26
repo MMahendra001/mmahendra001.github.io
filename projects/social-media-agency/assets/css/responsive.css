@@ -44,7 +44,7 @@
 	.media-mgmt .heading {margin-bottom: -60px;}
 	.media-mgmt .heading h4 {margin-bottom: 45px;}
 	.media-mgmt .heading p {line-height:36px;}
-	.media-mgmt .media-vid {max-width: 785px;top: 126px;}
+	.media-vid {max-width: 785px;top: 126px;}
 	.intro-video{max-width:785px;min-height:436px;}	
 
 	/* How Easy
@@ -131,13 +131,14 @@
 	
 	header{background:#0085ff;}			
 	header nav li a{color:#fff;}	
+	.blog-page header{background:transparent;}	
 	/* Home Banner
 	------------------------------------------------------------------------------*/	
 	.home-banner{display: flex;align-items: center;background-position: 25% 90%;min-height: 700px;}
 
 	/* Help You
 	------------------------------------------------------------------------------*/
-	.help-you{padding:100px 0px;margin-top:0px;}
+	.help-you{padding:100px 0px;margin-top:0px;}	
 
 }
 
@@ -353,7 +354,7 @@
 	/* Meadia Mgmt
 	------------------------------------------------------------------------------*/
 	.media-mgmt {padding: 50px 20px 0px 20px;}
-	.media-mgmt .media-vid{max-width: 500px;top: 65px;}
+	.media-vid{max-width: 500px;top: 65px;}
 	.intro-video {max-width: 500px;min-height:282px;}
 	.intro-video .vjs-big-play-button, .intro-video .vjs-big-play-button:focus, .intro-video .vjs-big-play-button:active {border-radius: 9px;width: 55px;height: 31px;font-size: 20px;}	
 

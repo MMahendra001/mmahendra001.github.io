@@ -1,0 +1,474 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Kallyas Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="" 
+    />
+    <meta name="keywords" content="">	
+	<link rel="icon" type="image/ico" href="assets/images/favicon.png">
+	<link rel="stylesheet" href="assets/fonts/fonts.css">  
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">    
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+	<link rel="stylesheet" href="assets/css/video-js.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">	
+</head>
+<body>
+    <div class="blog-page">
+        <main>
+            <!-- Preloader -->
+
+            <div id="preloader">
+              <div id="status">
+                <div class="preloader">
+                    <img src="assets/images/logo.png">
+                </div>
+              </div>
+            </div>        
+
+            <!-- Header -->        
+            
+            <header id="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <a href="#header-banner">
+                            <img src="assets/images/logo.png" alt="logo">                     
+                        </a>
+                    </div>                
+                    <nav class="desktop-menu">
+                        <ul>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#platform">Platform</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#platform-one">One</a>
+                                    </li>
+                                    <li>
+                                        <a href="#platform-two">Two</a>
+                                    </li>
+                                    <li>
+                                        <a href="#platform-three">Three</a>
+                                    </li>                                
+                                    <li>
+                                        <a href="#platform-four">Four</a>
+                                    </li>                                                               
+                                </ul>                             
+                            </li>                        
+                            <li>
+                                <a href="#facilities">Facilities</a>
+                            </li>
+                            <li>
+                                <a href="#plans">Plans</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>                                                                                                                                
+                        </ul>
+                    </nav>    
+                    <nav class="mobile-menu" style="display:none;">
+                        <ul>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#platform">Platform</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#platform-one">One</a>
+                                    </li>
+                                    <li>
+                                        <a href="#platform-two">Two</a>
+                                    </li>
+                                    <li>
+                                        <a href="#platform-three">Three</a>
+                                    </li>                                
+                                    <li>
+                                        <a href="#platform-four">Four</a>
+                                    </li>                                                               
+                                </ul>                             
+                            </li>                        
+                            <li>
+                                <a href="#facilities">Facilities</a>
+                            </li>
+                            <li>
+                                <a href="#plans">Plans</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>                                                                                                                                
+                        </ul>
+                    </nav>                
+                    <div class="mobile-menu-icon" onclick="myFunction(this)">
+                      <div class="bar1"></div>
+                      <div class="bar2"></div>
+                      <div class="bar3"></div>
+                    </div>                        
+                </div>
+            </header>
+
+            <!-- Common Banner -->
+
+            <section class="common-banner bg">
+                <div class="container">
+                </div>
+            </section>
+
+            <!-- Common Banner -->
+            
+            <section class="blog">
+                <div class="container">
+                    <div class="heading">
+                        <h1>Blog Page</h1>
+                    </div>
+                    <div class="blog-list-wrap">
+                        <aside>
+                            <ul class="blog-list">
+                                <li class="search-bar">
+                                    <h6>SEARCH</h6>
+                                    <form  id="search-form" action="/action_page.php" target="_blank">
+                                        <div class="form-group-wrap">
+                                            <label for="search" id="search-label">Search</label>
+                                            <input type="search" name="search" id="search" placeholder="Search" required>
+                                        </div>  
+                                        <div class="form-group submit-btn">
+                                          <input type="submit" value="Submit" id="submit" >
+                                           <!-- <i class="fas fa-search"></i>  -->
+                                           <!-- <i class="fas fa-paper-plane"></i>                                            -->
+                                        </div>                                                                                                                      
+                                    </form>                                    
+                                </li>
+                                <li class="recent-post">
+                                    <h6>RECENT POST</h6>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                <a href="#">Social Media Management come with Analytics</a>
+                                            </p>
+                                            <time datetime="2019-17-04">17 April 2019</time>                                            
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <a href="#">How to save time using Social Media Management.</a>
+                                            </p>
+                                            <time datetime="2019-16-04">16 April 2019</time>                                            
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <a href="#">Our SEO team will implement basic or custom</a>
+                                            </p>
+                                            <time datetime="2019-14-04">14 April 2019</time>                                            
+                                        </li>                                                                                
+                                    </ul>                                    
+                                </li>
+                                <li class="categories">
+                                    <h6>CATEGORIES</h6>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                <a href="#" class="active">DIGITAL MARKETING</a>
+                                            </p>                                            
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <a href="#">BLOG</a>
+                                            </p>                                            
+                                        </li> 
+                                        <li>
+                                            <p>
+                                                <a href="#">CREATIVE</a>
+                                            </p>                                            
+                                        </li> 
+                                        <li>
+                                            <p>
+                                                <a href="#">WEB DESIGN</a>
+                                            </p>                                            
+                                        </li> 
+                                        <li>
+                                            <p>
+                                                <a href="#">BUSINESS</a>
+                                            </p>                                            
+                                        </li>
+                                    </ul>                                    
+                                </li>    
+                                <li class="newsletter">
+                                    <h6>NEWSLETTER</h6>
+                                    <form  id="newsletter-form" action="/action_page.php" target="_blank">
+                                        <div class="form-group-wrap">
+                                            <label for="newsletter" id="newsletter-label">Newsletter</label>
+                                            <input type="email" name="newsletter" id="newsletter" placeholder="Enter email address" required>
+                                        </div>  
+                                        <div class="form-group submit-btn">
+                                          <input type="submit" value="Submit" id="submit" >
+                                            <!-- <i class="fas fa-caret-right"></i>                                           -->
+                                        </div>                                                                                                                     
+                                    </form>                                    
+                                </li>  
+                                <li class="tags">
+                                    <h6>TAGS</h6>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                <a href="#">blog</a>
+                                            </p>                                            
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <a href="#" class="active">Agency</a>
+                                            </p>                                            
+                                        </li> 
+                                        <li>
+                                            <p>
+                                                <a href="#">digital</a>
+                                            </p>                                            
+                                        </li> 
+                                        <li>
+                                            <p>
+                                                <a href="#">SEO</a>
+                                            </p>                                            
+                                        </li> 
+                                        <li>
+                                            <p>
+                                                <a href="#">marketing</a>
+                                            </p>                                            
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <a href="#">shop</a>
+                                            </p>                                            
+                                        </li>                                        
+                                    </ul>                                    
+                                </li>                                                                                             
+                            </ul>
+                        </aside>
+                        <article>
+                            <ul class="blog-list">
+                                <li>
+                                    <div class="blog-img">
+                                        <a href="#" class="img-link">
+                                            <figure>
+                                                <img src="assets/images/blog-list-img-1.png">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="blog-details">
+                                        <ul class="date-cat">
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-user"></i>                                                    
+                                                </figure>
+                                                <p><a href="#">Andrei Fredy</a></p>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-clock"></i>                                                    
+                                                </figure>
+                                                <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="fas fa-tags"></i>
+                                                </figure>
+                                                <p>Digital Marketing</p>
+                                            </li>                                                                                        
+                                        </ul>
+                                        <h4><a href="#">How to save time using Social Media Management? - 5 Easy steps</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                </li> 
+                                <li>
+                                    <div class="blog-details">
+                                        <ul class="date-cat">
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-user"></i>                                                    
+                                                </figure>
+                                                <p><a href="#">Andrei Fredy</a></p>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-clock"></i>                                                    
+                                                </figure>
+                                                <p><time datetime="2019-12-04">April 12, 2019</time></p>                                            
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="fas fa-tags"></i>
+                                                </figure>
+                                                <p>Digital Marketing</p>
+                                            </li>                                                                                                                                      
+                                        </ul>
+                                        <h4><a href="#">The new Social Media Management will come with a page for Analytics</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                </li> 
+                                <li>
+                                    <div class="blog-img media-vid">
+                                        <video
+                                          id="vid1"
+                                          class="video-js intro-video"
+                                          controls            
+                                          poster="assets/images/blog-list-img-2.png"
+                                          data-setup='{ "techOrder": ["youtube"],"sources": [{ "type": "video/youtube","src": "https://www.youtube.com/embed/MdAKrzOLQTg"}] }'
+                                        >
+                                        </video>  
+                                    </div>                                   
+                                    <div class="blog-details">
+                                        <ul class="date-cat">
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-user"></i>                                                    
+                                                </figure>
+                                                <p><a href="#">Andrei Fredy</a></p>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-clock"></i>                                                    
+                                                </figure>
+                                                <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="fas fa-tags"></i>
+                                                </figure>
+                                                <p>Digital Marketing</p>
+                                            </li>                                                                                        
+                                        </ul>
+                                        <h4><a href="#">How to save time using Social Media Management? - 5 Easy steps</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                </li> 
+                                <li>                               
+                                    <div class="blog-details">
+                                        <ul class="date-cat">
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-user"></i>                                                    
+                                                </figure>
+                                                <p><a href="#">Andrei Fredy</a></p>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-clock"></i>                                                    
+                                                </figure>
+                                                <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="fas fa-tags"></i>
+                                                </figure>
+                                                <p>Digital Marketing</p>
+                                            </li>                                                                                        
+                                        </ul>
+                                        <blockquote class="h4">“Social media is not a media. The key is to listen,engage, and build relationships.”</blockquote>
+                                        <p>~ David Alston</p>
+                                    </div>
+                                </li>                                                                                                 
+                            </ul>
+                            <ul class="blog-pagination">
+                                <li><a href="#">01</a></li>
+                                <li><a href="#" class="active">02</a></li>
+                                <li><a href="#">...</a></li> 
+                                <li><a href="#">07</a></li>
+                                <li><a href="#">Next</a></li>                                                                                                                                    
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>            
+
+            <!-- Footer -->        
+        	
+        	<footer>
+        		<div class="footer-wrap">
+    	    		<div class="inner-wrap">
+    		            <div class="container"> 
+    		            	<div class="main-footer">
+    		            		<div class="footer-links">
+    		            			<ul>
+    		            				<li>
+    		            					<h6>Plans</h6>
+    		            					<ul>
+    											<li> <a href="#">Free</a></li>
+    											<li> <a href="#">Basic</a></li>
+    											<li> <a href="#">Standard</a></li>
+    											<li> <a href="#">Premium +</a></li>
+    											<li> <a href="#">Team</a></li>
+    											<li> <a href="#">Business</a></li>
+    											<li> <a href="#">Enterprise</a></li>
+    											<li> <a href="#">Compare Plans</a></li>									            							
+    		            						</li>
+    		            					</ul>
+    		            				</li>
+    		            				<li>
+    		            					<h6>Company</h6>
+    		            					<ul>
+    											<li> <a href="#">Contact Us</a></li>
+    											<li> <a href="#">Help</a></li>
+    											<li> <a href="#">Careers</a></li>
+    											<li> <a href="#">Leadership</a></li>
+    		            						</li>
+    		            					</ul>
+    		            				</li>
+    		            				<li>
+    		            					<h6>Platform</h6>
+    		            					<ul>
+    											<li> <a href="#">Features</a></li>
+    											<li> <a href="#">Networks</a></li>
+    											<li> <a href="#">App Directory</a></li>
+    											<li> <a href="#">What’s New</a></li>																	            							
+    		            						</li>
+    		            					</ul>
+    		            				</li>
+    		            				<li>
+    		            					<h6>Education</h6>
+    		            					<ul>
+    											<li> <a href="#">Academy</a></li>
+    											<li> <a href="#">Resources</a></li>
+    											<li> <a href="#">Blog</a></li>
+    											<li> <a href="#">Webinars</a></li>	
+    		            						</li>
+    		            					</ul>
+    		            				</li>
+    		            				<li>
+    		            					<h6>Enterprise</h6>
+    		            					<ul>
+    											<li> <a href="#">Solutions</a></li>
+    											<li> <a href="#">Industries</a></li>								            							
+    		            						</li>
+    		            					</ul>
+    		            				</li>            				            				            				            				
+    		            			</ul>
+    		            		</div>
+    		            		<div class="footer-about">
+    		            			<h6>About Us</h6>            			
+    		            			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		            		</div>
+    		            	</div>
+    		            	<div class="copywrite">
+    		            		<p>@2019. <a href="#">Hogash Studio</a> ~ All Rights Reserved.</p>
+    		            	</div>            	  
+    		            </div>
+    	        	</div>
+            	</div>
+        	</footer>
+
+        </main>
+    </div>
+        
+	<script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
+    <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script> 
+	<script src="assets/js/video.min.js"></script>	
+	<script src="assets/js/Youtube.min.js"></script>
+	<script type='text/javascript' src='assets/js/script.js'></script> 	
+</body>
+</html>
+
+
