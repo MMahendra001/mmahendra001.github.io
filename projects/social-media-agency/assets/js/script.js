@@ -1,4 +1,4 @@
-var $ = jQuery
+var $ = jQuery;
 
 /* Preloader
 --------------------------------------------------*/
@@ -25,8 +25,6 @@ $(document).ready(function(){
     $("body").css("-o-user-select","none");
     $("body").css("user-select","none");
 });
-
-
 
 /* Remove # form Links.
 --------------------------------------------------*/
@@ -90,8 +88,34 @@ jQuery(document).ready(function(){
           $(this).next('ul').slideToggle();
       });
 
+  /* Pagination
+  --------------------------------------------------*/ 
+ 
+    var items = $("#blog-list > li");
+        var numItems = items.length;
+        var perPage = 4;
+
+        items.slice(perPage).hide();
+
+        $('#blog-pagination').pagination({
+            items: numItems,
+            itemsOnPage: perPage,
+            prevText: "PREVIOUS",
+            nextText: "NEXT",
+            onPageClick: function (pageNumber) {
+                var showFrom = perPage * (pageNumber - 1);
+                var showTo = showFrom + perPage; 
+                items.hide().slice(showFrom, showTo).show();
+              }
+
+        });
+
+
 
 });
+
+
+
 
 
 

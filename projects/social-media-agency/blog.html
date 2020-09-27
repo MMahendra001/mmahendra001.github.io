@@ -11,7 +11,8 @@
 	<link rel="stylesheet" href="assets/fonts/fonts.css">  
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">    
     <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
-	<link rel="stylesheet" href="assets/css/video-js.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="assets/css/video-js.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/simplePagination.css">    
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">	
 </head>
@@ -127,25 +128,22 @@
                     </div>
                     <div class="blog-list-wrap">
                         <aside>
-                            <ul class="blog-list">
+                            <ul class="blog-sidebar">
                                 <li class="search-bar">
                                     <h6>SEARCH</h6>
                                     <form  id="search-form" action="/action_page.php" target="_blank">
                                         <div class="form-group-wrap">
                                             <label for="search" id="search-label">Search</label>
                                             <input type="search" name="search" id="search" placeholder="Search" required>
-                                        </div>  
-                                        <div class="form-group submit-btn">
-                                          <input type="submit" value="Submit" id="submit" >
-                                           <!-- <i class="fas fa-search"></i>  -->
+                                            <button type="submit" value="Submit" id="submit"><i class="fa fa-search"></i></button>
+                                        </div>                                                                                                                 
                                            <!-- <i class="fas fa-paper-plane"></i>                                            -->
-                                        </div>                                                                                                                      
                                     </form>                                    
                                 </li>
                                 <li class="recent-post">
                                     <h6>RECENT POST</h6>
                                     <ul>
-                                        <li>
+                                        <li class="active">
                                             <p>
                                                 <a href="#">Social Media Management come with Analytics</a>
                                             </p>
@@ -168,7 +166,7 @@
                                 <li class="categories">
                                     <h6>CATEGORIES</h6>
                                     <ul>
-                                        <li>
+                                        <li class="active">
                                             <p>
                                                 <a href="#" class="active">DIGITAL MARKETING</a>
                                             </p>                                            
@@ -201,11 +199,8 @@
                                         <div class="form-group-wrap">
                                             <label for="newsletter" id="newsletter-label">Newsletter</label>
                                             <input type="email" name="newsletter" id="newsletter" placeholder="Enter email address" required>
-                                        </div>  
-                                        <div class="form-group submit-btn">
-                                          <input type="submit" value="Submit" id="submit" >
-                                            <!-- <i class="fas fa-caret-right"></i>                                           -->
-                                        </div>                                                                                                                     
+                                            <button type="submit" value="Submit" id="submit"><i class="fas fa-caret-right"></i></button>
+                                        </div>                                                                                                                
                                     </form>                                    
                                 </li>  
                                 <li class="tags">
@@ -246,7 +241,7 @@
                             </ul>
                         </aside>
                         <article>
-                            <ul class="blog-list">
+                            <ul class="blog-list" id="blog-list">
                                 <li>
                                     <div class="blog-img">
                                         <a href="#" class="img-link">
@@ -370,17 +365,184 @@
                                         <blockquote class="h4">“Social media is not a media. The key is to listen,engage, and build relationships.”</blockquote>
                                         <p>~ David Alston</p>
                                     </div>
-                                </li>                                                                                                 
+                                </li>     
+                                <li>
+                                    <div class="blog-img">
+                                        <a href="#" class="img-link">
+                                            <figure>
+                                                <img src="assets/images/blog-list-img-1.png">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="blog-details">
+                                        <ul class="date-cat">
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-user"></i>                                                    
+                                                </figure>
+                                                <p><a href="#">Andrei Fredy</a></p>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-clock"></i>                                                    
+                                                </figure>
+                                                <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="fas fa-tags"></i>
+                                                </figure>
+                                                <p>Digital Marketing</p>
+                                            </li>                                                                                        
+                                        </ul>
+                                        <h4><a href="#">How to save time using Social Media Management? - 5 Easy steps</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                </li>                                     
+                                <li>                               
+                                    <div class="blog-details">
+                                        <ul class="date-cat">
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-user"></i>                                                    
+                                                </figure>
+                                                <p><a href="#">Andrei Fredy</a></p>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-clock"></i>                                                    
+                                                </figure>
+                                                <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="fas fa-tags"></i>
+                                                </figure>
+                                                <p>Digital Marketing</p>
+                                            </li>                                                                                        
+                                        </ul>
+                                        <blockquote class="h4">“Social media is not a media. The key is to listen,engage, and build relationships.”</blockquote>
+                                        <p>~ David Alston</p>
+                                    </div>
+                                </li>                                     
+                                <li>
+                                    <div class="blog-details">
+                                        <ul class="date-cat">
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-user"></i>                                                    
+                                                </figure>
+                                                <p><a href="#">Andrei Fredy</a></p>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-clock"></i>                                                    
+                                                </figure>
+                                                <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="fas fa-tags"></i>
+                                                </figure>
+                                                <p>Digital Marketing</p>
+                                            </li>                                                                                        
+                                        </ul>
+                                        <h4><a href="#">How to save time using Social Media Management? - 5 Easy steps</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                </li>                                    
+                                <li>                               
+                                    <div class="blog-details">
+                                        <ul class="date-cat">
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-user"></i>                                                    
+                                                </figure>
+                                                <p><a href="#">Andrei Fredy</a></p>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-clock"></i>                                                    
+                                                </figure>
+                                                <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="fas fa-tags"></i>
+                                                </figure>
+                                                <p>Digital Marketing</p>
+                                            </li>                                                                                        
+                                        </ul>
+                                        <blockquote class="h4">“Social media is not a media. The key is to listen,engage, and build relationships.”</blockquote>
+                                        <p>~ David Alston</p>
+                                    </div>
+                                </li>                                     
+                                <li>
+                                    <div class="blog-img">
+                                        <a href="#" class="img-link">
+                                            <figure>
+                                                <img src="assets/images/blog-list-img-1.png">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="blog-details">
+                                        <ul class="date-cat">
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-user"></i>                                                    
+                                                </figure>
+                                                <p><a href="#">Andrei Fredy</a></p>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-clock"></i>                                                    
+                                                </figure>
+                                                <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="fas fa-tags"></i>
+                                                </figure>
+                                                <p>Digital Marketing</p>
+                                            </li>                                                                                        
+                                        </ul>
+                                        <h4><a href="#">How to save time using Social Media Management? - 5 Easy steps</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                </li>                                     
+                                <li>                               
+                                    <div class="blog-details">
+                                        <ul class="date-cat">
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-user"></i>                                                    
+                                                </figure>
+                                                <p><a href="#">Andrei Fredy</a></p>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="far fa-clock"></i>                                                    
+                                                </figure>
+                                                <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <i class="fas fa-tags"></i>
+                                                </figure>
+                                                <p>Digital Marketing</p>
+                                            </li>                                                                                        
+                                        </ul>
+                                        <blockquote class="h4">“Social media is not a media. The key is to listen,engage, and build relationships.”</blockquote>
+                                        <p>~ David Alston</p>
+                                    </div>
+                                </li>                                     
                             </ul>
-                            <ul class="blog-pagination">
-                                <li><a href="#">01</a></li>
-                                <li><a href="#" class="active">02</a></li>
-                                <li><a href="#">...</a></li> 
-                                <li><a href="#">07</a></li>
-                                <li><a href="#">Next</a></li>                                                                                                                                    
-                            </ul>
+                            <div id="blog-pagination"></div>                            
                         </article>
-                    </div>
+                    </div>                
                 </div>
             </section>            
 
@@ -459,15 +621,16 @@
     	        	</div>
             	</div>
         	</footer>
-
+            
         </main>
     </div>
         
 	<script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
     <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script> 
-	<script src="assets/js/video.min.js"></script>	
-	<script src="assets/js/Youtube.min.js"></script>
-	<script type='text/javascript' src='assets/js/script.js'></script> 	
+	<!-- <script src="assets/js/video.min.js"></script>	 -->
+	<!-- <script src="assets/js/Youtube.min.js"></script> -->
+    <script type='text/javascript' src="assets/js/jquery.simplePagination.js"></script>        
+	<script type='text/javascript' src='assets/js/script.js'></script> 	  
 </body>
 </html>
 

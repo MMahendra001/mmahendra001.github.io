@@ -108,6 +108,13 @@
 	.our-plans .check-plans h4 {margin-bottom: 51px;}
 	.our-plans .check-plans a.btn {min-width: 180px;}
 
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.common-banner{position:relative;min-height:400px;overflow:hidden;}
+	.common-banner::after{content:'';position:absolute;left:-233px;top:-185px;display:block;height:908px;width:116vw;background-image:url(../images/curve.svg);background-size:100% 100%;}
+	.blog {margin-top: -241px;}
+	.blog .heading {margin-bottom: 114px;}	
+
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer{padding: 100px 0px 0px 0px;margin-top: -100px;}

@@ -408,10 +408,69 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .our-plans .check-plans a.btn {min-width: 180px;}
 
 
-/* Blog -Common Banner
+/* Blog
 ------------------------------------------------------------------------------*/
 .common-banner{position:relative;min-height:400px;overflow:hidden;}
-.common-banner::after{content:'';position:absolute;left:-157px;top:-50px;display:block;height:700px;width:125vw;background:hsla(0,0%,100%,0.5);background-image:url(../images/curve.svg);background-size:100% 100%;}
+.common-banner::after{content:'';position:absolute;left: -307px;top: -185px;display: block;height: 895px;width: 140vw;background-image:url(../images/curve.svg);background-size:100% 100%;}
+
+
+.blog {margin-top: -241px;padding:0 0 150px 0;}
+.blog .heading {margin-bottom: 114px;}
+.blog .blog-list-wrap {display: flex;flex-wrap: wrap;align-items: flex-start;}
+.blog .blog-list-wrap aside {width: 30%;margin:0;padding:0;padding-right:20px;}
+.blog .blog-list-wrap article{width: 70%;margin:0;padding:0;padding-left:20px;}
+.blog .blog-list-wrap aside form label{display:none;}
+
+.blog .blog-list-wrap aside ul,.blog .blog-list-wrap article ul{margin:0;padding:0;list-style:none;}
+.blog aside form .form-group-wrap {position: relative;}
+.blog aside form button{position:absolute;right:0;top:0;margin:0px;background:#00c6ff;border-radius:0;border:none;padding:10px 25px;cursor:pointer;}
+
+.blog aside ul.blog-sidebar > li {margin-bottom: 30px;}
+
+.blog aside .recent-post ul li,.blog aside .categories li{border-bottom: 1px solid #eee;padding: 15px 0px;transition:all ease 0.3s;}
+.blog aside .recent-post ul li:hover,.blog aside .recent-post ul li.active,.blog aside .categories li:hover,.blog aside .categories li.active{border-bottom: 1px solid #00c6ff;}
+.blog aside .recent-post ul li:hover a,.blog aside .recent-post ul li.active a,.blog aside .categories li:hover a ,.blog aside .categories li.active a{color:#00c6ff;}
+.blog aside ul.blog-sidebar time {font-size: 14px;color: #c6c6c6;}
+
+.blog aside .tags ul {display: flex;flex-wrap: wrap;align-items: center;}
+.blog aside .tags ul li {margin: 0 10px 10px 0;padding: 0px;}
+.blog aside .tags ul li a{border:1px solid #ccc;background:transparent;color:#c5c5c5;padding:10px 12px;display:inline-block;margin:0px;}
+.blog aside .tags ul li a.active{border-color:#00c6ff;background:#00c6ff;color:#fff;padding:10px 12px;display:inline-block;margin:0px;}
+.blog aside h6 {margin-bottom: 25px;}
+
+
+.blog article ul.blog-list > li{margin-bottom:85px;padding:0;-webkit-box-shadow:0px 15px 60px 4px rgba(0,0,0,0.07);-moz-box-shadow:0px 15px 60px 4px rgba(0,0,0,0.07);box-shadow:0px 15px 60px 4px rgba(0,0,0,0.07);}
+.blog article ul.blog-list > li .blog-img {}
+.blog article ul.blog-list > li .media-vid{max-width:100%;position: unset;}
+.blog article ul.blog-list > li .media-vid .intro-video{max-width:100%;min-height:unset;border-radius:0;}
+
+.blog article ul.blog-list > li .blog-details{padding:40px 40px;}
+.blog article ul.blog-list > li .blog-details ul.date-cat{display:flex;align-items:center;justify-content:space-between;margin-bottom:30px;}
+.blog article ul.blog-list > li .blog-details ul.date-cat li{display:flex;align-items:center;padding:0;margin:0;}
+.blog article ul.blog-list > li .blog-details ul.date-cat li figure {margin-right: 10px;}
+.blog article ul.blog-list > li .blog-details ul.date-cat li p{margin:0;padding:0;}
+.blog article ul.blog-list > li .blog-details p {margin-bottom: 30px;}
+
+.blog article ul.blog-list > li .blog-details a.read-more {border-bottom: 1px solid #263546;color: #263546;padding: 5px 0px;}
+.blog article ul.blog-list > li .blog-details a.read-more:hover{border-color:#00c6ff;color:#00c6ff;}
+
+.blog article ul.blog-list > li .blog-details blockquote{background: transparent;border: none;font-weight: 300;position: relative;display: inline;}
+.blog article ul.blog-list > li .blog-details blockquote:before{content:'';background-image: url('../images/quote-img-1.png');background-repeat: no-repeat;height:50px;width:50px;position: absolute;top:0;left:0;z-index:-1;}
+.blog article ul.blog-list > li .blog-details blockquote:after{content:'';background-image: url('../images/quote-img-2.png');background-repeat: no-repeat;height:50px;width:50px;position: absolute;bottom:0;right:-40px;z-index:-1;}
+.blog article ul.blog-list > li .blog-details blockquote ~ p {margin-top: 30px;}
+
+
+.simple-pagination {display: flex;justify-content: flex-end;padding:0;margin: 0;}
+.simple-pagination ul{margin:0 0 20px;padding:0;list-style:none;text-align:center;}
+.simple-pagination li{display:inline-block;margin-right:10px;}
+.simple-pagination li.disabled {display: none;}
+.simple-pagination li a,
+.simple-pagination li span{color:#000;padding:7px 16px;text-decoration:none;border:1px solid #eee;background:#FFF;box-shadow:none;border-radius:0;display:inline-block;box-shadow:none;max-width:100%;margin:0;}
+.simple-pagination .current,
+.simple-pagination li a:hover,
+.simple-pagination li span:hover{color:#FFF;background-color:#00c6ff;border-color:#00c6ff;}
+.simple-pagination .prev.current,
+.simple-pagination .next.current{background:#00c6ff;}
 
 /* Footer 
 ------------------------------------------------------------------------------*/
@@ -443,7 +502,6 @@ footer .copywrite p {font-size: 14px;}
 
 /* Animation
 ------------------------------------------------------------------------------*/
-
 
 
 
