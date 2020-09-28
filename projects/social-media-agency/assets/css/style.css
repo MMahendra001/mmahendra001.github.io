@@ -435,7 +435,7 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .blog aside .tags ul {display: flex;flex-wrap: wrap;align-items: center;}
 .blog aside .tags ul li {margin: 0 10px 10px 0;padding: 0px;}
 .blog aside .tags ul li a{border:1px solid #ccc;background:transparent;color:#c5c5c5;padding:10px 12px;display:inline-block;margin:0px;}
-.blog aside .tags ul li a.active{border-color:#00c6ff;background:#00c6ff;color:#fff;padding:10px 12px;display:inline-block;margin:0px;}
+.blog aside .tags ul li a.active,.blog aside .tags ul li a:hover{border-color:#00c6ff;background:#00c6ff;color:#fff;padding:10px 12px;display:inline-block;margin:0px;}
 .blog aside h6 {margin-bottom: 25px;}
 
 
