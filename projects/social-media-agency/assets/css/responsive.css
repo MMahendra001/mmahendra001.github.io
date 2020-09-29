@@ -123,8 +123,8 @@
 	.blog article ul.blog-list > li .blog-details h4 {margin-bottom: 16px;padding-right: 117px;line-height: 52px;}
 	.blog article ul.blog-list > li .blog-details h4 ~ p { margin-bottom: 26px; line-height: 35px; }
 	.blog article ul.blog-list > li .blog-details blockquote ~ p { margin-top: 30px;}
-
-
+	.blog article ul.blog-list > li .media-vid .intro-video{min-height:390px;}
+	
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer{padding: 100px 0 0 0;margin-top: -100px;}
@@ -341,8 +341,9 @@
 	/* Blog
 	------------------------------------------------------------------------------*/
 	.common-banner::after{left: -192px;top: -129px;height: 587px;width: 141vw;}
-	.blog .blog-list-wrap aside {width:35%;}
-	.blog .blog-list-wrap article {width:65%;}	
+	.blog .blog-list-wrap aside {width:33%;}
+	.blog .blog-list-wrap article {width:67%;}	
+	.blog article ul.blog-list > li .blog-details {padding: 25px 20px;}
 			
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -425,6 +426,8 @@
 	.blog aside ul.blog-sidebar > li{margin-bottom:30px;}
 	.blog aside ul.blog-sidebar > li:last-child{margin-bottom:0;}	
 	.blog aside .tags ul{padding-right:0;}	
+	.blog article ul.blog-list > li .blog-details ul.date-cat li p{font-size:14px;}
+	.blog article ul.blog-list > li .blog-details ul.date-cat li figure {margin-right: 5px;}
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -453,7 +456,6 @@
 	/* Meadia Mgmt
 	------------------------------------------------------------------------------*/
 	.media-mgmt .media-vid{max-width: 400px;}
-	.intro-video {max-width: 500px;min-height:282px;}
 	.intro-video {max-width: 400px;min-height: 226px;}	
 	
 	/* How Easy
@@ -562,8 +564,9 @@
 
 	/* Blog
 	------------------------------------------------------------------------------*/
-	.common-banner::after {left: -94px;top: -78px;height: 449px;width: 139vw;}		
-
+	.common-banner::after {left: -94px;top: -78px;height: 449px;width: 139vw;}	
+	.blog article ul.blog-list > li .blog-details ul.date-cat{flex-wrap:wrap;}	
+	.blog article ul.blog-list > li .blog-details ul.date-cat li{margin-right:15px;margin-bottom:10px;}
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer .footer-wrap:after {right: -159px;top: -59px;}
