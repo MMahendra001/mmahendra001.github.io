@@ -90,7 +90,7 @@ jQuery(document).ready(function(){
 
   /* Pagination
   --------------------------------------------------*/ 
- 
+  
     var items = $("#blog-list > li");
         var numItems = items.length;
         var perPage = 4;

@@ -28,7 +28,7 @@
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
-	.home-banner{padding: 175px 0px 100px 0px;background-size: cover;background-position: 100% 57%;min-height: 1050px;}
+	.home-banner{padding: 175px 0 100px 0;background-size: cover;background-position: 100% 57%;min-height: 1050px;}
 	.home-banner .banner-info{width: 49%;}
 	.home-banner .banner-img{width:51%;}
 	.home-banner .banner-info ul.btn-group{padding-top:35px;margin-left:7px;}
@@ -36,11 +36,11 @@
 
 	/* Help You
 	------------------------------------------------------------------------------*/
-	.help-you{padding:0px 0px 105px 0px;margin-top:-100px;}
+	.help-you{padding:0 0 105px 0;margin-top:-100px;}
 
 	/* Meadia Mgmt
 	------------------------------------------------------------------------------*/
-	.media-mgmt{padding: 94px 20px 0px 20px;}
+	.media-mgmt{padding: 94px 20px 0 20px;}
 	.media-mgmt .heading {margin-bottom: -60px;}
 	.media-mgmt .heading h4 {margin-bottom: 45px;}
 	.media-mgmt .heading p {line-height:36px;}
@@ -49,18 +49,18 @@
 
 	/* How Easy
 	------------------------------------------------------------------------------*/
-	.how-easy{padding:230px 0px 40px 0px;}
+	.how-easy{padding:230px 0 40px 0;}
 	.how-easy .container{max-width:1630px;}
 	.how-easy .heading{margin-bottom:82px;}
 	.how-easy ul.how-easy-list li {margin-bottom:260px;}
 	.how-easy ul.how-easy-list li:last-child {margin-bottom: 115px;}
-	.how-easy ul.how-easy-list li .list-img {-webkit-box-shadow: 10px 50px 80px 0px rgba(0, 0, 0, 0.19);-moz-box-shadow:10px 50px 80px 0px rgba(0, 0, 0, 0.19);box-shadow:10px 50px 80px 0px rgba(0, 0, 0, 0.19);}
-	.how-easy ul.how-easy-list li:last-child .list-img{-webkit-box-shadow:-27px 86px 112px 0px rgba(0,0,0,0.19);-moz-box-shadow:-27px 86px 112px 0px rgba(0,0,0,0.19);box-shadow:-27px 86px 112px 0px rgba(0,0,0,0.19);}	
+	.how-easy ul.how-easy-list li .list-img {-webkit-box-shadow: 10px 50px 80px 0 rgba(0, 0, 0, 0.19);-moz-box-shadow:10px 50px 80px 0 rgba(0, 0, 0, 0.19);box-shadow:10px 50px 80px 0 rgba(0, 0, 0, 0.19);}
+	.how-easy ul.how-easy-list li:last-child .list-img{-webkit-box-shadow:-27px 86px 112px 0 rgba(0,0,0,0.19);-moz-box-shadow:-27px 86px 112px 0 rgba(0,0,0,0.19);box-shadow:-27px 86px 112px 0 rgba(0,0,0,0.19);}	
 	.how-easy ul.how-easy-list .list-info span.title-bar {margin-bottom: 30px;}
 	.how-easy ul.how-easy-list .list-info h2 {margin-bottom: 60px;}
 	.how-easy ul.how-easy-list .list-info p {line-height: 35px;}
-	.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding: 10px 126px 10px 0px;text-align:left;}
-	.how-easy ul.how-easy-list li:nth-child(even) .list-info{padding: 10px 0px 10px 126px;text-align:right;}
+	.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding: 10px 126px 10px 0;text-align:left;}
+	.how-easy ul.how-easy-list li:nth-child(even) .list-info{padding: 10px 0 10px 126px;text-align:right;}
 
 	.how-easy .how-easy-info ul.how-easy-list li:first-child .list-img:after{width: 5000px;height: 185px;left: 81%;top: -13%;background: linear-gradient(90deg,rgba(0,198,255,1) 0%,rgba(0,114,255,1) 10%);}
 
@@ -71,66 +71,76 @@
 	.how-easy .how-easy-info ul.how-easy-list li:nth-child(3) .list-img:after{width:5000px;height:965px;left:118%;top:-73%;}
 
 
-	.how-easy .service-info{padding:115px 0px;}
-	.how-easy .service-info ul.service-list{max-width:1030px;padding:30px 0px 30px 0px;}
-	.how-easy .service-info ul.service-list:after{bottom:44px;box-shadow:0px 13px 101px 50px rgba(0,156,255,1);-webkit-box-shadow:0px 13px 101px 50px rgba(0,156,255,1);-moz-box-shadow:0px 13px 101px 50px rgba(0,156,255,1);margin:0 auto;}
+	.how-easy .service-info{padding:115px 0;}
+	.how-easy .service-info ul.service-list{max-width:1030px;padding:30px 0 30px 0;}
+	.how-easy .service-info ul.service-list:after{bottom:44px;box-shadow:0 13px 101px 50px rgba(0,156,255,1);-webkit-box-shadow:0 13px 101px 50px rgba(0,156,255,1);-moz-box-shadow:0 13px 101px 50px rgba(0,156,255,1);margin:0 auto;}
 	.how-easy .service-info ul.service-list li{padding:15px 30px 15px 30px;}
 	.how-easy .service-info ul.service-list li figure{margin-bottom:22px;}
 	.how-easy .service-info ul.service-list li h6{margin-bottom:9px;color:#fff;}
-	.how-easy .service-info ul.service-list li p{padding:0px 78px;margin-bottom:16px;}	
+	.how-easy .service-info ul.service-list li p{padding:0 78px;margin-bottom:16px;}	
 
 	/* Plans
 	------------------------------------------------------------------------------*/
-	.our-plans {padding: 60px 0px 110px 0px;}
-	.our-plans .heading {margin-bottom: 195px;}
-	.our-plans .heading h4 {padding: 0px 100px;margin-bottom: 31px;}
-	.our-plans .plans-info {margin-bottom: 80px;}
-
-	.our-plans ul.plans-list > li{justify-content:flex-start;}
-	.our-plans ul.plans-list > li.basic{padding:0px 60px 0px 45px}
-	.our-plans ul.plans-list > li.standard {padding: 0px 45px 0px 60px;}
-
-	.our-plans ul.plans-list > li .price {padding:35px 0px;}
-
-	.our-plans ul.plans-list > li .details{padding:46px 0px;}
-	.our-plans ul.plans-list > li .details p{margin-bottom:43px;}
-	.our-plans ul.plans-list > li .details li{padding-left:31px;}
-
-	.our-plans ul.plans-list > li.premium{transform: scale(1.15);}
-	.our-plans ul.plans-list > li.premium .price{padding:23px 40px;}
-	.our-plans ul.plans-list > li.premium  .details{padding: 36px 45px;}
-
-	.our-plans ul.plans-list > li.premium .details p {margin-bottom: 36px;}
-	.our-plans ul.plans-list > li.premium .details li {padding-left: 21px;}
-	.our-plans ul.plans-list > li.premium .details a.btn{margin-top: 28px;padding: 10px 20px;}
-
-	.our-plans .check-plans {padding: 100px 0px 50px 0px;}
-	.our-plans .check-plans h4 {margin-bottom: 51px;}
-	.our-plans .check-plans a.btn {min-width: 180px;}
+	.our-plans { padding: 60px 0 110px 0; }
+	.our-plans .heading { margin-bottom: 195px; }
+	.our-plans .heading h4 { padding: 0 100px; margin-bottom: 31px; }
+	.our-plans .plans-info { margin-bottom: 80px; }
+	.our-plans ul.plans-list > li { justify-content: flex-start; }
+	.our-plans ul.plans-list > li.basic { padding: 0 60px 0 45px }
+	.our-plans ul.plans-list > li.standard { padding: 0 45px 0 60px; }
+	.our-plans ul.plans-list > li .price { padding: 35px 0; }
+	.our-plans ul.plans-list > li .details { padding: 46px 0; }
+	.our-plans ul.plans-list > li .details p { margin-bottom: 43px; }
+	.our-plans ul.plans-list > li .details li { padding-left: 31px; }
+	.our-plans ul.plans-list > li.premium { transform: scale(1.15); }
+	.our-plans ul.plans-list > li.premium .price { padding: 23px 40px; }
+	.our-plans ul.plans-list > li.premium  .details { padding: 36px 45px; }
+	.our-plans ul.plans-list > li.premium .details p { margin-bottom: 36px; }
+	.our-plans ul.plans-list > li.premium .details li { padding-left: 21px; }
+	.our-plans ul.plans-list > li.premium .details a.btn { margin-top: 28px; padding: 10px 20px; }
+	.our-plans .check-plans { padding: 100px 0 50px 0; }
+	.our-plans .check-plans h4 { margin-bottom: 51px; }
+	.our-plans .check-plans a.btn { min-width: 180px; }
 
 	/* Blog
 	------------------------------------------------------------------------------*/
-	.common-banner{position:relative;min-height:400px;overflow:hidden;}
-	.common-banner::after{content:'';position:absolute;left:-233px;top:-185px;display:block;height:908px;width:116vw;background-image:url(../images/curve.svg);background-size:100% 100%;}
-	.blog {margin-top: -242px;}
-	.blog .heading {margin-bottom: 114px;}	
+	.common-banner {min-height: 400px;}
+	.common-banner::after {left: -233px; top: -185px;height: 908px; width: 116vw;}
+	.blog { margin-top: -242px;padding: 0 0 150px 0;}
+	.blog .heading { margin-bottom: 114px; }
+	.blog .blog-list-wrap aside {padding-right: 50px; }
+	.blog .blog-list-wrap article {padding: 8px 0 0 45px; }
+	.blog aside ul.blog-sidebar > li {margin-bottom: 80px; }
+	.blog aside .recent-post h6 { margin-bottom: 17px; }
+	.blog aside ul.blog-sidebar > li.recent-post {margin-bottom: 59px;}
+	.blog aside ul.blog-sidebar > li.categories,.blog aside ul.blog-sidebar > li.newsletter{ margin-bottom: 56px; }
+	.blog aside .categories ul li{padding-right:100px;}	
+	.blog aside .tags ul {padding-right: 20px; }
+	.blog aside h6 { margin-bottom: 25px;}
+	.blog article ul.blog-list > li { margin-bottom: 98px;}
+	.blog article ul.blog-list > li .blog-details { padding: 33px 43px; }
+	.blog article ul.blog-list > li .blog-details ul.date-cat {margin-bottom: 22px; }
+	.blog article ul.blog-list > li .blog-details h4 {margin-bottom: 16px;padding-right: 117px;line-height: 52px;}
+	.blog article ul.blog-list > li .blog-details h4 ~ p { margin-bottom: 26px; line-height: 35px; }
+	.blog article ul.blog-list > li .blog-details blockquote ~ p { margin-top: 30px;}
+
 
 	/* Footer
 	------------------------------------------------------------------------------*/
-	footer{padding: 100px 0px 0px 0px;margin-top: -100px;}
-	footer .footer-wrap{padding:65px 0px 0px 0px;max-width: 2017px;}
+	footer{padding: 100px 0 0 0;margin-top: -100px;}
+	footer .footer-wrap{padding:65px 0 0 0;max-width: 2017px;}
 	footer .footer-wrap:before{left:51px;top:-103px;height:760px;width:258px;}
 	footer .footer-wrap:after{right:51px;top:22px;height:681px;width:324px;}
 	footer .inner-wrap:before{height:100%;width:1642px;left:-9px;top:-70px;transform:perspective(51px) rotateX(1.2deg);border-top-left-radius: 60px;border-top-right-radius: 60px;}
 	footer .inner-wrap:after{height:0%;width:80%;top:124px;}
 	footer .main-footer .footer-links {width: 62%;}
-	footer .main-footer .footer-about {width: 38%;padding-right:0px;}
+	footer .main-footer .footer-about {width: 38%;padding-right:0;}
 	footer .main-footer .footer-links > ul >li{width:20%;}
 	footer .main-footer .footer-links > ul >li >ul >li {margin-bottom: 13px}
 	footer .main-footer h6 {font-size: 16px;margin-bottom: 19px;}
 	footer .footer-about h6 {margin-bottom: 12px;}
 	footer .footer-about p {line-height: 35px;}
-	footer .copywrite {padding: 7px 0px;text-align: center;}
+	footer .copywrite {padding: 7px 0;text-align: center;}
 
 }
 
@@ -145,7 +155,7 @@
 
 	/* Help You
 	------------------------------------------------------------------------------*/
-	.help-you{padding:100px 0px;margin-top:0px;}	
+	.help-you{padding:100px 0;margin-top:0;}	
 
 }
 
@@ -171,7 +181,8 @@
 @media only screen and (max-width:1299px){
 
 	header{background:#0085ff;}			
-	header nav li a{color:#fff;}		
+	header nav li a{color:#fff;}
+	.blog-page header{background:transparent;}		
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
@@ -181,7 +192,7 @@
 
 	/* Help You
 	------------------------------------------------------------------------------*/
-	.help-you .help-info {padding: 0px 20px 0px 11px;}
+	.help-you .help-info {padding: 0 20px 0 11px;}
 
 }
 
@@ -199,34 +210,43 @@
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/	
-	.home-banner {padding: 0px 0px 0px 0px;background-position: 100% 90%;}	
+	.home-banner {padding: 0 0 0 0;background-position: 100% 90%;}	
 	.home-banner .banner-info ul.btn-group{padding-top:20px;}
 
 	/* Help You
 	------------------------------------------------------------------------------*/
 	.help-you .help-list figure {width: 140px;height: 70px;border-top-left-radius: 70px;border-top-right-radius: 70px;}
 	.help-you .help-list figure img {margin-top: 30px;width: 40px;height: 40px;}
-	.help-you .help-info {width: 25%;padding: 0px 20px 0px 0px;}
-	.help-you .help-list {width: 75%;padding-left: 0px;padding-top: 0px;}
-	.help-you .help-list h6{padding:0px;}
+	.help-you .help-info {width: 25%;padding: 0 20px 0 0;}
+	.help-you .help-list {width: 75%;padding-left: 0;padding-top: 0;}
+	.help-you .help-list h6{padding:0;}
 	.help-you .help-list h6 br{display:none;}	
 
 	/* How Easy
 	------------------------------------------------------------------------------*/
-	.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding: 10px 20px 10px 0px;}
-	.how-easy ul.how-easy-list li:nth-child(even) .list-info{padding: 10px 0px 10px 20px;}
+	.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding: 10px 20px 10px 0;}
+	.how-easy ul.how-easy-list li:nth-child(even) .list-info{padding: 10px 0 10px 20px;}
 
 	/* Plans
 	------------------------------------------------------------------------------*/
-	.our-plans {padding: 60px 0px 50px 0px;}	
+	.our-plans {padding: 60px 0 50px 0;}	
 	.our-plans .heading{margin-bottom:75px;}
 	.our-plans .heading h4 {margin-bottom: 20px;}
 	.our-plans .plans-info {margin-bottom: 40px;}
-	.our-plans .check-plans {padding: 50px 0px 50px 0px;}		
+	.our-plans .check-plans {padding: 50px 0 50px 0;}		
 	.our-plans ul.plans-list > li .details li{padding-left: 20px;}
-	.our-plans ul.plans-list > li .details li:before {height: 12px;width: 12px;left: 0px;top: 6px;}
+	.our-plans ul.plans-list > li .details li:before {height: 12px;width: 12px;left: 0;top: 6px;}
 	.our-plans ul.plans-list > li.premium .details li {padding-left: 18px;}
-	.our-plans ul.plans-list > li.premium .details li:before {height: 9px;width: 9px;left: 0px;top: 6px;}	
+	.our-plans ul.plans-list > li.premium .details li:before {height: 9px;width: 9px;left:0;top: 6px;}	
+
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.common-banner::after{left: -320px;top: -158px;height: 805px;width: 150vw;}
+	.blog{padding:0 0 100px 0;}
+	.blog .heading { margin-bottom: 100px; }
+	.blog .blog-list-wrap aside {width:30%;padding-right:15px;}
+	.blog .blog-list-wrap article {width:70%;padding:0 0 0 15px;}
+
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -260,7 +280,7 @@
 	
 	/* Header
 	------------------------------------------------------------------------------*/	
-	header{padding:20px 0px;background:transparent;}		
+	header{padding:20px 0;background:transparent;}		
 	header nav li a{color:#263546;}	
 	header .logo {width: 50%;}
 	.mobile-menu-icon{display:inline-block;}
@@ -271,42 +291,42 @@
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
-	.home-banner {padding: 50px 0px 0px 0px;background-position: 34% 0%;background-size: 119vw;}
+	.home-banner {padding: 50px 0 0 0;background-position: 34% 0%;background-size: 119vw;}
 	.home-banner .container{flex-direction:column-reverse;}	
-	.home-banner .banner-info {width:100%;padding: 0px;text-align: center;max-width:500px;margin:0 auto;}
+	.home-banner .banner-info {width:100%;padding:0;text-align: center;max-width:500px;margin:0 auto;}
 	.home-banner .banner-img{width:100%;margin:0 auto;margin-bottom:30px;}
 	.home-banner .banner-info ul.btn-group{justify-content:center;}
 
 	/* Help You
 	------------------------------------------------------------------------------*/
-	.help-you {padding: 70px 0px;margin-top: 0px;}	
+	.help-you {padding: 70px 0px;margin-top: 0;}	
 	.help-you .help-info {width: 35%;}
 	.help-you .help-list {width: 65%;}
 	.help-you .help-list ul{margin-left: -2%;margin-right: -2%;}
 	.help-you .help-list ul li {width: 46%;margin: 0 2%;margin-bottom: 40px;}
-	.help-you .help-list h6 {padding: 0px 30px;}
+	.help-you .help-list h6 {padding: 0 30px;}
 
 	/* How Easy
 	------------------------------------------------------------------------------*/
 	.how-easy .heading {margin-bottom: 50px;}
 	.how-easy ul.how-easy-list li{margin-bottom:70px;}
 	.how-easy ul.how-easy-list li:last-child{margin-bottom:100px;}
-	.how-easy .service-info {padding: 50px 0px 0px 0px;}
+	.how-easy .service-info {padding: 50px 0 0 0;}
 	.how-easy ul.how-easy-list li .list-info{width:100%;margin-bottom:50px;}
 	.how-easy ul.how-easy-list li .list-img{width:100%;}
 	.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding: 10px;}
 	.how-easy ul.how-easy-list li:nth-child(even) .list-info{padding: 10px;}
-	.how-easy .service-info ul.service-list{padding: 20px 0px;}
-	.how-easy .service-info ul.service-list li p{margin-bottom:0px;padding:0px 20px;}
-	.how-easy .service-info ul.service-list:after{box-shadow:0px 13px 40px 33px rgba(0,156,255,1);-webkit-box-shadow:0px 13px 40px 33px rgba(0,156,255,1);-moz-box-shadow:0px 13px 40px 33px rgba(0,156,255,1);}
+	.how-easy .service-info ul.service-list{padding: 20px 0;}
+	.how-easy .service-info ul.service-list li p{margin-bottom:0px;padding:0 20px;}
+	.how-easy .service-info ul.service-list:after{box-shadow:0 13px 40px 33px rgba(0,156,255,1);-webkit-box-shadow:0 13px 40px 33px rgba(0,156,255,1);-moz-box-shadow:0 13px 40px 33px rgba(0,156,255,1);}
 
 	/* Plans
 	------------------------------------------------------------------------------*/
-	.our-plans ul.plans-list > li.basic {padding: 0px 32px 0px 15px;}	
-	.our-plans ul.plans-list > li.standard {padding: 0px 15px 0px 32px;}
+	.our-plans ul.plans-list > li.basic {padding: 0 32px 0 15px;}	
+	.our-plans ul.plans-list > li.standard {padding: 0 15px 0 32px;}
 
-	.our-plans ul.plans-list > li .price {padding:20px 0px;}
-	.our-plans ul.plans-list > li .details{padding:25px 0px;}
+	.our-plans ul.plans-list > li .price {padding:20px 0;}
+	.our-plans ul.plans-list > li .details{padding:25px 0;}
 	.our-plans ul.plans-list > li .details p{margin-bottom:20px;}
 
 	.our-plans ul.plans-list > li.premium {transform: scale(1.10);}
@@ -317,6 +337,12 @@
 
 	.our-plans .check-plans h4 {margin-bottom:35px;}
 	.our-plans .check-plans a.btn {min-width:unset;}	
+
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.common-banner::after{left: -192px;top: -129px;height: 587px;width: 141vw;}
+	.blog .blog-list-wrap aside {width:35%;}
+	.blog .blog-list-wrap article {width:65%;}	
 			
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -346,28 +372,28 @@
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
-	.home-banner {padding: 80px 0px 0px 0px;background-position: 21% 0%;background-size: 180vw;}	
+	.home-banner {padding: 80px 0 0 0;background-position: 21% 0%;background-size: 180vw;}	
 	.home-banner .banner-img img {max-width: 400px;}
 
 	/* Help You
 	------------------------------------------------------------------------------*/
 	.help-you .help-list figure {width: 100px;height: 50px;border-top-left-radius: 50px;border-top-right-radius: 50px;}	
 	.help-you .help-list figure img {margin-top: 30px;width: 35px;height: 35px;}
-	.help-you .help-list h6 {padding: 0px 15px;}
+	.help-you .help-list h6 {padding: 0 15px;}
 	.help-you .help-info h4 {margin-bottom: 20px;}
 	.help-you .help-info .btn {margin-top: 10px;}
 	.help-you .help-info p {line-height:27px;}
 
 	/* Meadia Mgmt
 	------------------------------------------------------------------------------*/
-	.media-mgmt {padding: 50px 20px 0px 20px;}
+	.media-mgmt {padding: 50px 20px 0 20px;}
 	.media-vid{max-width: 500px;top: 65px;}
 	.intro-video {max-width: 500px;min-height:282px;}
 	.intro-video .vjs-big-play-button, .intro-video .vjs-big-play-button:focus, .intro-video .vjs-big-play-button:active {border-radius: 9px;width: 55px;height: 31px;font-size: 20px;}	
 
 	/* How Easy
 	------------------------------------------------------------------------------*/	
-	.how-easy .service-info{padding:40px 0px 0px 0px;}
+	.how-easy .service-info{padding:40px 0 0 0;}
 	.how-easy .service-info ul.service-list li{padding:10px 20px;}
 	.how-easy .service-info ul.service-list:after{bottom: 43px;}
 	.how-easy ul.how-easy-list li{margin-bottom:50px;}
@@ -377,14 +403,28 @@
 	/* Plans
 	------------------------------------------------------------------------------*/
 	.our-plans .plans-info ul.plans-list{box-shadow:none;}	
-	.our-plans ul.plans-list > li{-webkit-box-shadow: 10px 50px 80px 0px rgba(0,0,0,0.19);-moz-box-shadow: 10px 50px 80px 0px rgba(0,0,0,0.19);box-shadow: 0px 24px 100px 5px rgba(0,0,0,0.08);}
+	.our-plans ul.plans-list > li{-webkit-box-shadow: 10px 50px 80px 0 rgba(0,0,0,0.19);-moz-box-shadow: 10px 50px 80px 0 rgba(0,0,0,0.19);box-shadow: 0 24px 100px 5px rgba(0,0,0,0.08);}
 	.our-plans ul.plans-list > li.premium {transform: scale(1.1);width: 100%;order: 1;max-width:365px;margin: 0 auto;margin-bottom:38px;}
 	.our-plans ul.plans-list > li.basic{order: 2;width: 49%;margin:0 auto;margin-right:1%;}
 	.our-plans ul.plans-list > li.standard{order: 3;width: 49%;margin:0 auto;margin-left:1%;}
 	.our-plans ul.plans-list > li .details a.btn {padding: 10px 20px;font-size: 15px;margin-top:15px;}
-	.our-plans ul.plans-list > li .details a.btn::before {box-shadow: 5px 0px 32px 5px rgba(0,156,255,1);-webkit-box-shadow: 5px 0px 32px 5px rgba(0,156,255,1);-moz-box-shadow: 5px 0px 32px 5px rgba(0,156,255,1);top: 10px;}
+	.our-plans ul.plans-list > li .details a.btn::before {box-shadow: 5px 0 32px 5px rgba(0,156,255,1);-webkit-box-shadow: 5px 0 32px 5px rgba(0,156,255,1);-moz-box-shadow: 5px 0 32px 5px rgba(0,156,255,1);top: 10px;}
 	.our-plans ul.plans-list > li.premium .details a.btn {margin-top:15px;padding: 8px 20px;font-size: 14px;}
-	.our-plans .check-plans {padding: 20px 0px;}
+	.our-plans .check-plans {padding: 20px 0;}
+
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.common-banner::after {left: -179px;top: -129px;height: 538px;width: 142vw;}
+	.blog .heading {margin-bottom: 70px;}
+	.blog .blog-list-wrap{flex-direction:column-reverse;}
+	.blog .blog-list-wrap aside {width:100%;padding-right:0; }
+	.blog .blog-list-wrap article {width:100%;padding:0;margin-bottom:50px;}
+	.blog aside .categories ul li{padding-right:0;}
+	.blog article ul.blog-list > li {margin-bottom: 30px;}
+	.blog aside .recent-post h6, .blog aside h6 {margin-bottom: 10px;}
+	.blog aside ul.blog-sidebar > li{margin-bottom:30px;}
+	.blog aside ul.blog-sidebar > li:last-child{margin-bottom:0;}	
+	.blog aside .tags ul{padding-right:0;}	
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -407,7 +447,7 @@
 
 	/* Help You
 	------------------------------------------------------------------------------*/
-	.help-you .help-info{width:100%;padding:0px;text-align:center;margin-bottom:50px;}
+	.help-you .help-info{width:100%;padding:0;text-align:center;margin-bottom:50px;}
 	.help-you .help-list{width:100%;}
 
 	/* Meadia Mgmt
@@ -418,8 +458,8 @@
 	
 	/* How Easy
 	------------------------------------------------------------------------------*/
-	.how-easy .service-info ul.service-list {padding: 15px 0px;border-radius: 30px;}
-	.how-easy .service-info ul.service-list:after {box-shadow: 0px 13px 35px 25px rgba(0,156,255,1);-webkit-box-shadow: 0px 13px 35px 25px rgba(0,156,255,1);-moz-box-shadow: 0px 13px 35px 25px rgba(0,156,255,1);}
+	.how-easy .service-info ul.service-list {padding: 15px 0;border-radius: 30px;}
+	.how-easy .service-info ul.service-list:after {box-shadow: 0px 13px 35px 25px rgba(0,156,255,1);-webkit-box-shadow: 0 13px 35px 25px rgba(0,156,255,1);-moz-box-shadow: 0 13px 35px 25px rgba(0,156,255,1);}
 	.how-easy .service-info ul.service-list li{padding:5px 10px}
 	.how-easy .service-info ul.service-list li figure {margin-bottom: 15px;}
 	.how-easy .service-info ul.service-list li h6 {margin-bottom:7px;font-size: 13px;}
@@ -430,12 +470,18 @@
 
 	/* Plans
 	------------------------------------------------------------------------------*/
-	.our-plans ul.plans-list > li.standard,.our-plans ul.plans-list > li.basic {padding: 0px 18px;}
+	.our-plans ul.plans-list > li.standard,.our-plans ul.plans-list > li.basic {padding: 0 18px;}
 	.our-plans ul.plans-list > li.premium {transform: scale(1);max-width: 310px;margin-bottom: 15px;}
 	.our-plans ul.plans-list > li.premium .details p, .our-plans ul.plans-list > li.premium .details li{font-size:14px;}
 	.our-plans ul.plans-list > li.premium .details li:before{top:8px;}
 	.our-plans ul.plans-list > li.premium .details a.btn {padding: 10px 20px;font-size: 16px;font-weight:400;}
 	.our-plans .heading {margin-bottom: 45px;}
+
+
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.common-banner::after{left:-113px;top:-107px;height:500px;width:135vw;}
+
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -444,9 +490,9 @@
 	footer .inner-wrap:before {left: -110px;top: -250px;}
 	footer .container {max-width: 400px;text-align: center;}
 	footer .main-footer .footer-links > ul >li {width: 100%;margin-bottom: 20px;}
-	footer .main-footer .footer-links > ul >li:last-child{margin-bottom:0px;}
+	footer .main-footer .footer-links > ul >li:last-child{margin-bottom:0;}
 	footer .main-footer .footer-links {width: 100%;order: 2;}
-	footer .main-footer .footer-about {padding-right: 0px;width: 100%;order: 1;margin-bottom: 50px;}
+	footer .main-footer .footer-about {padding-right:0;width: 100%;order: 1;margin-bottom: 50px;}
 	footer .inner-wrap:after {top: 57%;}
 
 }
@@ -474,16 +520,16 @@
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
-	.home-banner {padding: 110px 0px 50px 0px;background-position: 25% 0%;background-size: 249vw;}
-	.home-banner .banner-img{margin-bottom:0px;}
+	.home-banner {padding: 110px 0 50px 0;background-position: 25% 0%;background-size: 249vw;}
+	.home-banner .banner-img{margin-bottom:0;}
 	.home-banner .banner-img img{max-width: 300px;}
 	.home-banner .banner-info ul.btn-group{flex-direction:column;}
-	.home-banner .banner-info ul.btn-group li{margin:0px;margin-bottom:20px;}
-	.home-banner .banner-info ul.btn-group li:last-child{margin-bottom:0px;}
+	.home-banner .banner-info ul.btn-group li{margin:0;margin-bottom:20px;}
+	.home-banner .banner-info ul.btn-group li:last-child{margin-bottom:0;}
 	
 	/* Help You
 	------------------------------------------------------------------------------*/
-	.help-you{padding:0px 0px 50px 0px;}
+	.help-you{padding:0 0 50px 0;}
 
 	/* Meadia Mgmt
 	------------------------------------------------------------------------------*/
@@ -493,15 +539,15 @@
 	------------------------------------------------------------------------------*/	
 	.how-easy .service-info ul.service-list {padding: 15px 25px;max-width: 350px;}
 	.how-easy .service-info ul.service-list li{width:100%;padding: 25px 10px;border-bottom: 1px solid rgba(255,255,255,0.3);border-right: none;}
-	.how-easy ul.how-easy-list li:nth-child(odd) .list-info,.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding:0px;}
+	.how-easy ul.how-easy-list li:nth-child(odd) .list-info,.how-easy ul.how-easy-list li:nth-child(odd) .list-info{padding:0;}
 	.how-easy .how-easy-info ul.how-easy-list li:first-child .list-img:after {height: 60px;top: -8%;}
 	.how-easy .how-easy-info ul.how-easy-list li:nth-child(2) .list-img:before {width: 150px;height: 120px;top: -23%;}
 	.how-easy .how-easy-info ul.how-easy-list li:nth-child(3) .list-img:before {width: 170px;height: 200px;right: -23%;}
 	.how-easy .how-easy-info ul.how-easy-list li:nth-child(3) .list-img:before {width: 200px;height: 200px;right: -132px;}
 
-	.how-easy {padding: 120px 0px 40px 0px;}
+	.how-easy {padding: 120px 0 40px 0;}
 	.how-easy ul.how-easy-list .list-info span.title-bar:before{height: 4px;width:25px;}
-	.how-easy .service-info {padding: 0px;}
+	.how-easy .service-info {padding: 0;}
 
 	/* Plans
 	------------------------------------------------------------------------------*/
@@ -511,8 +557,12 @@
 	.our-plans ul.plans-list > li.standard{width:100%;margin:0 auto;margin-bottom:15px;order:3;}
 	.our-plans .plans-info {margin-bottom: 10px;}
 	.our-plans ul.plans-list > li.premium .details a.btn {font-size: 15px;}
-	.our-plans .heading h4 {padding: 0px 70px;}
-	.our-plans {padding: 40px 0px 50px 0px;}
+	.our-plans .heading h4 {padding: 0 70px;}
+	.our-plans {padding: 40px 0 50px 0;}
+
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.common-banner::after {left: -94px;top: -78px;height: 449px;width: 139vw;}		
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -525,10 +575,10 @@
 
 	/* Help You
 	------------------------------------------------------------------------------*/	
-	.help-you .help-list ul{margin-left:0px;margin-right:0px;} 
-	.help-you .help-list ul li {width: 100%;margin: 0px;padding:30px 0px;border-bottom:1px solid #eee;}
-	.help-you .help-list ul li:last-child{border-bottom:none;padding-bottom:0px;}
-	.help-you .help-list h6 {padding: 0px 50px;}
+	.help-you .help-list ul{margin-left:0;margin-right:0;} 
+	.help-you .help-list ul li {width: 100%;margin: 0;padding:30px 0;border-bottom:1px solid #eee;}
+	.help-you .help-list ul li:last-child{border-bottom:none;padding-bottom:0;}
+	.help-you .help-list h6 {padding: 0 50px;}
 
 	/* Meadia Mgmt
 	------------------------------------------------------------------------------*/
@@ -541,7 +591,12 @@
 
 	/* Plans
 	------------------------------------------------------------------------------*/
-	.our-plans .heading h4 {padding: 0px 30px;}	
+	.our-plans .heading h4 {padding: 0 30px;}	
+
+
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.common-banner::after{left:-86px;top:-78px;height:430px;width:141vw;}
 
 
 }
