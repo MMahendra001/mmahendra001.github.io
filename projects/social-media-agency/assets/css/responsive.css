@@ -118,13 +118,13 @@
 	.blog aside .tags ul {padding-right: 20px; }
 	.blog aside h6 { margin-bottom: 25px;}
 	.blog article ul.blog-list > li { margin-bottom: 98px;}
-	.blog article ul.blog-list > li .blog-details { padding: 33px 43px; }
-	.blog article ul.blog-list > li .blog-details ul.date-cat {margin-bottom: 22px; }
-	.blog article ul.blog-list > li .blog-details h4 {margin-bottom: 16px;padding-right: 117px;line-height: 52px;}
-	.blog article ul.blog-list > li .blog-details h4 ~ p { margin-bottom: 26px; line-height: 35px; }
-	.blog article ul.blog-list > li .blog-details blockquote ~ p { margin-top: 30px;}
-	.blog article ul.blog-list > li .media-vid .intro-video{min-height:390px;}
-	
+	.blog article .blog-details { padding: 33px 43px; }
+	.blog article .blog-details ul.date-cat {margin-bottom: 22px; }
+	.blog article .blog-details h4 {margin-bottom: 16px;padding-right: 117px;line-height: 52px;}
+	.blog article .blog-details h4 ~ p { margin-bottom: 26px; line-height: 35px; }
+	.blog article .blog-details blockquote ~ p { margin-top: 30px;}
+	.blog article .media-vid .intro-video{min-height:390px;}
+
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer{padding: 100px 0 0 0;margin-top: -100px;}
@@ -343,7 +343,7 @@
 	.common-banner::after{left: -192px;top: -129px;height: 587px;width: 141vw;}
 	.blog .blog-list-wrap aside {width:33%;}
 	.blog .blog-list-wrap article {width:67%;}	
-	.blog article ul.blog-list > li .blog-details {padding: 25px 20px;}
+	.blog article .blog-details {padding: 25px 20px;}
 			
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -426,8 +426,8 @@
 	.blog aside ul.blog-sidebar > li{margin-bottom:30px;}
 	.blog aside ul.blog-sidebar > li:last-child{margin-bottom:0;}	
 	.blog aside .tags ul{padding-right:0;}	
-	.blog article ul.blog-list > li .blog-details ul.date-cat li p{font-size:14px;}
-	.blog article ul.blog-list > li .blog-details ul.date-cat li figure {margin-right: 5px;}
+	.blog article .blog-details ul.date-cat li p{font-size:14px;}
+	.blog article .blog-details ul.date-cat li figure {margin-right: 5px;}
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -565,8 +565,9 @@
 	/* Blog
 	------------------------------------------------------------------------------*/
 	.common-banner::after {left: -94px;top: -78px;height: 449px;width: 139vw;}	
-	.blog article ul.blog-list > li .blog-details ul.date-cat{flex-wrap:wrap;}	
-	.blog article ul.blog-list > li .blog-details ul.date-cat li{margin-right:15px;margin-bottom:10px;}
+	.blog article .blog-details ul.date-cat{flex-wrap:wrap;}	
+	.blog article .blog-details ul.date-cat li{margin-right:15px;margin-bottom:10px;}
+	.blog article .blog-details ul.date-cat li:last-child {margin-bottom:0;}
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer .footer-wrap:after {right: -159px;top: -59px;}

@@ -412,7 +412,7 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 
 /* Blog
 ------------------------------------------------------------------------------*/
-.common-banner{position:relative;min-height:400px;overflow:hidden;z-index:0;}
+.common-banner{position:relative;min-height:400px;overflow:hidden;z-index:-1;}
 .common-banner::after{content:'';position:absolute;left: -307px;top: -185px;display: block;height: 895px;width: 140vw;background-image:url(../images/curve.svg);background-size:100% 100%;}
 
 .blog {margin-top: -241px;padding:0 0 150px 0;z-index:2;}
@@ -448,23 +448,23 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .blog aside h6 {margin-bottom: 25px;}
 
 .blog article ul.blog-list > li{margin-bottom:50px;padding:0;-webkit-box-shadow:0 15px 60px 4px rgba(0,0,0,0.07);-moz-box-shadow:0 15px 60px 4px rgba(0,0,0,0.07);box-shadow:0 15px 60px 4px rgba(0,0,0,0.07);}
-.blog article ul.blog-list > li .media-vid{max-width:100%;position: unset;}
-.blog article ul.blog-list > li .media-vid .intro-video{max-width:100%;border-radius:0;}
+.blog article .media-vid{max-width:100%;position: unset;}
+.blog article .media-vid .intro-video{max-width:100%;border-radius:0;}
 
-.blog article ul.blog-list > li .blog-details{padding:33px 33px;}
-.blog article ul.blog-list > li .blog-details ul.date-cat{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;}
-.blog article ul.blog-list > li .blog-details ul.date-cat li{display:flex;align-items:center;padding:0;margin:0;}
-.blog article ul.blog-list > li .blog-details ul.date-cat li figure {margin-right: 10px;}
-.blog article ul.blog-list > li .blog-details ul.date-cat li p{margin:0;padding:0;}
-.blog article ul.blog-list > li .blog-details h4 {margin-bottom:10px;padding-right: 50px;}
-.blog article ul.blog-list > li .blog-details h4 ~ p {margin-bottom: 20px;}
-.blog article ul.blog-list > li .blog-details a.read-more { border-bottom: 2px solid #ccc; color: #263546; font-size: 16px; }
-.blog article ul.blog-list > li .blog-details a.read-more:hover{border-color:#00c6ff;color:#00c6ff;}
+.blog article .blog-details{padding:33px 33px;}
+.blog article .blog-details ul.date-cat{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;}
+.blog article .blog-details ul.date-cat li{display:flex;align-items:center;padding:0;margin:0;}
+.blog article .blog-details ul.date-cat li figure {margin-right: 10px;}
+.blog article .blog-details ul.date-cat li p{margin:0;padding:0;}
+.blog article .blog-details h4 {margin-bottom:10px;padding-right: 50px;}
+.blog article .blog-details h4 ~ p {margin-bottom: 20px;}
+.blog article .blog-details a.read-more { border-bottom: 2px solid #ccc; color: #263546; font-size: 16px; }
+.blog article .blog-details a.read-more:hover{border-color:#00c6ff;color:#00c6ff;}
 
-.blog article ul.blog-list > li .blog-details blockquote{background: transparent;border: none;font-weight: 300;position: relative;display: inline;}
-.blog article ul.blog-list > li .blog-details blockquote:before{content:'';background-image: url('../images/quote-img-1.png');background-repeat: no-repeat;height:50px;width:50px;position: absolute;top:0;left:0;z-index:-1;}
-.blog article ul.blog-list > li .blog-details blockquote:after{content:'';background-image: url('../images/quote-img-2.png');background-repeat: no-repeat;height:50px;width:50px;position: absolute;bottom:0;right:-40px;z-index:-1;}
-.blog article ul.blog-list > li .blog-details blockquote ~ p {margin-top: 30px;}
+.blog article .blog-details blockquote{background: transparent;border: none;font-weight: 300;position: relative;display: inline;}
+.blog article .blog-details blockquote:before{content:'';background-image: url('../images/quote-img-1.png');background-repeat: no-repeat;height:50px;width:50px;position: absolute;top:0;left:0;z-index:-1;}
+.blog article .blog-details blockquote:after{content:'';background-image: url('../images/quote-img-2.png');background-repeat: no-repeat;height:50px;width:50px;position: absolute;bottom:0;right:-40px;z-index:-1;}
+.blog article .blog-details blockquote ~ p {margin-top: 30px;}
 
 .simple-pagination {display: flex;justify-content: flex-end;padding:0;margin:0;}
 .simple-pagination ul{margin:0 0 20px;padding:0;list-style:none;text-align:center;}
@@ -477,6 +477,15 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .simple-pagination li span:hover{color:#FFF;background-color:#00c6ff;border-color:#00c6ff;}
 .simple-pagination .prev.current,
 .simple-pagination .next.current{background:#00c6ff;}
+
+
+/* Blog-Single
+------------------------------------------------------------------------------*/
+.blog.blog-single {margin-top: -50px;}
+.blog.blog-single .blog-list-wrap {flex-direction:row-reverse;}
+.blog.blog-single .blog-list-wrap aside {padding: 0;padding-left:25px;}
+.blog.blog-single .blog-list-wrap article{padding: 8px 25px 0 0;}
+
 
 /* Footer 
 ------------------------------------------------------------------------------*/
