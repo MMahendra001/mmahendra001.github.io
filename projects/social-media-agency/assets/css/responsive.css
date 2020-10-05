@@ -128,6 +128,35 @@
 	.blog article .blog-details blockquote ~ p { margin-top: 30px;}
 	.blog article .media-vid .intro-video{min-height:390px;}
 
+	/* Blog-Single
+	------------------------------------------------------------------------------*/
+	.blog.blog-single .blog-list-wrap aside {padding-left:43px;}
+	.blog.blog-single .blog-list-wrap article{padding: 8px 50px 0 0;}
+
+	.blog.blog-single article .blog-details{padding:38px 0;}
+	.blog.blog-single article .blog-details h4{margin-bottom:34px;}
+
+	.blog.blog-single .common-content p{margin-bottom:40px;}
+	.blog-single .common-content blockquote{margin-bottom:40px;}
+	.blog-single article .blog-details ul.btn-group {padding:40px 0;}
+
+	.blog-single .comment-box p.comment-no{margin-bottom: 84px;}
+	.blog-single ul.comment-list > li{padding:25px 48px 40px 15px;margin-bottom:105px;}
+
+	.blog-single ul.comment-list .comment-info .name-date{margin-bottom: 23px;}
+	.blog-single ul.comment-list .comment-info p {margin-bottom: 36px;line-height: 34px;}
+	.blog-single ul.comment-list .comment-info form {max-width: 521px;}
+
+	.blog-single .comment-form p {margin-bottom: 37px;}
+
+	.blog-single article .blog-details .comment-box {margin-top: 54px;}
+
+	.blog-single .comment-box ul.comment-list {padding-bottom: 90px;}
+	.blog-single .comment-box .comment-form {margin-top: 100px;}
+	.comment-form .form-group{margin-bottom:45px;}
+	.comment-form textarea{height: 238px;}
+
+
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer{padding: 100px 0 0 0;margin-top: -100px;}
@@ -252,6 +281,17 @@
 	.blog .blog-list-wrap aside {width:30%;padding-right:15px;}
 	.blog .blog-list-wrap article {width:70%;padding:0 0 0 15px;}
 
+	/* Blog-Single
+	------------------------------------------------------------------------------*/
+	.blog.blog-single {margin-top: -100px;}
+	.blog.blog-single .blog-list-wrap aside {width:28%;padding-left: 20px;}
+	.blog.blog-single .blog-list-wrap article {width: 72%;padding: 0px 20px 0 0;}
+	.blog-single article .blog-details ul.date-cat {width: 65%;}
+	.blog-single article .blog-details ul.like-btn-wrap {width: 35%;}
+	.blog.blog-single .common-content p {margin-bottom: 20px;margin-top: 0;}
+	.common-content blockquote p{line-height:27px;display:block;}
+	.common-content blockquote p:before,.common-content blockquote p:after,blockquote:before,blockquote:after{height: 40px;width: 40px;background-size:100%;}
+
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -296,6 +336,8 @@
 	
 	body.body-hide {overflow: hidden !important;}
 	body.body-hide:after{content:'';position:absolute;height:100%;width:100%;top:0;left:0;min-height:50000px;background:rgba(0,0,0,0.9);z-index:10;}   
+
+	.blog-page header nav ul li a, .blog-single-page header nav ul li a {color: #263546;font-weight: 400;}	
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
@@ -352,7 +394,15 @@
 	.blog .blog-list-wrap aside {width:33%;}
 	.blog .blog-list-wrap article {width:67%;}	
 	.blog article .blog-details {padding: 25px 20px;}
-			
+
+	/* Blog-Single
+	------------------------------------------------------------------------------*/
+	.blog.blog-single {margin-top: -185px;}	
+	.blog-single article .blog-details ul.date-cat {width: 100%;margin-bottom: 20px;}		
+	.blog-single article .blog-details ul.like-btn-wrap {width: 100%;justify-content:flex-start;}		
+	.blog.blog-single .blog-list-wrap aside {width: 30%;padding-left: 10px;}
+	.blog.blog-single .blog-list-wrap article {width: 70%;padding: 0px 15px 0 0;}
+	
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer .footer-wrap:before {left: -100px;top: -98px;}
@@ -394,6 +444,9 @@
 	.form-group.checkbox-btn-wrap input[type="checkbox"] + label:before{width: 16px;height: 16px;}
 	.form-group.checkbox-btn-wrap input[type="checkbox"]:checked + label:after{width: 5px;height: 10px;left: 1px;top: 4px;}
 
+	blockquote{line-height:normal;}	
+	.common-content blockquote{padding: 30px 30px;}
+	.common-content blockquote p:before, .common-content blockquote p:after,blockquote:before,blockquote:after {height: 30px;width: 30px;}
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
@@ -453,6 +506,22 @@
 	.blog article .blog-details ul.date-cat li p{font-size:14px;}
 	.blog article .blog-details ul.date-cat li figure {margin-right: 5px;}
 
+	/* Blog-Single
+	------------------------------------------------------------------------------*/
+	.blog.blog-single {margin-top: -185px;}	
+	.blog.blog-single .blog-list-wrap{flex-direction:column-reverse;}	
+	.blog.blog-single .blog-list-wrap aside {width:100%;padding-left:0;margin-top:20px;}
+	.blog.blog-single .blog-list-wrap article {width:100%;padding:0;margin:0;}
+	.blog-single article .blog-details ul.btn-group{padding:15px 0;}
+	.blog-single article .blog-details .comment-box{margin-top:30px;}
+	.blog-single ul.comment-list .comment-info p{line-height:normal;margin-bottom:10px;}
+	.blog-single ul.comment-list .comment-info{padding-top:0;}
+	.blog-single ul.comment-list > li{padding:25px 20px;margin-bottom:40px}	
+	.blog-single .comment-box ul.comment-list{padding-bottom:30px;}
+	.blog-single .comment-box .comment-form{margin-top:20px;}
+	.comment-form .form-group.submit-btn{margin:0;}
+
+
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer .container {max-width: 600px;}
@@ -467,7 +536,8 @@
 
 	/* Base Typography
 	------------------------------------------------------------------------------*/
-	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 40px;}
+	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 45px;}
+	.comment-form textarea {height: 140px;}
 
 	.form-group label {width: 100%;text-align: left;margin-bottom: 15px;}
 	.form-group select {height: 40px;}
@@ -543,9 +613,15 @@
 	p{font-size:15px;}
 	.btn{font-size:15px;}
 
-	blockquote {font-size:18px;}
+	blockquote {font-size:16px;display:block;}
+	.common-content blockquote {padding: 25px 20px;}
+	.common-content blockquote p {font-size: 15px;}	
+	.common-content blockquote p:before{top: 19px;left: 14px;}
+	.common-content blockquote p:after{right:15px;}
 
-	
+	blockquote:after{right:0;bottom:10px;}	
+	.comment-form .form-group {margin-bottom: 20px;}
+
 	/* Header
 	------------------------------------------------------------------------------*/	
 	.mobile-menu-icon{top:22px;}	
@@ -602,6 +678,23 @@
 	.blog article .blog-details ul.date-cat{flex-wrap:wrap;}	
 	.blog article .blog-details ul.date-cat li{margin-right:15px;margin-bottom:10px;}
 	.blog article .blog-details ul.date-cat li:last-child {margin-bottom:0;}
+	.blog article .blog-details a.read-more{font-size:15px;}
+
+
+	/* Blog-Single
+	------------------------------------------------------------------------------*/
+	.blog.blog-single{padding:0 0 70px 0;margin-top: -213px;}
+	.blog.blog-single article .blog-details {padding: 20px 0;}
+	.blog-single article .blog-details ul.date-cat{margin-bottom:0;}
+	.blog.blog-single article .blog-details h4 {margin-bottom: 15px;padding: 0;}
+	.blog.blog-single .common-content p {margin-bottom: 10px;}
+	.blog-single .common-content blockquote {margin-bottom: 15px;}	
+
+	.blog-single article .blog-details ul.btn-group{flex-direction: column;align-items: center;}
+	.blog-single article .blog-details ul.btn-group li:not(:last-child){margin-bottom:15px;}
+	.blog-single ul.comment-list .comment-img {width: 100%;text-align: center;padding:0;margin-bottom: 20px;}
+	.blog-single ul.comment-list .comment-info {width: 100%;padding: 0;}
+
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer .footer-wrap:after {right: -159px;top: -59px;}
