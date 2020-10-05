@@ -110,6 +110,13 @@ jQuery(document).ready(function(){
 
         });
 
+  /* Mobile Menu
+  --------------------------------------------------*/ 
+
+      $(".like-btn").click(function () {
+          $(this).toggleClass('like');
+        });        
+
 });
 
 

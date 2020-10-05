@@ -19,6 +19,9 @@
 	.h5,h5 {font-size: 22px;margin-bottom: 15px;}
 	.h6,h6 {font-size: 18px;margin-bottom: 10px;}	
 
+	blockquote {font-size:30px;}
+
+
 	/* Home Banner
 	------------------------------------------------------------------------------*/	
 	.home-banner{background-size: 100vw;background-position: 25% 0%;}
@@ -148,7 +151,7 @@
 	
 	header{background:#0085ff;}			
 	header nav li a{color:#fff;}	
-	.blog-page header{background:transparent;}	
+	.blog-page header,.blog-single-page header{background:transparent;}	
 	/* Home Banner
 	------------------------------------------------------------------------------*/	
 	.home-banner{display: flex;align-items: center;background-position: 25% 90%;min-height: 700px;}
@@ -207,6 +210,8 @@
 	.h4,h4{font-size:24px;}
 	.h5,h5{font-size:18px;}
 	.h6,h6{font-size:16px;}	
+
+	blockquote {font-size:24px;}
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/	
@@ -274,6 +279,9 @@
 	.h4,h4 {font-size: 20px;}
 	.h5,h5 {font-size: 18px;}
 	.h6,h6 {font-size: 16px;}	
+
+	blockquote {font-size:20px;}
+
 
 	body {font-size: 16px;}	
 	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 50px;}
@@ -364,12 +372,28 @@
 	.h3, h3 {font-size: 22px;line-height:normal;}
 	.h4,h4 {font-size: 20px;line-height:normal;}
 	.h5,h5 {font-size: 18px;line-height:normal;}
-	.h6,h6 {font-size: 16px;line-height:normal;}
+	.h6,h6 {font-size: 16px;line-height:normal;}	
 
 	select {padding-left: 15px;padding-right: 35px;background-size: 10px;background-position: right 15px center;font-size: 18px;}
 	p {font-size: 16px;}
 	.btn {padding: 10px 40px 10px 30px;font-size: 16px;}
 	.btn:after{right:22px;top:18px;}
+
+	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"]{font-size:15px;}
+	.form-group label {font-size: 15px;}
+	.form-group label, .form-group input, .form-group select {width: 100%;font-size:15px;}	
+	textarea{font-size:15px;padding: 10px 15px;}
+
+	select {padding:10px 35px 10px 15px;background-size: 10px;background-position: right 15px center;font-size:15px;}
+	select option{font-size:15px;}
+	.form-group {margin-bottom: 25px;}
+
+	.form-group.radio-btn-wrap input[type="radio"] + label:before{width: 16px;height: 16px;}
+	.form-group.radio-btn-wrap input[type="radio"]:checked + label:after{width:10px;height:10px;}
+
+	.form-group.checkbox-btn-wrap input[type="checkbox"] + label:before{width: 16px;height: 16px;}
+	.form-group.checkbox-btn-wrap input[type="checkbox"]:checked + label:after{width: 5px;height: 10px;left: 1px;top: 4px;}
+
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
@@ -445,6 +469,13 @@
 	------------------------------------------------------------------------------*/
 	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 40px;}
 
+	.form-group label {width: 100%;text-align: left;margin-bottom: 15px;}
+	.form-group select {height: 40px;}
+	.form-group label, .form-group input, .form-group select {width: 100%;font-size:15px;}	
+
+	.form-group.left{width:100%;padding-right:0px;}
+	.form-group.right{width:100%;padding-left:0px;}	
+
 	/* Home Banner
 	------------------------------------------------------------------------------*/
 
@@ -511,6 +542,9 @@
 	.h6,h6{font-size:16px;}
 	p{font-size:15px;}
 	.btn{font-size:15px;}
+
+	blockquote {font-size:18px;}
+
 	
 	/* Header
 	------------------------------------------------------------------------------*/	

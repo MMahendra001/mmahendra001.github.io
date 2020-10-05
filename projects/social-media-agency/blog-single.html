@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">	
 </head>
 <body>
-    <div class="blog-page">
+    <div class="blog-single-page">
         <main>
             <!-- Preloader -->
 
@@ -128,7 +128,7 @@
                             <ul class="blog-sidebar">
                                 <li class="search-bar">
                                     <h6>SEARCH</h6>
-                                    <form  id="search-form" action="/action_page.php" target="_blank">
+                                    <form  id="search-form" action="javascript:void(0);">
                                         <div class="form-group-wrap">
                                             <label for="search" id="search-label">Search</label>
                                             <input type="search" name="search" id="search" placeholder="Search" required>
@@ -182,7 +182,7 @@
                                 </li>    
                                 <li class="newsletter">
                                     <h6>NEWSLETTER</h6>
-                                    <form  id="newsletter-form" action="/action_page.php" target="_blank">
+                                    <form  id="newsletter-form" action="javascript:void(0);">
                                         <div class="form-group-wrap">
                                             <label for="newsletter" id="newsletter-label">Newsletter</label>
                                             <input type="email" name="newsletter" id="newsletter" placeholder="Enter email address" required>
@@ -218,36 +218,164 @@
                         <article>
                             <div class="blog-wrap" id="blog-wrap">
                                     <div class="blog-img">
-                                        <a href="#" class="img-link">
-                                            <figure>
-                                                <img src="assets/images/blog-list-img-1.png">
-                                            </figure>
-                                        </a>
+                                        <figure>
+                                            <img src="assets/images/blog-list-img-1.png">
+                                        </figure>
                                     </div>
                                     <div class="blog-details">
-                                        <ul class="date-cat">
+                                        <div class="date-like-wrap">
+                                            <ul class="date-cat">
+                                                <li>
+                                                    <figure>
+                                                        <i class="far fa-user"></i>                                                    
+                                                    </figure>
+                                                    <p><a href="#">Andrei Fredy</a></p>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <i class="far fa-clock"></i>                                                    
+                                                    </figure>
+                                                    <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <i class="fas fa-tags"></i>
+                                                    </figure>
+                                                    <p>Digital Marketing</p>
+                                                </li>                                                                                        
+                                            </ul>
+                                            <ul class="like-btn-wrap">
+                                                <li>
+                                                    <figure>
+                                                        <i class="fas fa-comment"></i>
+                                                    </figure>
+                                                    <p><span>3</span> comments</p>                                                    
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <a href="#" class="like-btn">                                                            
+                                                            <i class="fas fa-heart"></i>  
+                                                        </a>                                                  
+                                                    </figure>
+                                                    <p>Like</p>  
+                                                </li>                                                
+                                            </ul>
+                                        </div>
+                                        <div class="common-content">
+                                            <h4>How to save time using Social Media Management? - 5 Easy steps</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. .cillum dolore eu fugiat nulla pariatur.</p>
+
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> 
+
+                                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste.</p>   
+                                            
+                                            <blockquote><p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                                            sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
+                                            quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p></blockquote> 
+
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> 
+
+                                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste.</p>   
+                                        </div>
+                                        <ul class="btn-group">
                                             <li>
-                                                <figure>
-                                                    <i class="far fa-user"></i>                                                    
-                                                </figure>
-                                                <p><a href="#">Andrei Fredy</a></p>
+                                                <a href="#" class="btn pre">Previous Post</a>
                                             </li>
                                             <li>
-                                                <figure>
-                                                    <i class="far fa-clock"></i>                                                    
-                                                </figure>
-                                                <p><time datetime="2019-14-04">April 14, 2019</time></p>                                            
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <i class="fas fa-tags"></i>
-                                                </figure>
-                                                <p>Digital Marketing</p>
-                                            </li>                                                                                        
+                                                <a href="#" class="btn next active">Next Post</a>
+                                            </li>                                            
                                         </ul>
-                                        <h4><a href="#">How to save time using Social Media Management? - 5 Easy steps</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-                                        <a href="#" class="read-more">READ MORE</a>
+                                        <div class="comment-box">
+                                            <p class="comment-no"><span>3</span> Comments on this</p>
+                                            <ul class="comment-list">
+                                                <li>
+                                                    <div class="comment-img">
+                                                        <figure>
+                                                            <img src="assets/images/usercomment-img-1.png">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="comment-info">
+                                                        <div class="name-date">
+                                                            <h6>William Jackson</h6>
+                                                            <time datetime="2019-12-04">April 12, 2019</time>
+                                                        </div>
+                                                        <p class="user-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                        <form  id="user-reply-form" action="javascript:void(0);">
+                                                            <div class="form-group-wrap inline-btn">
+                                                                <label for="comment-1-reply" id="reply-label">Comment 1 Reply</label>
+                                                                <input type="text" name="comment-1-reply" id="comment-1-reply" placeholder="Type your comment" required>
+                                                                <button type="submit" value="Submit" id="submit"><i class="fas fa-paper-plane"></i></button>
+                                                            </div>                                                                                                                
+                                                        </form>                                                         
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="comment-img">
+                                                        <figure>
+                                                            <img src="assets/images/usercomment-img-2.png">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="comment-info">
+                                                        <div class="name-date">
+                                                            <h6>Michael John</h6>
+                                                            <time datetime="2019-12-04">April 12, 2019</time>
+                                                        </div>
+                                                        <p class="user-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                        <form  id="user-reply-form" action="javascript:void(0);">
+                                                            <div class="form-group-wrap inline-btn">
+                                                                <label for="comment-2-reply" id="reply-label">Comment 2 Reply</label>
+                                                                <input type="text" name="comment-2-reply" id="comment-2-reply" placeholder="Type your comment" required>
+                                                                <button type="submit" value="Submit" id="submit"><i class="fas fa-paper-plane"></i></button>
+                                                            </div>                                                                                                                
+                                                        </form>                                                         
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="comment-img">
+                                                        <figure>
+                                                            <img src="assets/images/usercomment-img-3.png">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="comment-info">
+                                                        <div class="name-date">
+                                                            <h6>Steve Andrew</h6>
+                                                            <time datetime="2019-12-04">April 12, 2019</time>
+                                                        </div>
+                                                        <p class="user-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                        <form  id="user-reply-form" action="javascript:void(0);">
+                                                            <div class="form-group-wrap inline-btn">
+                                                                <label for="comment-3-reply" id="reply-label">Comment 3 Reply</label>
+                                                                <input type="text" name="comment-3-reply" id="comment-3-reply" placeholder="Type your comment" required>
+                                                                <button type="submit" value="Submit" id="submit"><i class="fas fa-paper-plane"></i></button>
+                                                            </div>                                                                                                                
+                                                        </form>                                                         
+                                                    </div>
+                                                </li>                                                                                                
+                                            </ul>
+                                            <div class="comment-form">
+                                                <p>Leave a comment here</p>                                                
+                                                <form  id="comment-form" action="javascript:void(0);">
+                                                    <div class="form-group-wrap">
+                                                        <div class="form-group left">
+                                                            <label for="name" id="name-label">Your Name</label>
+                                                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                                                        </div>
+                                                        <div class="form-group right">
+                                                            <label for="email" id="email-label">Email Address</label>
+                                                            <input type="email" name="email" id="email" placeholder="Email Address" required>
+                                                        </div>  
+                                                    </div>                     
+                                                    <div class="form-group">
+                                                        <label for="your-comment" id="your-comment">Your Comment</label>
+                                                        <textarea name="your-comment"  id="your-comment" placeholder="Your Comment"></textarea>
+                                                    </div>                  
+                                                    <div class="form-group submit-btn">
+                                                      <button type="submit" value="Submit" id="submit" class="btn">Submit</button>
+                                                    </div>                                                      
+                                                </form>                                                
+                                            </div> 
+                                        </div>                                     
                                     </div>
                             </div>
                         </article>
