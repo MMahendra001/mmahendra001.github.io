@@ -538,7 +538,7 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .blog-single article .blog-details .date-like-wrap{display:flex;flex-wrap:wrap;margin-bottom:20px;}
 .blog-single article .blog-details ul.date-cat {width:55%;margin: 0;}
 .blog-single article .blog-details ul.like-btn-wrap{width:45%;display:flex;justify-content:flex-end;}
-.blog-single article .blog-details ul.like-btn-wrap li{display:flex;padding:0;margin:0;margin-right:20px;}
+.blog-single article .blog-details ul.like-btn-wrap li{display:flex;align-items:center;padding:0;margin:0;margin-right:20px;}
 .blog-single article .blog-details ul.like-btn-wrap li:last-child{margin-right:0;}
 .blog-single article .blog-details ul.like-btn-wrap li figure{margin-right:10px;}
 

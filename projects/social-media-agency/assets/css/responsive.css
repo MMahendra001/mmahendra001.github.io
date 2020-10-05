@@ -215,7 +215,7 @@
 	header{background:#0085ff;}			
 	header nav li a{color:#fff;}
 	.blog-page header{background:transparent;}		
-
+	.blog-page header.sticky {background: #0079ff;}
 	/* Home Banner
 	------------------------------------------------------------------------------*/
 	.home-banner{background-size: 126vw;display: flex;background-position: 76% 90%;min-height:600px}
@@ -461,6 +461,7 @@
 	.help-you .help-info h4 {margin-bottom: 20px;}
 	.help-you .help-info .btn {margin-top: 10px;}
 	.help-you .help-info p {line-height:27px;}
+	.help-you .help-list ul{margin-bottom:-50px;}
 
 	/* Meadia Mgmt
 	------------------------------------------------------------------------------*/
@@ -710,6 +711,8 @@
 	.help-you .help-list ul li {width: 100%;margin: 0;padding:30px 0;border-bottom:1px solid #eee;}
 	.help-you .help-list ul li:last-child{border-bottom:none;padding-bottom:0;}
 	.help-you .help-list h6 {padding: 0 50px;}
+	.help-you .help-list ul{margin-bottom:-10px;}
+
 
 	/* Meadia Mgmt
 	------------------------------------------------------------------------------*/
