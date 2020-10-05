@@ -57,7 +57,7 @@ jQuery(document).ready(function(){
       $(window).scroll(function() {
 
       if ($(this).scrollTop() > 1){  
-          $('header').addClass("stickyl");
+          $('header').addClass("sticky");
         }
         else{
           $('header').removeClass("sticky");

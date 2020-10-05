@@ -267,7 +267,7 @@ header .mobile-menu ul {padding: 0 0;}
 header .mobile-menu ul li{position:relative;width:100%;}
 header .mobile-menu ul li:last-child{padding-right:0;padding-left:0;border:none;}
 header .mobile-menu ul > li{border-bottom:1px solid #ccc;position:relative;}
-header .mobile-menu ul li a{display:block;padding:0 20px;text-align:left;font-weight:600;}
+header .mobile-menu ul li a{display:block;padding:0 20px;text-align:left;font-weight:400;}
 header.sticky .mobile-menu ul li a{color:#263546;} 
 header.sticky .mobile-menu .sub-menu li a{color:#fff;}
 
