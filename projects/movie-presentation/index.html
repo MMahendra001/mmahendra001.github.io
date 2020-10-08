@@ -1,53 +1,405 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>Project Name</title>
+    <meta charset="UTF-8">
+    <title>Movie-Presentation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="" />
-    <meta name="keywords" content="">	
-	<link rel="icon" type="image/ico" href="assets/images/favicon.png">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">        
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">	
+    <meta name="keywords" content="">
+    <link rel="icon" type="image/ico" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">    
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
+<!-- <i class="fas fa-search"></i> -->
+<!-- <i class="fas fa-play"></i> -->
+<!-- <i class="fas fa-plus"></i> -->
+<!-- <i class="fas fa-chevron-right"></i> -->
+<!-- <i class="fas fa-chevron-left"></i> -->
+<!-- <i class="fal fa-chevron-left"></i> -->
+<!-- <i class="fas fa-heart"></i> -->
+<!-- <i class="fas fa-eye"></i> -->
+<!-- <i class="fas fa-star"></i> -->
+<!-- <i class="far fa-star"></i> -->
+<!-- <i class="fab fa-facebook-square"></i> -->
+<!-- <i class="fab fa-google-plus-g"></i> -->
+<!-- <i class="fab fa-twitter"></i> -->
+<!-- <i class="fab fa-instagram"></i> -->
+<!-- <i class="fab fa-vimeo-v"></i> -->
+<!-- <i class="fab fa-pinterest-p"></i> -->
+<!-- <i class="fab fa-facebook-f"></i> -->
+<!-- <i class="far fa-comment"></i> -->
+
 <body>
     <main>
         <!-- Preloader -->
-<!--         <div id="preloader">
-          <div id="status">
-            <div class="preloader">
-                <img src="assets/images/logo.png">
+        <div id="preloader">
+            <div id="status">
+                <div class="preloader">
+                    <img src="assets/images/logo.png">
+                </div>
             </div>
-          </div>
-        </div>   -->      
-        
+        </div>
+        <!-- Header -->
         <header id="navbar">
-            <div class="container">            
+            <div class="container">
+                <div class="logo">
+                    <a href="#header-banner">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="desktop-menu">
+                    <ul>
+                        <li>
+                            <a href="#homepage">Homepage</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#serials">Serials</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#platform-one">One</a>
+                                </li>
+                                <li>
+                                    <a href="#platform-two">Two</a>
+                                </li>
+                                <li>
+                                    <a href="#platform-three">Three</a>
+                                </li>
+                                <li>
+                                    <a href="#platform-four">Four</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#movies">Movies</a>
+                        </li>
+                        <li>
+                            <a href="#favorites">Favorites</a>
+                        </li>
+                        <li>
+                            <a href="#my-list">My List</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="search-login">
+                    <li>
+                        <form id="search-form" action="javascript:void(0);">
+                            <div class="form-group-wrap">
+                                <label for="search" id="search-label">Search</label>
+                                <input type="search" name="search" id="search" placeholder="Search" required>
+                                <button type="submit" value="Submit" id="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn">Sign Up</a>
+                    </li>
+                </ul>
+                <nav class="mobile-menu" style="display:none;">
+                    <ul>
+                        <li>
+                            <a href="#homepage">Homepage</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#serials">Serials</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">One</a>
+                                </li>
+                                <li>
+                                    <a href="#">Two</a>
+                                </li>
+                                <li>
+                                    <a href="#">Three</a>
+                                </li>
+                                <li>
+                                    <a href="#">Four</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#movies">Movies</a>
+                        </li>
+                        <li>
+                            <a href="#favorites">Favorites</a>
+                        </li>
+                        <li>
+                            <a href="#my-list">My List</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-icon" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
             </div>
         </header>
-
-        <!-- Home -->
-    
-        <section class="home">
-            <div class="container">
-                <h1>Comming Soon</h1>
+        <!-- Top Background -->
+        <section class="top-backgound-wrap">
+            <div class="top-backgound bg" style="background-image:url('assets/images/top-bg-img.png');">
             </div>
         </section>
-
-    	<footer>
-            <div class="container">                          
+        <!-- HomeBanner -->        
+        <section class="home-banner">
+            <div class="container">
+                <div class="about-movie">
+                    <div class="movie-info">
+                        <ul class="category">
+                            <li>
+                                <a href="#" class="yellow-cat">2012</a>
+                            </li>
+                            <li>
+                                <a href="#" class="blue-cat">ACTION</a>
+                            </li>
+                            <li>
+                                <a href="#" class="orange-cat">ADVENTURE</a>
+                            </li>
+                        </ul>
+                        <h1><a href="#">THE AVENGERS</a></h1>
+                        <p>When Thor's evil brother, Loki (Tom Hiddleston), gains access to the
+                            unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth.</p>
+                        <ul class="btn-group">
+                            <li>
+                                <a href="#" class="btn"><i class="fas fa-play"></i> PLAY TRAILER</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn black"><i class="fas fa-plus"></i> ADD TO LIST</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="movie-img">
+                        <figure>
+                            <img src="assets/images/homebanner-img.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="banner-slider">
+                    <p>POPULAR SERIALS</p>
+                    <ul class="serials-slider">
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-0.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-1.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-2.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-3.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-4.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-5.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-6.png">
+                                </figure>
+                            </a>
+                        </li> 
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-0.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-1.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-2.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-3.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-4.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-5.png">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="movie-single.html" target="_blank">
+                                <figure>
+                                    <img src="assets/images/homebanner-slider-img-6.png">
+                                </figure>
+                            </a>
+                        </li>                           
+                    </ul>
+                </div>
             </div>
-    	</footer>
-
+        </section>
+        <!-- Movie Trailer -->                
+        <section class="movie-trailer bg" style="background-image:url('assets/images/movie-video-bg-1.png');">
+            <div class="container">
+                <div class="about-movie">
+                    <div class="movie-video">
+                        <div class="video-wrap" data-url="https://www.youtube.com/embed/XiHiW4N7-bo">
+                          <div class="video-thumbnail bg" style="background-image:url('assets/images/video-thumbnail-1.png');">
+                            <img src="assets/images/play-btn.png" class="play-btn" alt="Play Button" />
+                          </div>
+                        </div>
+                    </div>      
+                    <div class="movie-info">
+                        <ul class="category">
+                            <li>
+                                <a href="#" class="yellow-cat">2012</a>
+                            </li>
+                            <li>
+                                <a href="#" class="blue-cat">ACTION</a>
+                            </li>
+                            <li>
+                                <a href="#" class="orange-cat">ADVENTURE</a>
+                            </li>
+                        </ul>
+                        <h3><a href="#">MISSION : IMPOSSIBLE</a></h3>
+                        <p>Ethan Hunt and the IMF team join forces with CIA assassin August Walker to prevent a disaster of epic proportions. Arms dealer John Lark and a group of terrorists known as the Apostles plan to use three plutonium cores for a simultaneous nuclear attack on the</p>
+                        <ul class="btn-group">
+                            <li>
+                                <a href="#" class="btn"><i class="fas fa-play"></i> PLAY TRAILER</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn black"><i class="fas fa-plus"></i> ADD TO LIST</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- Upcomming Movie -->                        
+        <section class="upcomming-movie bg" style="background-image:url('assets/images/jurassic-world-bg.png');">
+            <div class="container">
+                <div class="about-movie">    
+                    <div class="movie-info">
+                        <ul class="category">
+                            <li>
+                                <a href="#" class="yellow-cat">2012</a>
+                            </li>
+                            <li>
+                                <a href="#" class="blue-cat">ACTION</a>
+                            </li>
+                            <li>
+                                <a href="#" class="orange-cat">ADVENTURE</a>
+                            </li>
+                        </ul>
+                        <h3><a href="#">JURASSIC WORLD : FALLEN KINGDOM</a></h3>
+                        <p>Three years after the destruction of the Jurassic World theme park, Owen Grady and Claire Dearing return to the island of Isla Nublar to save the remaining dinosaurs from a volcano that's about to erupt. They soon encounter terrifying new breeds of gigantic</p>
+                        <ul class="btn-group">
+                            <li>
+                                <a href="#" class="btn"><i class="fas fa-play"></i> PLAY TRAILER</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn black"><i class="fas fa-plus"></i> ADD TO LIST</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <!-- Movie Trailer (Repeat) -->                                
+        <section class="movie-trailer bg" style="background-image:url('assets/images/movie-video-bg-2.png');">
+            <div class="container">
+                <div class="about-movie">
+                    <div class="movie-video">
+                        <div class="video-wrap" data-url="https://www.youtube.com/embed/XiHiW4N7-bo">
+                          <div class="video-thumbnail bg" style="background-image:url('assets/images/video-thumbnail-2.png');">
+                            <img src="assets/images/play-btn.png" class="play-btn" alt="Play Button" />
+                          </div>
+                        </div>
+                    </div>      
+                    <div class="movie-info">
+                        <ul class="category">
+                            <li>
+                                <a href="#" class="yellow-cat">2012</a>
+                            </li>
+                            <li>
+                                <a href="#" class="blue-cat">ACTION</a>
+                            </li>
+                            <li>
+                                <a href="#" class="orange-cat">ADVENTURE</a>
+                            </li>
+                        </ul>
+                        <h3><a href="#">VENOM</a></h3>
+                        <p>Journalist Eddie Brock is trying to take down Carlton Drake, the notorious and brilliant founder of the Life Foundation. While investigating one of Drake's experiments, Eddie's body merges with the alien Venom -- leaving him with superhuman strength</p>
+                        <ul class="btn-group">
+                            <li>
+                                <a href="#" class="btn"><i class="fas fa-play"></i> PLAY TRAILER</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn black"><i class="fas fa-plus"></i> ADD TO LIST</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fotter -->                                        
+        <footer>
+            <div class="container">
+            </div>
+        </footer>
     </main>
-        
-	<script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
-    <script type="text/javascript" src="assets/js/slick.min.js"></script>    
-	<script type='text/javascript' src='assets/js/script.js'></script>
+    <script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
+    <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script type='text/javascript' src='assets/js/script.js'></script>  
 </body>
-</html>
 
+</html>

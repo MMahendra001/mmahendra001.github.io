@@ -681,6 +681,10 @@
 	.blog article .blog-details ul.date-cat li:last-child {margin-bottom:0;}
 	.blog article .blog-details a.read-more{font-size:15px;}
 
+	.simple-pagination{justify-content: center;}
+	.simple-pagination li{margin-right:5px;}
+	.simple-pagination li a, .simple-pagination li span{padding: 5px 14px;font-size:12px;}	
+
 
 	/* Blog-Single
 	------------------------------------------------------------------------------*/

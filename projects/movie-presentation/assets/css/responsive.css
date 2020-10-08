@@ -1,69 +1,179 @@
-/*Responsive*/
+/*----------------------------- Responsive ------------------------------------------*/
 
-@media only screen and  (min-width: 1600px) {
-	.h1, h1 {font-size: 55px;}
-	.h2, h2 {font-size: 50px;}
-	.h3, h3 {font-size: 40px;}
-	.h4,h4 {font-size: 29px;}
-	.h5,h5 {font-size: 24px;}
-	.h6,h6 {font-size: 22px;}
+/*Min*/
+
+@media only screen and  (min-width:1400px){
+
+
+}
+
+@media only screen and  (min-width:1600px){
+
+	.h1,h1 {font-size: 60px;line-height: 62px;margin-bottom: 28px;}
+	.h2,h2 {font-size: 46px;line-height: 57px;}
+	.h3,h3 {font-size: 36px;line-height: 55px;}
+	.h4,h4 {font-size: 26px;line-height:50px;}
+	.h5,h5 {font-size: 16px;}
+	.h6,h6 {font-size: 14px;}	
+
+}
+
+@media only screen and  (min-width:1900px){
+
+	/* 
+	------------------------------------------------------------------------------*/
+
+}
+
+
+/*Max*/
+
+
+
+@media only screen and (max-width:1299px){
+
+
 
 }
 
 @media only screen and (max-width:1199px){
-	body {font-size: 16px;}
-	.h1, h1 {font-size: 45px;}
-	.h2, h2 {font-size: 40px;}
-	.h3, h3 {font-size: 30px;}
-	.h4,h4 {font-size: 27px;}
-	.h5,h5 {font-size: 22px;}
-	.h6,h6 {font-size: 20px;}	
-	.btn {padding: 12px 15px;}	
+
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	body{font-size:14px;}
+
+	.h1,h1 {font-size: 45px;margin-bottom:20px;}
+	.h2,h2 {font-size: 35px;}
+	.h3,h3 {font-size: 25px;}
+	.h4,h4 {font-size: 18px;}
+	.h5,h5 {font-size: 16px;}
+	.h6,h6 {font-size: 14px;}		
+
+	/* Footer
+	------------------------------------------------------------------------------*/
+
 
 }
-@media only screen and (max-width:991px){
 
-	body {font-size: 16px;}
-	.h1, h1 {font-size: 40px;}
-	.h2, h2 {font-size: 35px;}
-	.h3, h3 {font-size: 27px;}
-	.h4,h4 {font-size: 24px;}
-	.h5,h5 {font-size: 20px;}
-	.h6,h6 {font-size: 18px;}	
-	.btn {padding: 10px;font-size: 12px;}
+@media only screen and (min-width:992px){
+    .mobile-menu{display:none;}
+}
+
+@media only screen and (max-width:991px){
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	body {font-size: 14px;}	
+
+	.h1,h1 {font-size: 40px;}
+	.h2,h2 {font-size: 30px;}
+	.h3,h3 {font-size: 20px;}
+	.h4,h4 {font-size: 17px;}
+	.h5,h5 {font-size: 15px;}
+
+
 	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 50px;}
 	
-	.heading h2,.heading h1.h2{margin: 0px 0px 30px;}
+	/* Header
+	------------------------------------------------------------------------------*/	
+	header{padding:20px 0;background:transparent;}		
+	header nav li a{color:#263546;}	
+	header .logo {width: 50%;}
+	.mobile-menu-icon{display:inline-block;}
+    .desktop-menu{display:none;}
+	
+	body.body-hide {overflow: hidden !important;}
+	body.body-hide:after{content:'';position:absolute;height:100%;width:100%;top:0;left:0;min-height:50000px;background:rgba(0,0,0,0.9);z-index:10;}   
+
+	.blog-page header nav ul li a, .blog-single-page header nav ul li a {color: #263546;font-weight: 400;}	
+
+	/* Home Banner
+	------------------------------------------------------------------------------*/
+	
+	/* Footer
+	------------------------------------------------------------------------------*/
+
 }
+
 @media only screen and (max-width:767px){
+	
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {line-height:normal;}
+	.h1,h1 {font-size: 35px;}
+	.h2,h2 {font-size: 25px;}
+	.h3,h3 {font-size: 18px;}
+	.h4,h4 {font-size: 17px;}
 
-
-	.h1, h1 {font-size: 37px;}
-	.h2, h2 {font-size: 33px;}
-	.h3, h3 {font-size: 23px;}
-	.h4,h4 {font-size: 20px;}
-	.h5,h5 {font-size: 18px;}
-	.h6,h6 {font-size: 18px;}
-	.btn {padding: 10px;font-size: 12px;}
 	select {padding-left: 15px;padding-right: 35px;background-size: 10px;background-position: right 15px center;font-size: 18px;}
-	p {font-size: 15px;}	
+	p {font-size: 14px;}
+	.btn {padding: 10px 40px 10px 30px;font-size: 12px;}
+	.btn:after{right:22px;top:18px;}
+
+	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"]{font-size:15px;}
+	.form-group label {font-size: 14px;}
+	.form-group label, .form-group input, .form-group select {width: 100%;font-size:14px;}	
+	textarea{font-size:14px;padding: 10px 15px;}
+
+	select {padding:10px 35px 10px 15px;background-size: 10px;background-position: right 15px center;font-size:15px;}
+	select option{font-size:14px;}
+	.form-group {margin-bottom: 25px;}
+
+	.form-group.radio-btn-wrap input[type="radio"] + label:before{width: 16px;height: 16px;}
+	.form-group.radio-btn-wrap input[type="radio"]:checked + label:after{width:10px;height:10px;}
+
+	.form-group.checkbox-btn-wrap input[type="checkbox"] + label:before{width: 16px;height: 16px;}
+	.form-group.checkbox-btn-wrap input[type="checkbox"]:checked + label:after{width: 5px;height: 10px;left: 1px;top: 4px;}
+
+	/* Footer
+	------------------------------------------------------------------------------*/
 
 }
+
 @media only screen and (max-width:640px){
-	.h1, h1 {font-size: 33px;}
-	.h2, h2 {font-size: 28px;}
-	.h3, h3 {font-size: 22px;}
-	.h4,h4 {font-size: 20px;}
-	.h5,h5 {font-size: 18px;}
-	.h6,h6 {font-size: 18px;}
-	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 40px;}
+
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 45px;}
+	.comment-form textarea {height: 140px;}
+
+	.form-group label {width: 100%;text-align: left;margin-bottom: 15px;}
+	.form-group select {height: 40px;}
+	.form-group label, .form-group input, .form-group select {width: 100%;font-size:14px;}	
+
+	.form-group.left{width:100%;padding-right:0px;}
+	.form-group.right{width:100%;padding-left:0px;}	
 
 
 }
+
 @media only screen and (max-width:479px){
 
+	/* Base Typography
+	------------------------------------------------------------------------------*/
+
+	.h1,h1 {font-size: 27px;}
+	.h2,h2 {font-size: 22px;}
+	.h3,h3 {font-size: 17px;}
+	.h4,h4 {font-size: 14px;}
+	.h5,h5 {font-size: 12px;}
+	.h6,h6 {font-size: 10px;}	
+	
+
+	p{font-size:14px;}
+	.btn{font-size:12px;}
+
+	/* Header
+	------------------------------------------------------------------------------*/	
+	.mobile-menu-icon{top:22px;}	
+	header .logo img {width: 100px;}
+	.bar1, .bar2, .bar3{height: 3px;}
+	.change .bar1{-webkit-transform:rotate(-45deg) translate(-6px,5px);transform:rotate(-45deg) translate(-6px,5px);}
+	.change .bar3{-webkit-transform:rotate(45deg) translate(-7px,-8px);transform:rotate(45deg) translate(-7px,-8px);}
+
 
 }
+
 @media only screen and (max-width:359px){
+
 
 }
