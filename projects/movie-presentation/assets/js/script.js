@@ -47,33 +47,104 @@ Array.prototype.forEach.call(links, function(elem, index) {
 });
 
 
-// This function will get the video ID
-function get_video_id(url) {
-    var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
-    var match = url.match(regExp);
-    return (match && match[7].length == 11) ? match[7] : false;
-}
 
-// Start Appending the elements to the dom
-$(document).ready(function() {
+/* Movie Category
+--------------------------------------------------*/
+// set up variables
+var categoryFilters = [];
+var categoryFilter;
 
-    // Append the video iframe on user's click on the thumbnail
-    $('.video-wrap').click(function() {
-        var id = get_video_id($(this).data('url')); // Get the ID
-        $(this).append(
-            '<iframe src="https://www.youtube.com/embed/' + id + '?showinfo=0&iv_load_policy=3&modestbranding=1&autoplay=1" allow="autoplay;picture-in-picture" allowfullscreen></iframe>'); // Appending the iframe
-        $(this).find('.video-thumbnail').fadeOut(); // Remove the Video Thumbnail
-
-
-    });
-
+// init Isotope
+var $container = $('#movie-grid').isotope({
+    itemSelector: '.item',
+    filter: function() {
+        var length = categoryFilters.length;
+        if (!length) {
+            return true;
+        }
+        var $this = $(this);
+        // check if all category filter match
+        for (var i = 0; i < length; i++) {
+            var catFilter = categoryFilters[i];
+            if (!$this.is('[data-category*=' + catFilter + ']')) {
+                return false;
+            }
+        }
+        // otherwise match
+        return true;
+    }
 
 });
 
+// filter with checkboxes
+var $checkboxes = $('.movie-filter input');
 
-jQuery(document).ready(function() {
+$checkboxes.change(function() {
+    categoryFilters = [];
+    $checkboxes.each(function(i, elem) {
+        if (elem.checked) {
+            categoryFilters.push(elem.value);
+        }
+        console.log(categoryFilters.join(','));
+        $container.isotope();
+    });
+    // $('.movie-filter li').toggleClass("active");
+});
+
+//****************************
+// Isotope Load more button
+//**************************** 
+var initShow = 10; //number of images loaded on init & onclick load more button
+var counter = initShow; //counter for load more button
+var iso = $container.data('isotope'); // get Isotope instance
+//console.log(iso.elemCount);
+
+loadMore(initShow); //execute function onload
+
+function loadMore(toShow) {
+
+    $container.find(".hidden").removeClass("hidden");
+
+    var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
+        //console.log(item.element);
+        return item.element;
+    });
+    $(hiddenElems).addClass('hidden');
+    $container.isotope('layout');
+
+    //when no more to load, hide show more button
+    if (hiddenElems.length == 0) {
+        $("#load-more-btn").hide();
+    } else {
+        $("#load-more-btn").show();
+    }
+
+}
+
+//append load more button
+$container.after('<div class="load-more"><a href="#" class="btn gray" id="load-more-btn"><i class="fas fa-plus"></i> LOAD MORE</a></div>');
+
+//when load more button clicked
+$(document).on("click", "#load-more-btn", function(e) {
+    e.preventDefault();
+
+    if ($('.movie-filter input').data('clicked')) {
+        //when filter button clicked, set initial value for counter
+        counter = initShow;
+        console.log(counter);
+        j$('.movie-filter input').data('clicked', false);
+    } else {
+        counter = counter;
+    }
+
+    counter = counter + initShow;
+
+    loadMore(counter);
+});
 
 
+jQuery(document).ready(function(){
+   
     /* Sticky Header
     --------------------------------------------------*/
 
@@ -109,6 +180,22 @@ jQuery(document).ready(function() {
         $(this).parent('.menu-item-has-children').toggleClass("open-parent");
         $(this).next('ul').slideToggle();
     });
+
+    /* Like Btn
+    --------------------------------------------------*/
+
+    $(".like-btn").click(function() {
+        $(this).toggleClass('like');
+    });
+
+
+    /* Watch Btn
+    --------------------------------------------------*/
+
+    $(".watch-btn").click(function() {
+        $(this).toggleClass('watched');
+    });
+
 
     /* HomeBanner Slider
     --------------------------------------------------*/
@@ -152,56 +239,57 @@ jQuery(document).ready(function() {
             speed: 100
         });
 
-
-    /* Movie Category
+    /* Video Embed
     --------------------------------------------------*/
-    // set up variables
-    var categoryFilters = ['action','comedy'];
-    var categoryFilter;
+    // This function will get the video ID
+    function get_video_id(url) {
+        var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
+        var match = url.match(regExp);
+        return (match && match[7].length == 11) ? match[7] : false;
+    }
 
-    // init Isotope
-    var $container = $('#movie-grid').isotope({
-        itemSelector: '.item',
-        filter: function() {
-            var length = categoryFilters.length;
-            if (!length) {
-                return true;
-            }
-            var $this = $(this);
-            // check if all category filter match
-            for (var i = 0; i < length; i++) {
-                var catFilter = categoryFilters[i];
-                if (!$this.is('[data-category*=' + catFilter + ']')) {
-                    return false;
+    // Append the video iframe on user's click on the thumbnail
+    $('.video-wrap').click(function() {
+        var id = get_video_id($(this).data('url')); // Get the ID
+        $(this).append(
+            '<iframe src="https://www.youtube.com/embed/' + id + '?showinfo=0&iv_load_policy=3&modestbranding=1&autoplay=1" allow="autoplay;picture-in-picture" allowfullscreen></iframe>'); // Appending the iframe
+        $(this).find('.video-thumbnail').fadeOut(); // Remove the Video Thumbnail
+
+
+    });
+
+    /* Movie Filter Slider
+    --------------------------------------------------*/
+
+    $(".movie-filter").slick({
+        dots: false,
+        arrows: true,
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        responsive: [{
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 6
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 4
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 2,
+                    autoplay: true
                 }
             }
-            // otherwise match
-            return true;
-        }
+        ]
+
     });
-
-    // filter with checkboxes
-    var $checkboxes = $('.movie-filter input');
-
-    $checkboxes.change(function() {
-        categoryFilters = [];
-        $checkboxes.each(function(i, elem) {
-            if (elem.checked) {
-                categoryFilters.push(elem.value);
-            }
-            console.log(categoryFilters.join(','));
-            $container.isotope();
-        });
-        // $('.movie-filter li').toggleClass("active");
-    });
-
-
-    /* Like Btn
-    --------------------------------------------------*/
-
-    $(".like-btn").click(function() {
-        $(this).toggleClass('like');
-    });
-
 
 });

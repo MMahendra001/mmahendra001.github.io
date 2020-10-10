@@ -181,7 +181,8 @@ select::-ms-expand {display: none;}
 .btn.black{background:#000;color:#fff;}
 .btn.gray{background:#15202b;color:#fff;}
 .btn.black:after,.btn.gray:after{display:none;}
-.like-btn.like{color:#0079ff;}
+.like-btn.like,.watch-btn.watched{color:#fe0f20;}
+.ratings,.rating-no{color:#f4dd1e;}
 
 /* Img and Title Links
 ------------------------------------------------------------------------------*/
@@ -212,6 +213,7 @@ header ul.search-login{width: 40%;margin:0;padding:0;list-style:none;display:fle
 header ul.search-login li{margin-right:33px;padding:0;}
 header ul.search-login li:last-child{margin-right:0px;}
 header ul.search-login form .form-group-wrap {position: relative;}
+header ul.search-login form label{display:none;}
 header ul.search-login form input,header ul.search-login form input:focus,header ul.search-login form input:active{border-radius:0;background:transparent;border:none;border-bottom:1px solid #f10e1f;color:#f10e1f}
 header ul.search-login form input::placeholder{color:#f10e1f}
 header ul.search-login form input {padding:15px 15px 15px 0px;w}
@@ -311,7 +313,7 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 
 /* Home Banner
 ------------------------------------------------------------------------------*/
-.home-banner{padding:118px 0;}
+.home-banner{padding:118px 0 25px 0;overflow:hidden;}
 .home-banner .container{max-width:1540px;}
 
 .home-banner .about-movie{display: flex;flex-wrap: wrap;align-items: center;max-width:1170px;margin:0 auto;margin-bottom:41px;}
@@ -335,11 +337,11 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .serials-slider li{padding:0;position:relative;margin:0px 7px;transition:all 0.5s ease;-webkit-transition:all 0.5s  ease;-moz-transition:all 0.5s  ease;-o-transition:all 0.5s  ease;}
 .serials-slider li a img{width:100%;}
 .serials-slider li a{position:relative;}
-.serials-slider .slick-prev,
-.serials-slider .slick-next{font-size:0;background:#0000;border:none;display:inline-block;position:absolute;width:52px;height:52px;padding:0px;margin:0px;z-index:99;outline:none;cursor:pointer;}
-.serials-slider .slick-prev:before,
-.serials-slider .slick-next:before{content:'\f054';font-family:FontAwesome;font-size:26px;color:#808080;}
-.serials-slider .slick-prev:before{content:'\f053'}
+.serials-slider .slick-prev,.movie-filter .slick-prev,
+.serials-slider .slick-next,.movie-filter .slick-next{font-size:0;background:#0000;border:none;display:inline-block;position:absolute;width:52px;height:52px;padding:0px;margin:0px;z-index:99;outline:none;cursor:pointer;}
+.serials-slider .slick-prev:before,.movie-filter .slick-prev:before,
+.serials-slider .slick-next:before,.movie-filter .slick-next:before{content:'\f054';font-family:FontAwesome;font-size:26px;color:#808080;}
+.serials-slider .slick-prev:before,.movie-filter .slick-prev:before{content:'\f053'}
 .serials-slider .slick-prev{left:-114px;bottom:38%;}
 .serials-slider .slick-next{right:-120px;bottom:38%;}
 
@@ -385,31 +387,99 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .video-wrap:hover{cursor:pointer;}
 .video-wrap iframe{width:680px;height:430px;border:none;}
 .video-wrap .video-thumbnail{width:100%;height:100%;z-index:2;display:flex;align-items:center;justify-content:center;background-repeat:no-repeat;-webkit-transition:0.15s ease-in-out;transition:0.15s ease-in-out;}
-.video-wrap .video-thumbnail img.play-btn{width:100px;height:60px;opacity:0.95;-webkit-transition:0.15s ease-in-out;transition:0.15s ease-in-out;}
+.video-wrap .video-thumbnail img.play-btn{width:70px;height:50px;opacity:0.95;-webkit-transition:0.15s ease-in-out;transition:0.15s ease-in-out;}
 
 /* Upcomming Movie
 ------------------------------------------------------------------------------*/
-.upcomming-movie{background-blend-mode:multiply;background-color:rgba(0,0,0,0.44);padding:50px 0;min-height:820px;display:flex;align-items:center;justify-content:center;background-position:100% 36%;}
-.upcomming-movie .about-movie{}
+.upcomming-movie{background-blend-mode:multiply;background-color:rgba(0,0,0,0.44);padding:50px 0;min-height:804px;display:flex;align-items:center;justify-content:center;background-position:100% 35%;}
 .upcomming-movie .about-movie .movie-info{width: 70%;padding: 50px 0;text-align: left;}
 .upcomming-movie .about-movie .movie-info p {margin-bottom: 43px;max-width:465px;}
 
-/*Movie Category*/
-.movie-category {padding: 50px 0;}
-.movie-category .movie-filter{}
+
+/* Movie Category
+------------------------------------------------------------------------------*/
+.movie-category {padding: 57px 0;}
+.ad-banner {max-width: 970px;margin: 0 auto;margin-bottom: 41px;}
+.movie-category .ad-banner ~ p {margin-bottom: 27px;}
 .movie-category .movie-grid{}
+
 .movie-category ul{margin:0;padding:0;list-style:none;}
-.movie-category .movie-filter{margin:0;padding:0;display:flex;align-items:center;list-style:none;}
-.movie-category .movie-filter li{padding:0;margin:0;}
-.movie-category .movie-filter li label{cursor:pointer;margin:0;}
+.movie-category ul li{margin:0;padding:0;}
+.movie-category .movie-filter{display:flex;align-items:center;justify-content:center; list-style:none;max-width:1020px;margin:0 auto;padding:0px 15px;margin-bottom:55px;}
+.movie-category .movie-filter li{padding:0;margin:0;padding:0px 10px;display:flex;justify-content:center;}
+.movie-category .movie-filter li label{cursor:pointer;padding:6px 20px 6px 20px;margin:0;}
 .movie-category .movie-filter li label:after{display:none;}
 .movie-category .movie-filter li  input[type="checkbox"]:checked + label{background-color:#fe0f20;color:#fff;transition:all .2s;}
 .movie-category .movie-filter li  input[type="checkbox"]{display:absolute;}
 .movie-category .movie-filter li  input[type="checkbox"]{position:absolute;opacity:0;}
+.movie-filter .slick-prev:before,
+.movie-filter .slick-next:before{font-size:18px;font-weight:300;}
+.movie-filter .slick-prev{left:-30px;bottom:-13px;}
+.movie-filter .slick-next{right:-30px;bottom:-13px;}
 
+.movie-category .movie-grid{display:flex;flex-wrap:wrap;margin-left:-0.5%;margin-right:-0.5%;justify-content:flex-start;}
+.movie-category .movie-grid > li{width:19%;margin:0 0.5%;margin-bottom: 37px;}
+.movie-category .movie-grid >li.hidden {display: none;}
+.movie-category .movie-img figure{position:relative;}
+.movie-category .movie-img figure:before{content:'';height:100%;width:100%;background-blend-mode:multiply;background-color:rgba(0,0,0,0.4);position:absolute;top:0;right:0;}
+.movie-category .movie-img a:hover figure:before{background-color:rgba(0,0,0,0);}
+.movie-category .movie-info {padding: 24px 0;}
+.movie-category .movie-info h6{font-weight: 500;}
+.movie-category .movie-info .year-btn p,.movie-category .movie-info .year-btn a{color:#4c4c4c;font-weight: 500;}
+.movie-category .movie-info .year-btn{display:flex;align-items:center;flex-wrap:wrap;justify-content:space-between;}
+.movie-category .movie-info .year-btn > li:first-child{width:30%;}
+.movie-category .movie-info .year-btn > li:last-child{width:70%;}
+.movie-category .movie-info .year-btn .btn-list{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;font-size:14px;}
+.movie-category .movie-info .year-btn .btn-list li:not(:last-child){margin-right:12px;}
+.movie-category .movie-info .year-btn .btn-list i.ratings {margin-right: 5px;}
+.movie-category .load-more{text-align: center;padding: 0;margin-top: -10px;}
 
+/* Home Blog  
+------------------------------------------------------------------------------*/
+.home-blog {padding: 55px 0px;}
+.home-blog .ad-banner {margin-bottom: 88px;}
+.home-blog .blog {display: flex;align-items: center;}
+.home-blog .blog .blog-info{}
+.home-blog .blog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;}
+.home-blog .blog .blog-info {
+    width: 74%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}    
+.home-blog .blog-info .blog-img {
+    width: 39%;
+}
+.home-blog .blog-info .blog-details {
+    width: 61%;
+}
 
+.home-blog .blog .related-blogs {
+    width: 26%;
+}
+.home-blog .related-blogs ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.home-blog .related-blogs ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+.home-blog .related-blogs .related-blog-img {
+    width: 30%;
+}
+.home-blog .related-blogs .related-blog-info {
+    width: 70%;
+}
+.home-blog .related-blogs .related-blog-info h6 {
+    font-weight: 500;
+}
 
 /* Footer 
 ------------------------------------------------------------------------------*/
