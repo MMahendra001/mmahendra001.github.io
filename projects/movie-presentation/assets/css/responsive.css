@@ -131,8 +131,7 @@
 	#search-form{position:relative;-moz-transition:all 0.3s;-o-transition:all 0.3s;-webkit-transition:all 0.3s;transition:all 0.3s;max-height:0;overflow:hidden;}
 	#search-form.opened{max-height:100px;}
 	#search-form{position: absolute;left: unset;min-width: 200px;right: 0;padding-top:20px;}
-	#search-form .form-group-wrap {background: #020d18;}
-	header ul.search-login form input{padding:15px 15px 15px 13px;}
+	header ul.search-login form input,header ul.search-login form input:active,header ul.search-login form input:focus{padding: 15px 15px 15px 13px;background: #020d18;}
 	header ul.search-login form button{padding:10px 14px 10px 14px;}
 	.search-toggle button {padding: 7px 8px;font-size: 18px;}
 
@@ -320,6 +319,10 @@
 	.change .bar1{-webkit-transform:rotate(-45deg) translate(-6px,5px);transform:rotate(-45deg) translate(-6px,5px);}
 	.change .bar3{-webkit-transform:rotate(45deg) translate(-7px,-8px);transform:rotate(45deg) translate(-7px,-8px);}
 
+
+	/* Home Banner
+	------------------------------------------------------------------------------*/
+	.home-banner .about-movie .movie-img{max-width:250px;}
 	/* Movie Trailer
 	------------------------------------------------------------------------------*/
 	.video-wrap,.video-wrap iframe{width:325px;height:200px;}	
@@ -331,12 +334,14 @@
 	.home-blog .related-blogs .related-blog-img{width:20%;}	
 	.home-blog .blog{margin-bottom:10px;}
 	.home-blog {padding: 55px 0px 30px 0px;}
+	.home-blog .blog-info .blog-img{max-width:250px;}
 
 	/* Footer
 	------------------------------------------------------------------------------*/
-	footer .movies-searials {padding-left:50px;}
-	footer .others {padding-left:50px;}		
 	footer .logo-social{margin-bottom:40px;}
+	footer .movies-searials,footer .others {padding-left:0;text-align:center;}
+	footer .movies-searials > ul >li,footer .others > ul >li{width:100%;}
+	footer .others > ul >li >ul >li:last-child{margin:0;}		
 
 	
 }
@@ -363,12 +368,6 @@
 	------------------------------------------------------------------------------*/
 	.home-blog .related-news ul{margin-left:0;margin-right:0;}
 	.home-blog .related-news ul li{width: 100%;margin: 0;margin-bottom:15px;}
-
-
-	/* Footer
-	------------------------------------------------------------------------------*/
-	footer .movies-searials,footer .others {padding-left:0;text-align:center;}
-	footer .movies-searials > ul >li,footer .others > ul >li{width:100%;}
-	footer .others > ul >li >ul >li:last-child{margin:0;}		
+	
 
 }

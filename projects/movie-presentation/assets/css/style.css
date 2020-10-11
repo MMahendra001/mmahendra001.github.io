@@ -297,7 +297,7 @@ header ul.search-login form input,
 header ul.search-login form input:focus,
 header ul.search-login form input:active{border-radius:0;background:transparent;border:none;border-bottom:1px solid #f10e1f;color:#f10e1f}
 header ul.search-login form input::placeholder{color:#f10e1f}
-header ul.search-login form input{padding:15px 15px 15px 0px;w}
+header ul.search-login form input{padding:15px 15px 15px 0px;}
 header ul.search-login form button{position:absolute;right:0;top:0;margin:0;background:#0000;color:#f10e1f;border-radius:0;border:none;padding:10px 0px 10px 14px;cursor:pointer;height:100%;min-width:46px;text-align:right;}
 header ul.search-login li .btn{padding:13px 28px;}
 header nav.desktop-menu ul li:last-child{padding-right:0;}
