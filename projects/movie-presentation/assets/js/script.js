@@ -46,8 +46,6 @@ Array.prototype.forEach.call(links, function(elem, index) {
     }
 });
 
-
-
 /* Movie Category
 --------------------------------------------------*/
 // set up variables
@@ -88,16 +86,14 @@ $checkboxes.change(function() {
         console.log(categoryFilters.join(','));
         $container.isotope();
     });
-    // $('.movie-filter li').toggleClass("active");
-});
+  });
 
-//****************************
+
 // Isotope Load more button
-//**************************** 
+
 var initShow = 10; //number of images loaded on init & onclick load more button
 var counter = initShow; //counter for load more button
 var iso = $container.data('isotope'); // get Isotope instance
-//console.log(iso.elemCount);
 
 loadMore(initShow); //execute function onload
 
@@ -143,6 +139,8 @@ $(document).on("click", "#load-more-btn", function(e) {
 });
 
 
+
+
 jQuery(document).ready(function(){
    
     /* Sticky Header
@@ -151,9 +149,9 @@ jQuery(document).ready(function(){
     $(window).scroll(function() {
 
         if ($(this).scrollTop() > 1) {
-            $('header').addClass("sticky-");
+            $('header').addClass("sticky");
         } else {
-            $('header').removeClass("sticky-");
+            $('header').removeClass("sticky");
         }
 
     });
@@ -172,7 +170,6 @@ jQuery(document).ready(function(){
         $(".mobile-menu-icon").click();
     });
 
-
     let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
     $(".menu-item-has-children a").after("<span class='menu_sub'></span>");
     $(document).on(touchEvent, '.menu_sub', function() {
@@ -180,6 +177,22 @@ jQuery(document).ready(function(){
         $(this).parent('.menu-item-has-children').toggleClass("open-parent");
         $(this).next('ul').slideToggle();
     });
+
+    /* Like Btn
+    --------------------------------------------------*/
+
+    $('.search-toggle').addClass('closed');
+
+    $('.search-toggle .search-icon').click(function(e) {
+      if ($('.search-toggle').hasClass('closed')) {
+        $('.search-toggle').removeClass('closed').addClass('opened');
+        $('.search-toggle, #search-form').addClass('opened');
+
+      } else {
+        $('.search-toggle').removeClass('opened').addClass('closed');
+        $('.search-toggle, #search-form').removeClass('opened');
+      }
+    });    
 
     /* Like Btn
     --------------------------------------------------*/
@@ -236,7 +249,31 @@ jQuery(document).ready(function(){
             slidesToScroll: 1,
             autoplay: true,
             infinite: true,
-            speed: 100
+            speed: 100,
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                      centerPadding: '10%',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 640,
+                    settings: {
+                      centerPadding: '25%',
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+
+                      centerPadding: '20%',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+
         });
 
     /* Video Embed
@@ -267,27 +304,30 @@ jQuery(document).ready(function(){
         slidesToShow: 8,
         slidesToScroll: 1,
         responsive: [{
-                breakpoint: 768,
+                breakpoint: 991,
                 settings: {
-                    arrows: true,
                     slidesToShow: 6
                 }
             },
             {
-                breakpoint: 640,
+                breakpoint: 767,
                 settings: {
-                    arrows: true,
                     slidesToShow: 4
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    arrows: true,
                     slidesToShow: 2,
                     autoplay: true
                 }
-            }
+            },
+            {
+                breakpoint: 359,
+                settings: {
+                    slidesToShow: 1
+                }
+            }            
         ]
 
     });

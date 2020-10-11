@@ -86,19 +86,25 @@
                     </ul>
                 </nav>
                 <ul class="search-login">
-                    <li>
-                        <form id="search-form" action="javascript:void(0);">
-                            <div class="form-group-wrap">
-                                <label for="search" id="search-label">Search</label>
-                                <input type="search" name="search" id="search" placeholder="Search" required>
-                                <button type="submit" value="Submit" id="submit"><i class="fa fa-search"></i></button>
+                    <li class="serach">
+                        <div class="search-wrap">
+                            <div class="search-toggle">
+                                <button class="search-icon search-icon"><i class="fa fa-fw fa-search"></i></button>
+                                <button class="search-icon close-icon"><i class="fa fa-fw  fa-close"></i></button>
                             </div>
-                        </form>
+                            <form id="search-form" action="javascript:void(0);">
+                                <div class="form-group-wrap">
+                                    <label for="search" id="search-label">Search</label>
+                                    <input type="search" name="search" id="search" placeholder="Search" required>
+                                    <button type="submit" value="Submit" id="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
                     </li>
-                    <li>
+                    <li class="login-btn">
                         <a href="#">Login</a>
                     </li>
-                    <li>
+                    <li class="signup-btn">
                         <a href="#" class="btn">Sign Up</a>
                     </li>
                 </ul>
@@ -133,7 +139,13 @@
                         <li>
                             <a href="#my-list">My List</a>
                         </li>
-                    </ul>
+                        <li class="login-btn">
+                            <a href="#" class="btn black">Login</a>
+                        </li>
+                        <li class="signup-btn">
+                            <a href="#" class="btn">Sign Up</a>
+                        </li>                        
+                    </ul>                   
                 </nav>
                 <div class="mobile-menu-icon" onclick="myFunction(this)">
                     <div class="bar1"></div>
@@ -341,7 +353,7 @@
                     </li>
                     <li>
                         <input type="checkbox" id="action" value="action" />
-                        <label for="action" class="btn gray" >Action</label>
+                        <label for="action" class="btn gray">Action</label>
                     </li>
                     <li>
                         <input type="checkbox" id="animation" value="animation" />
@@ -356,7 +368,7 @@
                         <label for="crime" class="btn gray"> Crime</label>
                     </li>
                     <li>
-                        <input type="checkbox" id="comedy" value="comedy"/>
+                        <input type="checkbox" id="comedy" value="comedy" />
                         <label for="comedy" class="btn gray">Comedy</label>
                     </li>
                     <li>
@@ -372,8 +384,8 @@
                         <label for="horror" class="btn gray">Horror</label>
                     </li>
                     <li>
-                        <input type="checkbox" id="thriller" value="thriller"  />
-                        <label for="thriller" class="btn gray" >Thriller</label>
+                        <input type="checkbox" id="thriller" value="thriller" />
+                        <label for="thriller" class="btn gray">Thriller</label>
                     </li>
                     <li>
                         <input type="checkbox" id="sci-fi" value="sci-fi" />
@@ -398,7 +410,7 @@
                     <li>
                         <input type="checkbox" id="historical" value="historical" />
                         <label for="historical" class="btn gray">Historical</label>
-                    </li>                    
+                    </li>
                 </ul>
                 <ul id="movie-grid" class="movie-grid">
                     <li class="item" data-category="all adventure action">
@@ -791,7 +803,7 @@
                                 <div class="related-blog-img">
                                     <a href="#" class="img-link">
                                         <figure>
-                                            <img src="assets/images/home-blog-related-img-1.png" >
+                                            <img src="assets/images/home-blog-related-img-1.png">
                                         </figure>
                                     </a>
                                 </div>
@@ -804,7 +816,7 @@
                                 <div class="related-blog-img">
                                     <a href="#" class="img-link">
                                         <figure>
-                                            <img src="assets/images/home-blog-related-img-2.png" >
+                                            <img src="assets/images/home-blog-related-img-2.png">
                                         </figure>
                                     </a>
                                 </div>
@@ -817,7 +829,7 @@
                                 <div class="related-blog-img">
                                     <a href="#" class="img-link">
                                         <figure>
-                                            <img src="assets/images/home-blog-related-img-3.png" >
+                                            <img src="assets/images/home-blog-related-img-3.png">
                                         </figure>
                                     </a>
                                 </div>
@@ -830,7 +842,7 @@
                                 <div class="related-blog-img">
                                     <a href="#" class="img-link">
                                         <figure>
-                                            <img src="assets/images/home-blog-related-img-4.png" >
+                                            <img src="assets/images/home-blog-related-img-4.png">
                                         </figure>
                                     </a>
                                 </div>
@@ -838,66 +850,216 @@
                                     <h6><a href="#">See what actors do during the movie in backstage.</a></h6>
                                     <a href="#">Learn more</a>
                                 </div>
-                            </li>                                                                                    
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="related-news">
                     <ul>
                         <li>
-                            <a href="#" class="img-link">
+                            <a href="#">
                                 <figure>
                                     <img src="assets/images/home-related-news-img-1.png">
                                 </figure>
+                                <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
                             </a>
-                            <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
                         </li>
                         <li>
-                            <a href="#" class="img-link">
+                            <a href="#">
                                 <figure>
                                     <img src="assets/images/home-related-news-img-2.png">
                                 </figure>
+                                <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
                             </a>
-                            <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
                         </li>
                         <li>
-                            <a href="#" class="img-link">
+                            <a href="#">
                                 <figure>
                                     <img src="assets/images/home-related-news-img-3.png">
                                 </figure>
+                                <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
                             </a>
-                            <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
                         </li>
                         <li>
-                            <a href="#" class="img-link">
+                            <a href="#">
                                 <figure>
                                     <img src="assets/images/home-related-news-img-4.png">
                                 </figure>
+                                <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
                             </a>
-                            <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
-                        </li>                                                                        
+                        </li>
                     </ul>
                     <div class="load-more">
                         <a href="#" class="load-more-news btn gray"><i class="fas fa-plus"></i>LOAD MORE</a>
                     </div>
                 </div>
             </div>
-        </section>        
+        </section>
         <!-- Fotter -->
         <footer>
             <div class="container">
+                <div class="logo-social">
+                    <ul>
+                        <li class="logo">
+                            <a href="#" class="footer-logo">
+                                <figure>
+                                    <img src="assets/images/footer-logo.png">
+                                </figure>
+                            </a>
+                            <p class="copyright">© Copyright 2019 <a href="#">KALLYAS - Hogash Studio</a>. All rights reserved.</p>
+                        </li>
+                        <li class="our-partners">
+                            <p>Our Partners</p>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="social-links">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-facebook-square"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-twitter"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-instagram"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="movies-searials">
+                    <h6>Movies & Serials</h6>
+                    <ul>
+                        <li>
+                            <ul>
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Adventure</a></li>
+                                <li><a href="#">Animation</a></li>
+                                <li><a href="#">Biography</a></li>
+                                <li><a href="#">Comedy</a></li>
+                                <li><a href="#">Crime</a></li>
+                                <li><a href="#">Documentary</a></li>
+                                <li><a href="#">Drama</a></li>
+                                <li><a href="#">Family</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">Film Noir</a></li>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Horror</a></li>
+                                <li><a href="#">Musical</a></li>
+                                <li><a href="#">Mystery</a></li>
+                                <li><a href="#">Romance</a></li>
+                                <li><a href="#">Sci-Fi</a></li>
+                                <li><a href="#">Short</a></li>
+                                <li><a href="#">Satire</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">Superhero</a></li>
+                                <li><a href="#">Thriller</a></li>
+                                <li><a href="#">War</a></li>
+                                <li><a href="#">Western</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="others">
+                    <h6>Others</h6>
+                    <ul>
+                        <li>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Top Rated Movies</a></li>
+                                <li><a href="#">Box Office</a></li>
+                                <li><a href="#">Biography</a></li>
+                                <li><a href="#">TV</a></li>
+                                <li><a href="#">Coming Soon</a></li>
+                                <li><a href="#">Site Index</a></li>
+                                <li><a href="#">Search</a></li>
+                                <li><a href="#">In Theaters</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Register</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Press Room</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Conditions of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Interest-Based Ads</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </main>
     <script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
     <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/js//isotope.pkgd.min.js"></script>
     <script type='text/javascript' src='assets/js/script.js'></script>
-    <script type="text/javascript">
-
-        
-    </script>
 </body>
 
 </html>
