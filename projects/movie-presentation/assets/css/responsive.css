@@ -39,6 +39,11 @@
 	.movie-single .movie .movie-info{margin-bottom:112px;}
 	.movie-single .movie .related-blogs {margin-bottom:85px;}
 
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.blog .blog-list-wrap article{padding:0 0 0 108px;}	
+	.blog article ul.blog-list > li{margin-bottom:121px;}
+
 }
 
 @media only screen and  (min-width:1900px){
@@ -103,6 +108,14 @@
 	.movie-single .movie-info .movie-img {width: 30%;}
 	.movie-single .movie-info .movie-details-wrap {width: 70%;}
 	.movie-single .video-wrap, .movie-single .video-wrap iframe {width: 615px;height: 345px;}
+
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.blog {padding: 120px 0 50px 0;}
+	.blog .blog-list-wrap aside{width: 22%;padding-right: 15px;}
+	.blog .blog-list-wrap article {width: 78%;padding: 0 0 0 15px;}	
+	.blog article ul.blog-list > li{margin-bottom:50px;}
+	.blog article .related-news {margin-top: 30px;}
 	
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -211,6 +224,16 @@
 	.movie-single .related-blogs ul li {width: 50%;padding-right: 50px;}
 	.movie-single .video-wrap, .movie-single .video-wrap iframe {width: 730px;height: 410px;margin:0 auto;}
 
+
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.blog .blog-list-wrap aside{width: 28%;padding-right: 10px;}
+	.blog .blog-list-wrap article {width: 72%;padding: 0 0 0 10px;}	
+	.blog article ul.blog-list > li{margin-bottom:40px;align-items:flex-start;}
+	.blog article .blog-list .blog-details {padding: 0px 0px 0 20px;}
+	.blog article .blog-list .blog-details h3{line-height:normal;margin-bottom:15px;}
+	.blog article .related-news {margin-top: 30px;}	
+
 	
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -265,6 +288,12 @@
 	.movie-single .video-wrap, .movie-single .video-wrap iframe {width: 600px;height: 335px;}
 	.movie-single .related-blogs ul li {padding-right: 30px;}
 
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.blog .blog-list-wrap{flex-direction:column-reverse;}
+	.blog .blog-list-wrap article {width: 100%;padding:0;margin-bottom:30px;}
+	.blog .blog-list-wrap aside{width:100%;padding:0;}	
+
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer .movies-searials {padding-left:20px;}
@@ -316,8 +345,8 @@
 	.home-blog .blog-info .blog-details {padding: 0;text-align: center;width: 100%}
 	.home-blog .related-blogs ul li{padding:0 10px 0 0;margin-bottom:20px;}
 	.home-blog .related-blogs .related-blog-info{padding-left:10px;}
-	.related-news ul{margin-left:-1%;margin-right:-1%;}
-	.related-news ul li{width: 48%;margin: 0 1%;margin-bottom:15px;}
+	.related-news ul,.blog article .related-news ul{margin-left:-1%;margin-right:-1%;}
+	.related-news ul li,.blog article  .related-news ul li{width: 48%;margin: 0 1%;margin-bottom:15px;}
 
 	/* Movie Single  
 	------------------------------------------------------------------------------*/
@@ -326,7 +355,14 @@
 	.movie-single .related-blogs ul li {padding-right: 50px;width: 100%;}
 	.movie-single .related-blogs .related-blog-img {width: 15%;}
 	.movie-single .related-blogs .related-blog-info {width: 85%;}
+	.movie-single .movie-info .movie-img img{width:100%;}
 
+
+	/* Blog 
+	------------------------------------------------------------------------------*/
+	.blog article .blog-list .blog-img {width: 100%;margin-bottom:30px;}
+	.blog article .blog-list .blog-details {width: 100%;padding:0;}
+	.blog article ul.blog-list > li:last-child {margin-bottom: 20px;}
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -392,13 +428,15 @@
 	.movie-single .related-blogs .related-blog-img {width: 22%;}
 	.movie-single .related-blogs .related-blog-info {width: 78%;}	
 
+	.movie-single .movie .movie-info{text-align:center;}
+	.movie-single .add-movie .ratings{justify-content:center;}
+
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer .logo-social{margin-bottom:40px;}
 	footer .movies-searials,footer .others {padding-left:0;text-align:center;}
 	footer .movies-searials > ul >li,footer .others > ul >li{width:100%;}
-	footer .others > ul >li >ul >li:last-child{margin:0;}		
-
+	footer .others > ul >li:last-child >ul >li:last-child {margin: 0;}
 	
 }
 
@@ -423,8 +461,8 @@
 
 	/* Home Blog  
 	------------------------------------------------------------------------------*/
-	.related-news ul{margin-left:0;margin-right:0;}
-	.related-news ul li{width: 100%;margin: 0;margin-bottom:15px;}
+	.related-news ul,.blog article .related-news ul{margin-left:0;margin-right:0;}
+	.related-news ul li,.blog article .related-news ul li{width: 100%;margin: 0;margin-bottom:15px;}
 	
 
 }
