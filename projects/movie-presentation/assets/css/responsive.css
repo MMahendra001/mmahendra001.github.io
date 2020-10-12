@@ -1,24 +1,16 @@
 /*----------------------------- Responsive ------------------------------------------*/
 
 /*Min*/
+@media only screen and (min-width:1600px){
+	.h1,h1{font-size:60px;line-height:62px;margin-bottom:28px;}
+	.h2,h2{font-size:46px;line-height:57px;}
+	.h3,h3{font-size:36px;line-height:55px;}
+	.h4,h4{font-size:26px;line-height:50px;}
+	.h5,h5{font-size:16px;}
+	.h6,h6{font-size:14px;}
 
-@media only screen and  (min-width:1400px){
-
-
-}
-
-@media only screen and  (min-width:1600px){
-
-	.h1,h1 {font-size: 60px;line-height: 62px;margin-bottom: 28px;}
-	.h2,h2 {font-size: 46px;line-height: 57px;}
-	.h3,h3 {font-size: 36px;line-height: 55px;}
-	.h4,h4 {font-size: 26px;line-height:50px;}
-	.h5,h5 {font-size: 16px;}
-	.h6,h6 {font-size: 14px;}	
-	
 	/* Home Banner
-	------------------------------------------------------------------------------*/	
-
+	------------------------------------------------------------------------------*/
 	.serials-slider .slick-prev{left:-114px;bottom:38%;}
 	.serials-slider .slick-next{right:-120px;bottom:38%;}
 
@@ -33,295 +25,260 @@
 
 	/* Movie Single  
 	------------------------------------------------------------------------------*/
-	.movie-single {padding: 205px 0 43px 0;}
-	.movie-single .movie-info .movie-details ul {margin-bottom: 56px; }
-	.movie-single .movie-info .movie-details h3 {margin-bottom: 32px; }	
+	.movie-single{padding:205px 0 43px 0;}
+	.movie-single .movie-info .movie-details ul{margin-bottom:56px;}
+	.movie-single .movie-info .movie-details h3{margin-bottom:32px;}
 	.movie-single .movie .movie-info{margin-bottom:112px;}
-	.movie-single .movie .related-blogs {margin-bottom:85px;}
+	.movie-single .movie .related-blogs{margin-bottom:85px;}
 
 	/* Blog
 	------------------------------------------------------------------------------*/
-	.blog .blog-list-wrap article{padding:0 0 0 108px;}	
-	.blog article ul.blog-list > li{margin-bottom:121px;}
-
+	.blog .blog-list-wrap article{padding:0 0 0 108px;}
+	.blog article ul.blog-list>li{margin-bottom:121px;}
 }
-
-@media only screen and  (min-width:1900px){
-
-	/* 
-	------------------------------------------------------------------------------*/
-
-}
-
 
 /*Max*/
-
-
-
-@media only screen and (max-width:1299px){
-
-
-
-}
-
 @media only screen and (max-width:1199px){
 
 	/* Base Typography
 	------------------------------------------------------------------------------*/
 	body{font-size:14px;}
-
-	.h1,h1 {font-size: 45px;margin-bottom:20px;}
-	.h2,h2 {font-size: 35px;}
-	.h3,h3 {font-size: 25px;}
-	.h4,h4 {font-size: 18px;}
-	.h5,h5 {font-size: 16px;}
-	.h6,h6 {font-size: 14px;}		
+	.h1,h1{font-size:45px;margin-bottom:20px;}
+	.h2,h2{font-size:35px;}
+	.h3,h3{font-size:25px;}
+	.h4,h4{font-size:18px;}
+	.h5,h5{font-size:16px;}
+	.h6,h6{font-size:14px;}
 
 	/* Header
 	------------------------------------------------------------------------------*/
-	header nav ul li {padding: 28px 15px;}
-	header ul.search-login li {margin-right: 15px;}	
+	header nav ul li{padding:28px 15px;}
+	header ul.search-login li{margin-right:15px;}
 
-	
 	/* Movie Trailer
 	------------------------------------------------------------------------------*/
-
-	.movie-trailer {padding:50px 0;}	
+	.movie-trailer{padding:50px 0;}
 	.video-wrap,.video-wrap iframe{width:550px;height:350px;}
-
 
 	/* Movie Category
 	------------------------------------------------------------------------------*/
-	.movie-category .movie-grid > li{width:24%;margin:0 0.5%;margin-bottom:20px;}
-	
+	.movie-category .movie-grid>li{width:24%;margin:0 0.5%;margin-bottom:20px;}
+
 	/* My List
 	------------------------------------------------------------------------------*/
 	.movie-category.my-list{padding:100px 0 20px 0;}
 
-
 	/* Movie Single  
 	------------------------------------------------------------------------------*/
-	.movie-single {padding: 120px 0 20px 0;}
-	.movie-single .movie-info .movie-details-wrap {padding:0px 0px 0 30px;}
-	.movie-single .movie-info .movie-details {width: 100%;margin-top: 0;}
-	.movie-single .movie-info .add-movie {width: 100%;margin-top: 30px;}
-	.movie-single .movie-info .movie-img {width: 30%;}
-	.movie-single .movie-info .movie-details-wrap {width: 70%;}
-	.movie-single .video-wrap, .movie-single .video-wrap iframe {width: 615px;height: 345px;}
+	.movie-single{padding:120px 0 20px 0;}
+	.movie-single .movie-info .movie-details-wrap{padding:0px 0px 0 30px;}
+	.movie-single .movie-info .movie-details{width:100%;margin-top:0;}
+	.movie-single .movie-info .add-movie{width:100%;margin-top:30px;}
+	.movie-single .movie-info .movie-img{width:30%;}
+	.movie-single .movie-info .movie-details-wrap{width:70%;}
+	.movie-single .video-wrap,.movie-single .video-wrap iframe{width:615px;height:345px;}
 
 	/* Blog
 	------------------------------------------------------------------------------*/
-	.blog {padding: 120px 0 50px 0;}
-	.blog .blog-list-wrap aside{width: 22%;padding-right: 15px;}
-	.blog .blog-list-wrap article {width: 78%;padding: 0 0 0 15px;}	
-	.blog article ul.blog-list > li{margin-bottom:50px;}
-	.blog article .related-news {margin-top: 30px;}
-	
+	.blog{padding:120px 0 50px 0;}
+	.blog .blog-list-wrap aside{width:22%;padding-right:15px;}
+	.blog .blog-list-wrap article{width:78%;padding:0 0 0 15px;}
+	.blog article ul.blog-list>li{margin-bottom:50px;}
+	.blog article .related-news{margin-top:30px;}
+
+	/* Blog Single
+	------------------------------------------------------------------------------*/
+	.blog.blog-single .blog-list-wrap article{padding:0 0 0 15px;}
+	.blog.blog-single article .blog-details{margin-bottom:40px;}
+	.blog-single article .social-share{padding-bottom:35px;}
+	.blog-single article .related-blogs{padding-top:35px;}
+
 	/* Footer
 	------------------------------------------------------------------------------*/
-	footer .movies-searials{padding-left: 35px;}
-	footer .logo-social .our-partners ul li figure{height: 30px;width: 30px;font-size:14px;}
-	footer .logo-social > ul > li > ul >li{margin-right:10px;}
-	footer .logo-social > ul > li:not(:last-child) {margin-bottom: 25px;}
+	footer .movies-searials{padding-left:35px;}
+	footer .logo-social .our-partners ul li figure{height:30px;width:30px;font-size:14px;}
+	footer .logo-social>ul>li>ul>li{margin-right:10px;}
+	footer .logo-social>ul>li:not(:last-child){margin-bottom:25px;}
 	footer .logo-social .social-links i{font-size:23px;}
-
 }
-
 @media only screen and (min-width:992px){
-    .mobile-menu{display:none;}
-
-    .search-toggle{display:none;}
-
+	.mobile-menu{display:none;}
+	.search-toggle{display:none;}
 }
-
 @media only screen and (max-width:991px){
+
 	/* Base Typography
 	------------------------------------------------------------------------------*/
-	body {font-size: 14px;}	
+	body{font-size:14px;}
+	.h1,h1{font-size:40px;}
+	.h2,h2{font-size:30px;}
+	.h3,h3{font-size:20px;}
+	.h4,h4{font-size:17px;}
+	.h5,h5{font-size:15px;}
+	input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],textarea{height:50px;}
 
-	.h1,h1 {font-size: 40px;}
-	.h2,h2 {font-size: 30px;}
-	.h3,h3 {font-size: 20px;}
-	.h4,h4 {font-size: 17px;}
-	.h5,h5 {font-size: 15px;}
-
-
-	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 50px;}
-	
 	/* Header
-	------------------------------------------------------------------------------*/	
-	header{padding:20px 0;background:transparent;}		
-	header nav li a{color:#263546;}	
-	header .logo {width:20%;}
+	------------------------------------------------------------------------------*/
+	header{padding:20px 0;background:transparent;}
+	header nav li a{color:#263546;}
+	header .logo{width:20%;}
 	.mobile-menu-icon{display:inline-block;}
-    .desktop-menu{display:none;}
-    header ul.search-login{width:80%;padding-right:60px;}
-	header ul.search-login li:last-child,header ul.search-login li{margin-right:15px;} 
-    header ul.search-login li:first-child {order: 1;margin: 0;}
-	.search-wrap{position: relative;}
-    .search-toggle .search-icon.close-icon{display:none;}
+	.desktop-menu{display:none;}
+	header ul.search-login{width:80%;padding-right:60px;}
+	header ul.search-login li:last-child,header ul.search-login li{margin-right:15px;}
+	header ul.search-login li:first-child{order:1;margin:0;}
+	.search-wrap{position:relative;}
+	.search-toggle .search-icon.close-icon{display:none;}
 	.search-toggle.opened .search-icon.search-icon{display:none;}
 	.search-toggle.opened .search-icon.close-icon{display:block;}
 	#search-form{position:relative;-moz-transition:all 0.3s;-o-transition:all 0.3s;-webkit-transition:all 0.3s;transition:all 0.3s;max-height:0;overflow:hidden;}
 	#search-form.opened{max-height:100px;}
-	#search-form{position: absolute;left: unset;min-width: 200px;right: 0;padding-top:20px;z-index: 1000001;}
-	header ul.search-login form input,header ul.search-login form input:active,header ul.search-login form input:focus{padding: 15px 15px 15px 13px;background: #020d18;}
+	#search-form{position:absolute;left:unset;min-width:200px;right:0;padding-top:20px;z-index:1000001;}
+	header ul.search-login form input,header ul.search-login form input:active,header ul.search-login form input:focus{padding:15px 15px 15px 13px;background:#020d18;}
 	header ul.search-login form button{padding:10px 14px 10px 14px;}
-	.search-toggle button {padding: 7px 8px;font-size: 18px;}
-
-	
-	body.body-hide {overflow: hidden !important;}
-	body.body-hide:after{content:'';position:absolute;height:100%;width:100%;top:0;left:0;min-height:50000px;background:rgba(0,0,0,0.9);z-index:10;}   
-
-	.blog-page header nav ul li a, .blog-single-page header nav ul li a {color: #263546;font-weight: 400;}	
+	.search-toggle button{padding:7px 8px;font-size:18px;}
+	body.body-hide{overflow:hidden!important;}
+	body.body-hide:after{content:'';position:absolute;height:100%;width:100%;top:0;left:0;min-height:50000px;background:rgba(0,0,0,0.9);z-index:10;}
+	.blog-page header nav ul li a,.blog-single-page header nav ul li a{color:#263546;font-weight:400;}
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
 	.home-banner{padding:100px 0 40px 0;}
-	.home-banner .about-movie .movie-info {padding: 40px 20px 40px 0;}
+	.home-banner .about-movie .movie-info{padding:40px 20px 40px 0;}
 	.home-banner .about-movie .movie-info p{padding-right:50px;}
 	.home-banner .about-movie{margin-bottom:30px;}
 
 	/* Movie Trailer
 	------------------------------------------------------------------------------*/
-	.movie-trailer .about-movie .movie-video {width: 100%;}
-	.movie-trailer .about-movie .movie-info{width: 100%;padding: 50px 0 0px 0;text-align: center;max-width: 700px;margin: 0 auto;}
-	.movie-trailer .about-movie .movie-info .category, .movie-trailer .about-movie .movie-info .btn-group{justify-content:center;}
-	.movie-trailer .about-movie .movie-video .video-wrap {margin: 0 auto;}
+	.movie-trailer .about-movie .movie-video{width:100%;}
+	.movie-trailer .about-movie .movie-info{width:100%;padding:50px 0 0px 0;text-align:center;max-width:700px;margin:0 auto;}
+	.movie-trailer .about-movie .movie-info .category,.movie-trailer .about-movie .movie-info .btn-group{justify-content:center;}
+	.movie-trailer .about-movie .movie-video .video-wrap{margin:0 auto;}
 	.movie-trailer .about-movie .movie-info p{margin-bottom:30px;padding:0;}
 
 	/* Movie Category
 	------------------------------------------------------------------------------*/
 	.movie-category .movie-grid{margin-left:-1.16%;margin-right:-1.16%;}
-	.movie-category .movie-grid > li{width:31%;margin:0 1.16%;margin-bottom:20px;}
+	.movie-category .movie-grid>li{width:31%;margin:0 1.16%;margin-bottom:20px;}
 
 	/* Upcomming Movie
 	------------------------------------------------------------------------------*/
 	.upcomming-movie{min-height:unset;}
-	.upcomming-movie .category,.upcomming-movie .btn-group{justify-content: center;}
+	.upcomming-movie .category,.upcomming-movie .btn-group{justify-content:center;}
 	.upcomming-movie .about-movie .movie-info p{max-width:unset;margin-bottom:30px;}
-	.upcomming-movie .about-movie .movie-info{width:100%;padding:0;text-align:center;max-width: 700px;}
+	.upcomming-movie .about-movie .movie-info{width:100%;padding:0;text-align:center;max-width:700px;}
 
 	/* Home Blog  
 	------------------------------------------------------------------------------*/
-	.home-blog .blog .blog-info {width: 100%;border-right: none;border-bottom: 1px solid #ccc;padding-bottom: 25px;}
-	.home-blog .blog .related-blogs {width: 100%;padding: 25px 0 0 0;}
-	.home-blog .related-blogs ul {display: flex;flex-wrap: wrap;}
-	.home-blog .related-blogs ul li {width: 50%;padding: 0 30px 0 0;}
+	.home-blog .blog .blog-info{width:100%;border-right:none;border-bottom:1px solid #ccc;padding-bottom:25px;}
+	.home-blog .blog .related-blogs{width:100%;padding:25px 0 0 0;}
+	.home-blog .related-blogs ul{display:flex;flex-wrap:wrap;}
+	.home-blog .related-blogs ul li{width:50%;padding:0 30px 0 0;}
 	.related-news ul{margin-left:-1.16%;margin-right:-1.16%;}
-	.related-news ul li{width: 31%;margin: 0 1.16%;margin-bottom:20px;}
+	.related-news ul li{width:31%;margin:0 1.16%;margin-bottom:20px;}
 	.home-blog .blog{margin-bottom:25px;}
 
 	/* Movie Single  
 	------------------------------------------------------------------------------*/
-	.movie-single {padding: 100px 0 20px 0;}
-	.movie-single .movie-info .movie-img {width: 35%;}
-	.movie-single .movie-info .movie-details-wrap {width: 65%;}	
+	.movie-single{padding:100px 0 20px 0;}
+	.movie-single .movie-info .movie-img{width:35%;}
+	.movie-single .movie-info .movie-details-wrap{width:65%;}
 	.movie-single .movie .related-blogs{flex-direction:column-reverse;}
-	.movie-single .related-blogs .movie-video {width: 100%;margin-bottom:50px;}
-	.movie-single .related-blogs .blogs-list {width: 100%;padding-right: 0;}
+	.movie-single .related-blogs .movie-video{width:100%;margin-bottom:50px;}
+	.movie-single .related-blogs .blogs-list{width:100%;padding-right:0;}
 	.movie-single .related-blogs ul{display:flex;flex-wrap:wrap;}
-	.movie-single .related-blogs ul li {width: 50%;padding-right: 50px;}
-	.movie-single .video-wrap, .movie-single .video-wrap iframe {width: 730px;height: 410px;margin:0 auto;}
-
+	.movie-single .related-blogs ul li{width:50%;padding-right:50px;}
+	.movie-single .video-wrap,.movie-single .video-wrap iframe{width:730px;height:410px;margin:0 auto;}
 
 	/* Blog
 	------------------------------------------------------------------------------*/
-	.blog .blog-list-wrap aside{width: 28%;padding-right: 10px;}
-	.blog .blog-list-wrap article {width: 72%;padding: 0 0 0 10px;}	
-	.blog article ul.blog-list > li{margin-bottom:40px;align-items:flex-start;}
-	.blog article .blog-list .blog-details {padding: 0px 0px 0 20px;}
+	.blog .blog-list-wrap aside{width:28%;padding-right:10px;}
+	.blog .blog-list-wrap article{width:72%;padding:0 0 0 10px;}
+	.blog article ul.blog-list>li{margin-bottom:40px;align-items:flex-start;}
+	.blog article .blog-list .blog-details{padding:0px 0px 0 20px;}
 	.blog article .blog-list .blog-details h3{line-height:normal;margin-bottom:15px;}
-	.blog article .related-news {margin-top: 30px;}	
+	.blog article .related-news{margin-top:30px;}
 
-	
+	/* Blog Single
+	------------------------------------------------------------------------------*/
+	.blog-single article .related-blogs ul li{padding-right:20px;}
+	.blog-single article .related-blogs .related-blog-info{padding-left:15px;}
+
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer .logo-social{width:100%;padding:0;text-align:center;margin-bottom:50px;}
-	footer .logo-social > ul > li > ul {justify-content: center;}
-	footer .movies-searials {padding-left: 50px;width: 50%;}
-	footer .movies-searials > ul >li{width:50%;}
-	footer .others {width: 50%;padding-left: 50px;}
-
+	footer .logo-social>ul>li>ul{justify-content:center;}
+	footer .movies-searials{padding-left:50px;width:50%;}
+	footer .movies-searials>ul>li{width:50%;}
+	footer .others{width:50%;padding-left:50px;}
 }
-
 @media only screen and (max-width:767px){
-	
+
 	/* Base Typography
 	------------------------------------------------------------------------------*/
-	.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {line-height:normal;}
-	.h1,h1 {font-size: 35px;}
-	.h2,h2 {font-size: 25px;}
-	.h3,h3 {font-size: 18px;}
-	.h4,h4 {font-size: 17px;}
-
-	select {padding-left: 15px;padding-right: 35px;background-size: 10px;background-position: right 15px center;font-size: 18px;}
-	p {font-size: 14px;}
-	.btn {padding: 12px 22px;font-size: 12px;}
+	.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{line-height:normal;}
+	.h1,h1{font-size:35px;}
+	.h2,h2{font-size:25px;}
+	.h3,h3{font-size:18px;}
+	.h4,h4{font-size:17px;}
+	select{padding-left:15px;padding-right:35px;background-size:10px;background-position:right 15px center;font-size:18px;}
+	p{font-size:14px;}
+	.btn{padding:12px 22px;font-size:12px;}
 	.btn:after{right:22px;top:18px;}
-
-	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"]{font-size:15px;}
-	.form-group label {font-size: 14px;}
-	.form-group label, .form-group input, .form-group select {width: 100%;font-size:14px;}	
-	textarea{font-size:14px;padding: 10px 15px;}
-
-	select {padding:10px 35px 10px 15px;background-size: 10px;background-position: right 15px center;font-size:15px;}
+	input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"]{font-size:15px;}
+	.form-group label{font-size:14px;}
+	.form-group label,.form-group input,.form-group select{width:100%;font-size:14px;}
+	textarea{font-size:14px;padding:10px 15px;}
+	select{padding:10px 35px 10px 15px;background-size:10px;background-position:right 15px center;font-size:15px;}
 	select option{font-size:14px;}
-	.form-group {margin-bottom: 25px;}
-
-	.form-group.radio-btn-wrap input[type="radio"] + label:before{width: 16px;height: 16px;}
-	.form-group.radio-btn-wrap input[type="radio"]:checked + label:after{width:10px;height:10px;}
-
-	.form-group.checkbox-btn-wrap input[type="checkbox"] + label:before{width: 16px;height: 16px;}
-	.form-group.checkbox-btn-wrap input[type="checkbox"]:checked + label:after{width: 5px;height: 10px;left: 1px;top: 4px;}
-
+	.form-group{margin-bottom:25px;}
+	.form-group.radio-btn-wrap input[type="radio"]+label:before{width:16px;height:16px;}
+	.form-group.radio-btn-wrap input[type="radio"]:checked+label:after{width:10px;height:10px;}
+	.form-group.checkbox-btn-wrap input[type="checkbox"]+label:before{width:16px;height:16px;}
+	.form-group.checkbox-btn-wrap input[type="checkbox"]:checked+label:after{width:5px;height:10px;left:1px;top:4px;}
 
 	/* Home Blog  
 	------------------------------------------------------------------------------*/
-	.home-blog .blog-info .blog-details {padding: 0 0 0 20px;}
+	.home-blog .blog-info .blog-details{padding:0 0 0 20px;}
 	.home-blog .blog-info .blog-details h3{line-height:normal;margin-bottom:15px;}
 	.related-news ul{margin-bottom:20px;}
 
 	/* Movie Single  
 	------------------------------------------------------------------------------*/
-	.movie-single .related-blogs ul li {padding-right: 30px;}
-	.movie-single .video-wrap, .movie-single .video-wrap iframe {width: 600px;height: 335px;}
-	.movie-single .related-blogs ul li {padding-right: 30px;}
+	.movie-single .related-blogs ul li{padding-right:30px;}
+	.movie-single .video-wrap,.movie-single .video-wrap iframe{width:600px;height:335px;}
+	.movie-single .related-blogs ul li{padding-right:30px;}
 
 	/* Blog
 	------------------------------------------------------------------------------*/
 	.blog .blog-list-wrap{flex-direction:column-reverse;}
-	.blog .blog-list-wrap article {width: 100%;padding:0;margin-bottom:30px;}
-	.blog .blog-list-wrap aside{width:100%;padding:0;}	
+	.blog .blog-list-wrap article{width:100%;padding:0;margin-bottom:30px;}
+	.blog .blog-list-wrap aside{width:100%;padding:0;}
 
 	/* Footer
 	------------------------------------------------------------------------------*/
-	footer .movies-searials {padding-left:20px;}
-	footer .others {padding-left:20px;}	
-
+	footer .movies-searials{padding-left:20px;}
+	footer .others{padding-left:20px;}
 }
-
 @media only screen and (max-width:640px){
 
 	/* Base Typography
-	------------------------------------------------------------------------------*/
-	input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="number"], textarea {height: 45px;}
-	.comment-form textarea {height: 140px;}
-
-	.form-group label {width: 100%;text-align: left;margin-bottom: 15px;}
-	.form-group select {height: 40px;}
-	.form-group label, .form-group input, .form-group select {width: 100%;font-size:14px;}	
-
+				------------------------------------------------------------------------------*/
+	input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],textarea{height:45px;}
+	.comment-form textarea{height:140px;}
+	.form-group label{width:100%;text-align:left;margin-bottom:15px;}
+	.form-group select{height:40px;}
+	.form-group label,.form-group input,.form-group select{width:100%;font-size:14px;}
 	.form-group.left{width:100%;padding-right:0px;}
-	.form-group.right{width:100%;padding-left:0px;}	
+	.form-group.right{width:100%;padding-left:0px;}
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
-	.home-banner .about-movie{flex-direction: column-reverse;margin-bottom:20px;}
-	.home-banner .about-movie .movie-info {width:100%;padding: 40px 0;text-align: center;}
+	.home-banner .about-movie{flex-direction:column-reverse;margin-bottom:20px;}
+	.home-banner .about-movie .movie-info{width:100%;padding:40px 0;text-align:center;}
 	.home-banner .about-movie .movie-info p{padding-right:0}
-	.home-banner .about-movie .movie-img {width: 100%;text-align: center;}
-	.category {justify-content: center;}
+	.home-banner .about-movie .movie-img{width:100%;text-align:center;}
+	.category{justify-content:center;}
 	.btn-group{justify-content:center;}
 	.home-banner .banner-slider p{text-align:center;}
 	.serials-slider li.slick-slide.active-before{position:unset;}
@@ -329,140 +286,136 @@
 
 	/* Movie Trailer
 	------------------------------------------------------------------------------*/
-	.video-wrap,.video-wrap iframe,
-	.movie-single .video-wrap,.movie-single .video-wrap iframe{width: 450px;height: 300px;}
-	.video-wrap .video-thumbnail img.play-btn {width: 50px;height: 30px;}
+	.video-wrap,.video-wrap iframe,.movie-single .video-wrap,.movie-single .video-wrap iframe{width:450px;height:300px;}
+	.video-wrap .video-thumbnail img.play-btn{width:50px;height:30px;}
 
 	/* Movie Category
 	------------------------------------------------------------------------------*/
 	.movie-category .movie-grid{margin-left:-1%;margin-right:-1%;}
-	.movie-category .movie-grid > li{width:48%;margin:0 1%;margin-bottom:10px;}
+	.movie-category .movie-grid>li{width:48%;margin:0 1%;margin-bottom:10px;}
 	.movie-category .movie-info h6{font-size:12px;}
 
 	/* Home Blog  
 	------------------------------------------------------------------------------*/
-	.home-blog .blog-info .blog-img {width: 100%;max-width: 330px;margin: 0 auto;margin-bottom: 30px;}	
-	.home-blog .blog-info .blog-details {padding: 0;text-align: center;width: 100%}
+	.home-blog .blog-info .blog-img{width:100%;max-width:330px;margin:0 auto;margin-bottom:30px;}
+	.home-blog .blog-info .blog-details{padding:0;text-align:center;width:100%}
 	.home-blog .related-blogs ul li{padding:0 10px 0 0;margin-bottom:20px;}
 	.home-blog .related-blogs .related-blog-info{padding-left:10px;}
 	.related-news ul,.blog article .related-news ul{margin-left:-1%;margin-right:-1%;}
-	.related-news ul li,.blog article  .related-news ul li{width: 48%;margin: 0 1%;margin-bottom:15px;}
+	.related-news ul li,.blog article .related-news ul li{width:48%;margin:0 1%;margin-bottom:15px;}
 
 	/* Movie Single  
 	------------------------------------------------------------------------------*/
-	.movie-single .movie-info .movie-img {width:100%;margin-bottom:30px;}
-	.movie-single .movie-info .movie-details-wrap {width: 100%;padding:0;}	
-	.movie-single .related-blogs ul li {padding-right: 50px;width: 100%;}
-	.movie-single .related-blogs .related-blog-img {width: 15%;}
-	.movie-single .related-blogs .related-blog-info {width: 85%;}
+	.movie-single .movie-info .movie-img{width:100%;margin-bottom:30px;}
+	.movie-single .movie-info .movie-details-wrap{width:100%;padding:0;}
+	.movie-single .related-blogs ul li{padding-right:50px;width:100%;}
+	.movie-single .related-blogs .related-blog-img{width:15%;}
+	.movie-single .related-blogs .related-blog-info{width:85%;}
 	.movie-single .movie-info .movie-img img{width:100%;}
-
 
 	/* Blog 
 	------------------------------------------------------------------------------*/
-	.blog article .blog-list .blog-img {width: 100%;margin-bottom:30px;}
-	.blog article .blog-list .blog-details {width: 100%;padding:0;}
-	.blog article ul.blog-list > li:last-child {margin-bottom: 20px;}
+	.blog article .blog-list .blog-img{width:100%;margin-bottom:30px;}
+	.blog article .blog-list .blog-details{width:100%;padding:0;}
+	.blog article ul.blog-list>li:last-child{margin-bottom:20px;}
+
+	/* Blog Single
+	------------------------------------------------------------------------------*/
+	.blog-single article .related-blogs ul li{padding-right:0;width:100%;}
 
 	/* Footer
 	------------------------------------------------------------------------------*/
-	footer .movies-searials {width:100%;padding-left:100px;margin-bottom:30px;}
-	footer .others {width:100%;padding-left:100px;}		
-
+	footer .movies-searials{width:100%;padding-left:100px;margin-bottom:30px;}
+	footer .others{width:100%;padding-left:100px;}
 }
-
 @media only screen and (min-width:480px){
-	header .mobile-menu ul > li.login-btn,header .mobile-menu ul > li.signup-btn{display:none;}
+	header .mobile-menu ul>li.login-btn,header .mobile-menu ul>li.signup-btn{display:none;}
 }
-
 @media only screen and (max-width:479px){
 
 	/* Base Typography
 	------------------------------------------------------------------------------*/
-
-	.h1,h1 {font-size: 27px;}
-	.h2,h2 {font-size: 22px;}
-	.h3,h3 {font-size: 17px;}
-	.h4,h4 {font-size: 14px;}
-	.h5,h5 {font-size: 14px;}
-	.h6,h6 {font-size: 14px;}	
-	
-
+	.h1,h1{font-size:27px;}
+	.h2,h2{font-size:22px;}
+	.h3,h3{font-size:17px;}
+	.h4,h4{font-size:14px;}
+	.h5,h5{font-size:14px;}
+	.h6,h6{font-size:14px;}
 	p{font-size:14px;}
 	.btn{font-size:12px;}
 
 	/* Header
-	------------------------------------------------------------------------------*/	
-	.mobile-menu-icon{top:22px;}	
-	header .logo img {width: 100px;}
-	header .logo {width: 50%;}
+	------------------------------------------------------------------------------*/
+	.mobile-menu-icon{top:22px;}
+	header .logo img{width:100px;}
+	header .logo{width:50%;}
 	.search-toggle button{font-size:14px;}
-	header ul.search-login {width: 50%;padding-right:50px;}
-	header .mobile-menu ul > li.login-btn,header .mobile-menu ul > li.signup-btn{display:block;}
-	header ul.search-login li.login-btn, header ul.search-login li.signup-btn {display: none;}
-	.bar1, .bar2, .bar3{height: 3px;}
+	header ul.search-login{width:50%;padding-right:50px;}
+	header .mobile-menu ul>li.login-btn,header .mobile-menu ul>li.signup-btn{display:block;}
+	header ul.search-login li.login-btn,header ul.search-login li.signup-btn{display:none;}
+	.bar1,.bar2,.bar3{height:3px;}
 	.change .bar1{-webkit-transform:rotate(-45deg) translate(-6px,5px);transform:rotate(-45deg) translate(-6px,5px);}
 	.change .bar3{-webkit-transform:rotate(45deg) translate(-7px,-8px);transform:rotate(45deg) translate(-7px,-8px);}
-
 
 	/* Home Banner
 	------------------------------------------------------------------------------*/
 	.home-banner .about-movie .movie-img{max-width:250px;}
+
 	/* Movie Trailer
 	------------------------------------------------------------------------------*/
-	.video-wrap,.video-wrap iframe,
-	.movie-single .video-wrap,.movie-single .video-wrap iframe{width:325px;height:200px;}	
+	.video-wrap,.video-wrap iframe,.movie-single .video-wrap,.movie-single .video-wrap iframe{width:325px;height:200px;}
 
 	/* Home Blog  
 	------------------------------------------------------------------------------*/
 	.home-blog .related-blogs ul li{width:100%;padding:0;}
 	.home-blog .related-blogs .related-blog-info{width:80%;}
-	.home-blog .related-blogs .related-blog-img{width:20%;}	
+	.home-blog .related-blogs .related-blog-img{width:20%;}
 	.home-blog .blog{margin-bottom:10px;}
-	.home-blog {padding: 55px 0px 30px 0px;}
+	.home-blog{padding:55px 0px 30px 0px;}
 	.home-blog .blog-info .blog-img{max-width:250px;}
 
 	/* Movie Single  
 	------------------------------------------------------------------------------*/
-	.movie-single .related-blogs ul li {padding-right:0px;}
-	.movie-single .related-blogs .related-blog-img {width: 22%;}
-	.movie-single .related-blogs .related-blog-info {width: 78%;}	
-
+	.movie-single .related-blogs ul li{padding-right:0px;}
+	.movie-single .related-blogs .related-blog-img{width:22%;}
+	.movie-single .related-blogs .related-blog-info{width:78%;}
 	.movie-single .movie .movie-info{text-align:center;}
 	.movie-single .add-movie .ratings{justify-content:center;}
+
+	/* Blog Single
+	------------------------------------------------------------------------------*/
+	.blog.blog-single .blog-img{margin-bottom:25px;}
+	.blog-single article .blog-details .comment-likes{margin-bottom:25px;}
 
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer .logo-social{margin-bottom:40px;}
-	footer .movies-searials,footer .others {padding-left:0;text-align:center;}
-	footer .movies-searials > ul >li,footer .others > ul >li{width:100%;}
-	footer .others > ul >li:last-child >ul >li:last-child {margin: 0;}
-	
+	footer .movies-searials,footer .others{padding-left:0;text-align:center;}
+	footer .movies-searials>ul>li,footer .others>ul>li{width:100%;}
+	footer .others>ul>li:last-child>ul>li:last-child{margin:0;}
 }
-
 @media only screen and (max-width:359px){
+
 	/* Home Banner
 	------------------------------------------------------------------------------*/
 	.btn-group{flex-direction:column}
 	.btn-group li{margin-right:0;margin-bottom:25px}
 	.btn-group li:last-child{margin-bottom:0}
 	.home-banner .about-movie{margin-bottom:0;}
+
 	/* Movie Trailer
 	------------------------------------------------------------------------------*/
-	.video-wrap,.video-wrap iframe,
-	.movie-single .video-wrap,.movie-single .video-wrap iframe{width:290px;height:185px;}	
+	.video-wrap,.video-wrap iframe,.movie-single .video-wrap,.movie-single .video-wrap iframe{width:290px;height:185px;}
 
 	/* Movie Category
 	------------------------------------------------------------------------------*/
 	.movie-category .movie-grid{margin-left:0;margin-right:0;}
-	.movie-category .movie-grid > li{width:100%;margin:0;margin-bottom:20px;}	
-	.movie-category .movie-info .year-btn p, .movie-category .movie-info .year-btn a {font-size: 13px;}
-	.movie-category .movie-info {padding: 24px 0 0 0;}
+	.movie-category .movie-grid>li{width:100%;margin:0;margin-bottom:20px;}
+	.movie-category .movie-info .year-btn p,.movie-category .movie-info .year-btn a{font-size:13px;}
+	.movie-category .movie-info{padding:24px 0 0 0;}
 
 	/* Home Blog  
 	------------------------------------------------------------------------------*/
 	.related-news ul,.blog article .related-news ul{margin-left:0;margin-right:0;}
-	.related-news ul li,.blog article .related-news ul li{width: 100%;margin: 0;margin-bottom:15px;}
-	
-
+	.related-news ul li,.blog article .related-news ul li{width:100%;margin:0;margin-bottom:15px;}
 }
