@@ -1,0 +1,510 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MY List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <link rel="icon" type="image/ico" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+<body>
+    <main>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="preloader">
+                    <img src="assets/images/logo.png">
+                </div>
+            </div>
+        </div>
+        <!-- Header -->
+        <header id="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#header-banner">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="desktop-menu">
+                    <ul>
+                        <li>
+                            <a href="#homepage">Homepage</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#serials">Serials</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#platform-one">One</a>
+                                </li>
+                                <li>
+                                    <a href="#platform-two">Two</a>
+                                </li>
+                                <li>
+                                    <a href="#platform-three">Three</a>
+                                </li>
+                                <li>
+                                    <a href="#platform-four">Four</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#movies">Movies</a>
+                        </li>
+                        <li>
+                            <a href="#favorites">Favorites</a>
+                        </li>
+                        <li>
+                            <a href="#my-list">My List</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="search-login">
+                    <li class="serach">
+                        <div class="search-wrap">
+                            <div class="search-toggle">
+                                <button class="search-icon search-icon"><i class="fa fa-fw fa-search"></i></button>
+                                <button class="search-icon close-icon"><i class="fa fa-fw  fa-close"></i></button>
+                            </div>
+                            <form id="search-form" action="javascript:void(0);">
+                                <div class="form-group-wrap">
+                                    <label for="search" id="search-label">Search</label>
+                                    <input type="search" name="search" id="search" placeholder="Search" required>
+                                    <button type="submit" value="Submit" id="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                    <li class="login-btn">
+                        <a href="#">Login</a>
+                    </li>
+                    <li class="signup-btn">
+                        <a href="#" class="btn">Sign Up</a>
+                    </li>
+                </ul>
+                <nav class="mobile-menu" style="display:none;">
+                    <ul>
+                        <li>
+                            <a href="#homepage">Homepage</a>
+                        </li>
+                        <li class="">
+                            <a href="#serials">Serials</a>
+<!--                             <ul class="sub-menu">
+                                <li>
+                                    <a href="#">One</a>
+                                </li>
+                                <li>
+                                    <a href="#">Two</a>
+                                </li>
+                                <li>
+                                    <a href="#">Three</a>
+                                </li>
+                                <li>
+                                    <a href="#">Four</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li>
+                            <a href="#movies">Movies</a>
+                        </li>
+                        <li>
+                            <a href="#favorites">Favorites</a>
+                        </li>
+                        <li>
+                            <a href="#my-list">My List</a>
+                        </li>
+                        <li class="login-btn">
+                            <a href="#" class="btn black">Login</a>
+                        </li>
+                        <li class="signup-btn">
+                            <a href="#" class="btn">Sign Up</a>
+                        </li>                        
+                    </ul>                   
+                </nav>
+                <div class="mobile-menu-icon" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </header>
+        <!-- Top Background -->
+        <section class="top-backgound-wrap">
+            <div class="top-backgound bg" style="background-image:url('assets/images/top-bg-img.png');">
+            </div>
+        </section>
+        <!-- Movie Category -->
+        <section class="movie-category my-list">
+            <div class="container">
+                <p>MY LIST</p>
+                <ul class="movie-grid">
+                    <li>
+                        <div class="movie-img">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/movie-grid-img-1.png">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="movie-info">
+                            <h6><a href="">Lucifer - Prime Exclusive</a></h6>
+                            <ul class="year-btn">
+                                <li>
+                                    <p>2016</p>
+                                </li>
+                                <li>
+                                    <ul class="btn-list">
+                                        <li><a href="#"><i class="fas fa-heart like-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye watch-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-star ratings"></i><span class="rating-no">8.1</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="movie-img">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/movie-grid-img-2.png">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="movie-info">
+                            <h6><a href="">The Avengers - Assemble</a></h6>
+                            <ul class="year-btn">
+                                <li>
+                                    <p>2012</p>
+                                </li>
+                                <li>
+                                    <ul class="btn-list">
+                                        <li><a href="#"><i class="fas fa-heart like-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye watch-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-star ratings"></i><span class="rating-no">9.1</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="movie-img">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/movie-grid-img-3.png">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="movie-info">
+                            <h6><a href="">The Defenders</a></h6>
+                            <ul class="year-btn">
+                                <li>
+                                    <p>2017</p>
+                                </li>
+                                <li>
+                                    <ul class="btn-list">
+                                        <li><a href="#"><i class="fas fa-heart like-btn like"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye watch-btn watched"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-star ratings"></i><span class="rating-no">7.4</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="movie-img">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/movie-grid-img-4.png">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="movie-info">
+                            <h6><a href="">Prison Break - Season 5</a></h6>
+                            <ul class="year-btn">
+                                <li>
+                                    <p>2017</p>
+                                </li>
+                                <li>
+                                    <ul class="btn-list">
+                                        <li><a href="#"><i class="fas fa-heart like-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye watch-btn watched"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-star ratings"></i><span class="rating-no">8.4</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="movie-img">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/movie-grid-img-5.png">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="movie-info">
+                            <h6><a href="">The Blacklist - Season 6</a></h6>
+                            <ul class="year-btn">
+                                <li>
+                                    <p>2019</p>
+                                </li>
+                                <li>
+                                    <ul class="btn-list">
+                                        <li><a href="#"><i class="fas fa-heart like-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye watch-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-star ratings"></i><span class="rating-no">8.1</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="movie-img">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/movie-grid-img-4.png">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="movie-info">
+                            <h6><a href="">Prison Break - Season 5</a></h6>
+                            <ul class="year-btn">
+                                <li>
+                                    <p>2017</p>
+                                </li>
+                                <li>
+                                    <ul class="btn-list">
+                                        <li><a href="#"><i class="fas fa-heart like-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye watch-btn watched"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-star ratings"></i><span class="rating-no">8.4</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="movie-img">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/movie-grid-img-5.png">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="movie-info">
+                            <h6><a href="">The Blacklist - Season 6</a></h6>
+                            <ul class="year-btn">
+                                <li>
+                                    <p>2019</p>
+                                </li>
+                                <li>
+                                    <ul class="btn-list">
+                                        <li><a href="#"><i class="fas fa-heart like-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye watch-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-star ratings"></i><span class="rating-no">8.1</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="movie-img">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/movie-grid-img-6.png">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="movie-info">
+                            <h6><a href="">The 100 - Season 6</a></h6>
+                            <ul class="year-btn">
+                                <li>
+                                    <p>2019</p>
+                                </li>
+                                <li>
+                                    <ul class="btn-list">
+                                        <li><a href="#"><i class="fas fa-heart like-btn like"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye watch-btn"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-star ratings"></i><span class="rating-no">7.8</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Fotter -->
+        <footer>
+            <div class="container">
+                <div class="logo-social">
+                    <ul>
+                        <li class="logo">
+                            <a href="#" class="footer-logo">
+                                <figure>
+                                    <img src="assets/images/footer-logo.png">
+                                </figure>
+                            </a>
+                            <p class="copyright">© Copyright 2019 <a href="#">KALLYAS - Hogash Studio</a>. All rights reserved.</p>
+                        </li>
+                        <li class="our-partners">
+                            <p>Our Partners</p>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="social-links">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-facebook-square"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-twitter"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-instagram"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="movies-searials">
+                    <h6>Movies & Serials</h6>
+                    <ul>
+                        <li>
+                            <ul>
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Adventure</a></li>
+                                <li><a href="#">Animation</a></li>
+                                <li><a href="#">Biography</a></li>
+                                <li><a href="#">Comedy</a></li>
+                                <li><a href="#">Crime</a></li>
+                                <li><a href="#">Documentary</a></li>
+                                <li><a href="#">Drama</a></li>
+                                <li><a href="#">Family</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">Film Noir</a></li>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Horror</a></li>
+                                <li><a href="#">Musical</a></li>
+                                <li><a href="#">Mystery</a></li>
+                                <li><a href="#">Romance</a></li>
+                                <li><a href="#">Sci-Fi</a></li>
+                                <li><a href="#">Short</a></li>
+                                <li><a href="#">Satire</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">Superhero</a></li>
+                                <li><a href="#">Thriller</a></li>
+                                <li><a href="#">War</a></li>
+                                <li><a href="#">Western</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="others">
+                    <h6>Others</h6>
+                    <ul>
+                        <li>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Top Rated Movies</a></li>
+                                <li><a href="#">Box Office</a></li>
+                                <li><a href="#">Biography</a></li>
+                                <li><a href="#">TV</a></li>
+                                <li><a href="#">Coming Soon</a></li>
+                                <li><a href="#">Site Index</a></li>
+                                <li><a href="#">Search</a></li>
+                                <li><a href="#">In Theaters</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Register</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Press Room</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Conditions of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Interest-Based Ads</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
+    <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js//isotope.pkgd.min.js"></script>
+    <script type='text/javascript' src='assets/js/script.js'></script>
+</body>
+
+</html>

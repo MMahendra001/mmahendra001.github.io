@@ -1,0 +1,489 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Single</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <link rel="icon" type="image/ico" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+<body>
+    <main class="movie-single-page">
+        <!-- Preloader -->
+<!--         <div id="preloader">
+            <div id="status">
+                <div class="preloader">
+                    <img src="assets/images/logo.png">
+                </div>
+            </div>
+        </div> -->
+        <!-- Header -->
+        <header id="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#header-banner">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="desktop-menu">
+                    <ul>
+                        <li>
+                            <a href="#homepage">Homepage</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#serials">Serials</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#platform-one">One</a>
+                                </li>
+                                <li>
+                                    <a href="#platform-two">Two</a>
+                                </li>
+                                <li>
+                                    <a href="#platform-three">Three</a>
+                                </li>
+                                <li>
+                                    <a href="#platform-four">Four</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#movies">Movies</a>
+                        </li>
+                        <li>
+                            <a href="#favorites">Favorites</a>
+                        </li>
+                        <li>
+                            <a href="my-list.html">My List</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="search-login">
+                    <li class="serach">
+                        <div class="search-wrap">
+                            <div class="search-toggle">
+                                <button class="search-icon search-icon"><i class="fa fa-fw fa-search"></i></button>
+                                <button class="search-icon close-icon"><i class="fa fa-fw  fa-close"></i></button>
+                            </div>
+                            <form id="search-form" action="javascript:void(0);">
+                                <div class="form-group-wrap">
+                                    <label for="search" id="search-label">Search</label>
+                                    <input type="search" name="search" id="search" placeholder="Search" required>
+                                    <button type="submit" value="Submit" id="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                    <li class="login-btn">
+                        <a href="#">Login</a>
+                    </li>
+                    <li class="signup-btn">
+                        <a href="#" class="btn">Sign Up</a>
+                    </li>
+                </ul>
+                <nav class="mobile-menu" style="display:none;">
+                    <ul>
+                        <li>
+                            <a href="#homepage">Homepage</a>
+                        </li>
+                        <li class="">
+                            <a href="#serials">Serials</a>
+<!--                             <ul class="sub-menu">
+                                <li>
+                                    <a href="#">One</a>
+                                </li>
+                                <li>
+                                    <a href="#">Two</a>
+                                </li>
+                                <li>
+                                    <a href="#">Three</a>
+                                </li>
+                                <li>
+                                    <a href="#">Four</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li>
+                            <a href="#movies">Movies</a>
+                        </li>
+                        <li>
+                            <a href="#favorites">Favorites</a>
+                        </li>
+                        <li>
+                            <a href="my-list.html">My List</a>
+                        </li>
+                        <li class="login-btn">
+                            <a href="#" class="btn black">Login</a>
+                        </li>
+                        <li class="signup-btn">
+                            <a href="#" class="btn">Sign Up</a>
+                        </li>                        
+                    </ul>                   
+                </nav>
+                <div class="mobile-menu-icon" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </header>
+        <!-- Top Background -->
+        <section class="top-backgound-wrap">
+            <div class="top-backgound bg" style="background-image:url('assets/images/movie-single-top-bg.png');">
+            </div>
+        </section>
+        <!-- Movie Trailer -->
+<!--         <section class="movie-trailer bg" style="background-image:url('assets/images/movie-video-bg-1.png');">
+            <div class="container">
+                <div class="about-movie">
+                    <div class="movie-video">
+                        <div class="video-wrap" data-url="https://www.youtube.com/embed/XiHiW4N7-bo">
+                            <div class="video-thumbnail bg" style="background-image:url('assets/images/video-thumbnail-1.png');">
+                                <img src="assets/images/play-btn.png" class="play-btn" alt="Play Button" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <ul class="category">
+                            <li>
+                                <a href="#" class="yellow-cat">2012</a>
+                            </li>
+                            <li>
+                                <a href="#" class="blue-cat">ACTION</a>
+                            </li>
+                            <li>
+                                <a href="#" class="orange-cat">ADVENTURE</a>
+                            </li>
+                        </ul>
+                        <h3><a href="#">MISSION : IMPOSSIBLE</a></h3>
+                        <p>Ethan Hunt and the IMF team join forces with CIA assassin August Walker to prevent a disaster of epic proportions. Arms dealer John Lark and a group of terrorists known as the Apostles plan to use three plutonium cores for a simultaneous nuclear attack on the</p>
+                        <ul class="btn-group">
+                            <li>
+                                <a href="#" class="btn"><i class="fas fa-play"></i> PLAY TRAILER</a>
+                            </li>
+                            <li>
+                                <a href="my-list.html" class="btn black"><i class="fas fa-plus"></i> ADD TO LIST</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+ -->    
+        <!-- Home BLog -->
+        <section class="movie-single">
+            <div class="container">
+                <div class="movie">
+                    <div class="movie-info">
+                        <div class="movie-img">      
+                            <figure>
+                                <img src="assets/images/movie-signle-img.png" alt="movie-single-img">
+                            </figure>
+                        </div>
+                        <div class="movie-details">
+                            <h3>THE DARK KNIGHT</h3>
+                            <ul>
+                                <li><p>Directed by: <a href="">Christopher Nolan</a></p></li>
+                                <li><p>Release date: July 18, 2008 (United States)</p></li>
+                                <li><p>Length: 2h 32m</p></li>
+                                <li><p>Category: Action, Comics, Adventure</p></li>
+                            </ul>
+                            <p>With the help of allies Lt. Jim Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has been able to keep a tight lid on crime in Gotham City. But when a vile young criminal calling himself the Joker (Heath Ledger) suddenly throws the town into chaos, the caped Crusader begins to tread a fine line between heroism and vigilantism.</p>
+
+                            <p>Coleman Reese, an accountant at Wayne Enterprises, deduces that Bruce is Batman and threatens to publicize the information. Not wanting Reese's revelation to interfere with his plans, the Joker threatens to destroy a hospital unless Reese is killed within an hour.</p>
+                        </div>
+                        <div class="add-movie">
+                            <a href="my-list.html" class="btn black"><i class="fas fa-plus"></i> ADD TO LIST</a>
+                            <ul class="ratings">
+                                <li>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </li>
+                                <li class="rating-no">(96%)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="related-blogs">
+                        <div class="blogs-list">
+                            <ul>
+                                <li>
+                                    <div class="related-blog-img">
+                                        <a href="#" class="img-link">
+                                            <figure>
+                                                <img src="assets/images/movie-single-related-img-1.png">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="related-blog-info">
+                                        <h6><a href="#">The 10 Best Gifts For Fans Of The Dark Knight Trilogy.</a></h6>
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="related-blog-img">
+                                        <a href="#" class="img-link">
+                                            <figure>
+                                                <img src="assets/images/movie-single-related-img-2.png">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="related-blog-info">
+                                        <h6><a href="#">10 Most Memorable Quotes From The Dark Knight Trilogy.</a></h6>
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="related-blog-img">
+                                        <a href="#" class="img-link">
+                                            <figure>
+                                                <img src="assets/images/movie-single-related-img-3.png">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="related-blog-info">
+                                        <h6><a href="#">Captain Marvel' Passes 'The Dark Knight' at the Worldwide Box Office.</a></h6>
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="related-blog-img">
+                                        <a href="#" class="img-link">
+                                            <figure>
+                                                <img src="assets/images/movie-single-related-img-4.png">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="related-blog-info">
+                                        <h6><a href="#">Dark Knight trilogy IMAX tickets sell out rapidly.</a></h6>
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="movie-video">
+                        <div class="video-wrap" data-url="https://www.youtube.com/embed/XiHiW4N7-bo">
+                            <div class="video-thumbnail bg" style="background-image:url('assets/images/video-thumbnail-3.png');">
+                                <img src="assets/images/play-btn.png" class="play-btn" alt="Play Button" />
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="related-news">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/home-related-news-img-1.png">
+                                </figure>
+                                <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/home-related-news-img-2.png">
+                                </figure>
+                                <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/home-related-news-img-3.png">
+                                </figure>
+                                <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/images/home-related-news-img-4.png">
+                                </figure>
+                                <p>“Suicide Squad” voted as “The Best Viewed Movie” for 2016.</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Fotter -->
+        <footer>
+            <div class="container">
+                <div class="logo-social">
+                    <ul>
+                        <li class="logo">
+                            <a href="#" class="footer-logo">
+                                <figure>
+                                    <img src="assets/images/footer-logo.png">
+                                </figure>
+                            </a>
+                            <p class="copyright">© Copyright 2019 <a href="#">KALLYAS - Hogash Studio</a>. All rights reserved.</p>
+                        </li>
+                        <li class="our-partners">
+                            <p>Our Partners</p>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="far fa-star"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="social-links">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-facebook-square"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-twitter"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <i class="fab fa-instagram"></i>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="movies-searials">
+                    <h6>Movies & Serials</h6>
+                    <ul>
+                        <li>
+                            <ul>
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Adventure</a></li>
+                                <li><a href="#">Animation</a></li>
+                                <li><a href="#">Biography</a></li>
+                                <li><a href="#">Comedy</a></li>
+                                <li><a href="#">Crime</a></li>
+                                <li><a href="#">Documentary</a></li>
+                                <li><a href="#">Drama</a></li>
+                                <li><a href="#">Family</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">Film Noir</a></li>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Horror</a></li>
+                                <li><a href="#">Musical</a></li>
+                                <li><a href="#">Mystery</a></li>
+                                <li><a href="#">Romance</a></li>
+                                <li><a href="#">Sci-Fi</a></li>
+                                <li><a href="#">Short</a></li>
+                                <li><a href="#">Satire</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">Superhero</a></li>
+                                <li><a href="#">Thriller</a></li>
+                                <li><a href="#">War</a></li>
+                                <li><a href="#">Western</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="others">
+                    <h6>Others</h6>
+                    <ul>
+                        <li>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Top Rated Movies</a></li>
+                                <li><a href="#">Box Office</a></li>
+                                <li><a href="#">Biography</a></li>
+                                <li><a href="#">TV</a></li>
+                                <li><a href="#">Coming Soon</a></li>
+                                <li><a href="#">Site Index</a></li>
+                                <li><a href="#">Search</a></li>
+                                <li><a href="#">In Theaters</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Register</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Press Room</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Conditions of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Interest-Based Ads</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
+    <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js//isotope.pkgd.min.js"></script>
+    <script type='text/javascript' src='assets/js/script.js'></script>
+</body>
+
+</html>
