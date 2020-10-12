@@ -31,6 +31,14 @@
 	.home-blog .ad-banner{margin-bottom:88px;}
 	.home-blog .blog{margin-bottom:85px;}
 
+	/* Movie Single  
+	------------------------------------------------------------------------------*/
+	.movie-single {padding: 205px 0 43px 0;}
+	.movie-single .movie-info .movie-details ul {margin-bottom: 56px; }
+	.movie-single .movie-info .movie-details h3 {margin-bottom: 32px; }	
+	.movie-single .movie .movie-info{margin-bottom:112px;}
+	.movie-single .movie .related-blogs {margin-bottom:85px;}
+
 }
 
 @media only screen and  (min-width:1900px){
@@ -86,6 +94,16 @@
 	.movie-category.my-list{padding:100px 0 20px 0;}
 
 
+	/* Movie Single  
+	------------------------------------------------------------------------------*/
+	.movie-single {padding: 120px 0 20px 0;}
+	.movie-single .movie-info .movie-details-wrap {padding:0px 0px 0 30px;}
+	.movie-single .movie-info .movie-details {width: 100%;margin-top: 0;}
+	.movie-single .movie-info .add-movie {width: 100%;margin-top: 30px;}
+	.movie-single .movie-info .movie-img {width: 30%;}
+	.movie-single .movie-info .movie-details-wrap {width: 70%;}
+	.movie-single .video-wrap, .movie-single .video-wrap iframe {width: 615px;height: 345px;}
+	
 	/* Footer
 	------------------------------------------------------------------------------*/
 	footer .movies-searials{padding-left: 35px;}
@@ -133,7 +151,7 @@
 	.search-toggle.opened .search-icon.close-icon{display:block;}
 	#search-form{position:relative;-moz-transition:all 0.3s;-o-transition:all 0.3s;-webkit-transition:all 0.3s;transition:all 0.3s;max-height:0;overflow:hidden;}
 	#search-form.opened{max-height:100px;}
-	#search-form{position: absolute;left: unset;min-width: 200px;right: 0;padding-top:20px;}
+	#search-form{position: absolute;left: unset;min-width: 200px;right: 0;padding-top:20px;z-index: 1000001;}
 	header ul.search-login form input,header ul.search-login form input:active,header ul.search-login form input:focus{padding: 15px 15px 15px 13px;background: #020d18;}
 	header ul.search-login form button{padding:10px 14px 10px 14px;}
 	.search-toggle button {padding: 7px 8px;font-size: 18px;}
@@ -169,7 +187,7 @@
 	.upcomming-movie{min-height:unset;}
 	.upcomming-movie .category,.upcomming-movie .btn-group{justify-content: center;}
 	.upcomming-movie .about-movie .movie-info p{max-width:unset;margin-bottom:30px;}
-	.upcomming-movie .about-movie .movie-info{width:100%;padding:0;text-align:center;max-width: 700px;margin: 0 auto;}
+	.upcomming-movie .about-movie .movie-info{width:100%;padding:0;text-align:center;max-width: 700px;}
 
 	/* Home Blog  
 	------------------------------------------------------------------------------*/
@@ -180,6 +198,18 @@
 	.related-news ul{margin-left:-1.16%;margin-right:-1.16%;}
 	.related-news ul li{width: 31%;margin: 0 1.16%;margin-bottom:20px;}
 	.home-blog .blog{margin-bottom:25px;}
+
+	/* Movie Single  
+	------------------------------------------------------------------------------*/
+	.movie-single {padding: 100px 0 20px 0;}
+	.movie-single .movie-info .movie-img {width: 35%;}
+	.movie-single .movie-info .movie-details-wrap {width: 65%;}	
+	.movie-single .movie .related-blogs{flex-direction:column-reverse;}
+	.movie-single .related-blogs .movie-video {width: 100%;margin-bottom:50px;}
+	.movie-single .related-blogs .blogs-list {width: 100%;padding-right: 0;}
+	.movie-single .related-blogs ul{display:flex;flex-wrap:wrap;}
+	.movie-single .related-blogs ul li {width: 50%;padding-right: 50px;}
+	.movie-single .video-wrap, .movie-single .video-wrap iframe {width: 730px;height: 410px;margin:0 auto;}
 
 	
 	/* Footer
@@ -229,6 +259,11 @@
 	.home-blog .blog-info .blog-details h3{line-height:normal;margin-bottom:15px;}
 	.related-news ul{margin-bottom:20px;}
 
+	/* Movie Single  
+	------------------------------------------------------------------------------*/
+	.movie-single .related-blogs ul li {padding-right: 30px;}
+	.movie-single .video-wrap, .movie-single .video-wrap iframe {width: 600px;height: 335px;}
+	.movie-single .related-blogs ul li {padding-right: 30px;}
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -265,7 +300,9 @@
 
 	/* Movie Trailer
 	------------------------------------------------------------------------------*/
-	.video-wrap,.video-wrap iframe{width: 450px;height: 300px;}
+	.video-wrap,.video-wrap iframe,
+	.movie-single .video-wrap,.movie-single .video-wrap iframe{width: 450px;height: 300px;}
+	.video-wrap .video-thumbnail img.play-btn {width: 50px;height: 30px;}
 
 	/* Movie Category
 	------------------------------------------------------------------------------*/
@@ -281,6 +318,15 @@
 	.home-blog .related-blogs .related-blog-info{padding-left:10px;}
 	.related-news ul{margin-left:-1%;margin-right:-1%;}
 	.related-news ul li{width: 48%;margin: 0 1%;margin-bottom:15px;}
+
+	/* Movie Single  
+	------------------------------------------------------------------------------*/
+	.movie-single .movie-info .movie-img {width:100%;margin-bottom:30px;}
+	.movie-single .movie-info .movie-details-wrap {width: 100%;padding:0;}	
+	.movie-single .related-blogs ul li {padding-right: 50px;width: 100%;}
+	.movie-single .related-blogs .related-blog-img {width: 15%;}
+	.movie-single .related-blogs .related-blog-info {width: 85%;}
+
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -328,7 +374,8 @@
 	.home-banner .about-movie .movie-img{max-width:250px;}
 	/* Movie Trailer
 	------------------------------------------------------------------------------*/
-	.video-wrap,.video-wrap iframe{width:325px;height:200px;}	
+	.video-wrap,.video-wrap iframe,
+	.movie-single .video-wrap,.movie-single .video-wrap iframe{width:325px;height:200px;}	
 
 	/* Home Blog  
 	------------------------------------------------------------------------------*/
@@ -338,6 +385,12 @@
 	.home-blog .blog{margin-bottom:10px;}
 	.home-blog {padding: 55px 0px 30px 0px;}
 	.home-blog .blog-info .blog-img{max-width:250px;}
+
+	/* Movie Single  
+	------------------------------------------------------------------------------*/
+	.movie-single .related-blogs ul li {padding-right:0px;}
+	.movie-single .related-blogs .related-blog-img {width: 22%;}
+	.movie-single .related-blogs .related-blog-info {width: 78%;}	
 
 	/* Footer
 	------------------------------------------------------------------------------*/
@@ -358,7 +411,8 @@
 	.home-banner .about-movie{margin-bottom:0;}
 	/* Movie Trailer
 	------------------------------------------------------------------------------*/
-	.video-wrap,.video-wrap iframe{width:290px;height:185px;}	
+	.video-wrap,.video-wrap iframe,
+	.movie-single .video-wrap,.movie-single .video-wrap iframe{width:290px;height:185px;}	
 
 	/* Movie Category
 	------------------------------------------------------------------------------*/

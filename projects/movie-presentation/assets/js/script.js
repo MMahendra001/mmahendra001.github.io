@@ -46,110 +46,16 @@ Array.prototype.forEach.call(links, function(elem, index) {
     }
 });
 
-/* Movie Category
---------------------------------------------------*/
-// set up variables
-var categoryFilters = [];
-var categoryFilter;
 
-// init Isotope
-var $container = $('#movie-grid').isotope({
-    itemSelector: '.item',
-    filter: function() {
-        var length = categoryFilters.length;
-        if (!length) {
-            return true;
-        }
-        var $this = $(this);
-        // check if all category filter match
-        for (var i = 0; i < length; i++) {
-            var catFilter = categoryFilters[i];
-            if (!$this.is('[data-category*=' + catFilter + ']')) {
-                return false;
-            }
-        }
-        // otherwise match
-        return true;
-    }
+jQuery(document).ready(function() {
 
-});
-
-// filter with checkboxes
-var $checkboxes = $('.movie-filter input');
-
-$checkboxes.change(function() {
-    categoryFilters = [];
-    $checkboxes.each(function(i, elem) {
-        if (elem.checked) {
-            categoryFilters.push(elem.value);
-        }
-        console.log(categoryFilters.join(','));
-        $container.isotope();
-    });
-  });
-
-
-// Isotope Load more button
-
-var initShow = 10; //number of images loaded on init & onclick load more button
-var counter = initShow; //counter for load more button
-var iso = $container.data('isotope'); // get Isotope instance
-
-loadMore(initShow); //execute function onload
-
-function loadMore(toShow) {
-
-    $container.find(".hidden").removeClass("hidden");
-
-    var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
-        //console.log(item.element);
-        return item.element;
-    });
-    $(hiddenElems).addClass('hidden');
-    $container.isotope('layout');
-
-    //when no more to load, hide show more button
-    if (hiddenElems.length == 0) {
-        $("#load-more-btn").hide();
-    } else {
-        $("#load-more-btn").show();
-    }
-
-}
-
-//append load more button
-$container.after('<div class="load-more"><a href="#" class="btn gray" id="load-more-btn"><i class="fas fa-plus"></i> LOAD MORE</a></div>');
-
-//when load more button clicked
-$(document).on("click", "#load-more-btn", function(e) {
-    e.preventDefault();
-
-    if ($('.movie-filter input').data('clicked')) {
-        //when filter button clicked, set initial value for counter
-        counter = initShow;
-        console.log(counter);
-        j$('.movie-filter input').data('clicked', false);
-    } else {
-        counter = counter;
-    }
-
-    counter = counter + initShow;
-
-    loadMore(counter);
-});
-
-
-
-
-jQuery(document).ready(function(){
-   
     /* Sticky Header
     --------------------------------------------------*/
 
     $(window).scroll(function() {
 
         if ($(this).scrollTop() > 1) {
-            $('header').addClass("sticky");
+            $('header').addClass("sticky-2");
         } else {
             $('header').removeClass("sticky");
         }
@@ -184,15 +90,15 @@ jQuery(document).ready(function(){
     $('.search-toggle').addClass('closed');
 
     $('.search-toggle .search-icon').click(function(e) {
-      if ($('.search-toggle').hasClass('closed')) {
-        $('.search-toggle').removeClass('closed').addClass('opened');
-        $('.search-toggle, #search-form').addClass('opened');
+        if ($('.search-toggle').hasClass('closed')) {
+            $('.search-toggle').removeClass('closed').addClass('opened');
+            $('.search-toggle, #search-form').addClass('opened');
 
-      } else {
-        $('.search-toggle').removeClass('opened').addClass('closed');
-        $('.search-toggle, #search-form').removeClass('opened');
-      }
-    });    
+        } else {
+            $('.search-toggle').removeClass('opened').addClass('closed');
+            $('.search-toggle, #search-form').removeClass('opened');
+        }
+    });
 
     /* Like Btn
     --------------------------------------------------*/
@@ -253,14 +159,14 @@ jQuery(document).ready(function(){
             responsive: [{
                     breakpoint: 992,
                     settings: {
-                      centerPadding: '10%',
+                        centerPadding: '10%',
                         slidesToShow: 3
                     }
                 },
                 {
                     breakpoint: 640,
                     settings: {
-                      centerPadding: '25%',
+                        centerPadding: '25%',
                         slidesToShow: 1
                     }
                 },
@@ -268,7 +174,7 @@ jQuery(document).ready(function(){
                     breakpoint: 480,
                     settings: {
 
-                      centerPadding: '20%',
+                        centerPadding: '20%',
                         slidesToShow: 1
                     }
                 }
@@ -294,6 +200,99 @@ jQuery(document).ready(function(){
 
 
     });
+
+    /* Movie Category
+    --------------------------------------------------*/
+    // set up variables
+    var categoryFilters = [];
+    var categoryFilter;
+
+    // init Isotope
+    var $container = $('#movie-grid').isotope({
+        itemSelector: '.item',
+        filter: function() {
+            var length = categoryFilters.length;
+            if (!length) {
+                return true;
+            }
+            var $this = $(this);
+            // check if all category filter match
+            for (var i = 0; i < length; i++) {
+                var catFilter = categoryFilters[i];
+                if (!$this.is('[data-category*=' + catFilter + ']')) {
+                    return false;
+                }
+            }
+            // otherwise match
+            return true;
+        }
+
+    });
+
+    // filter with checkboxes
+    var $checkboxes = $('.movie-filter input');
+
+    $checkboxes.change(function() {
+        categoryFilters = [];
+        $checkboxes.each(function(i, elem) {
+            if (elem.checked) {
+                categoryFilters.push(elem.value);
+            }
+            console.log(categoryFilters.join(','));
+            $container.isotope();
+        });
+    });
+
+
+    // Isotope Load more button
+
+    var initShow = 10; //number of images loaded on init & onclick load more button
+    var counter = initShow; //counter for load more button
+    var iso = $container.data('isotope'); // get Isotope instance
+
+    loadMore(initShow); //execute function onload
+
+    function loadMore(toShow) {
+
+        $container.find(".hidden").removeClass("hidden");
+
+        var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
+            //console.log(item.element);
+            return item.element;
+        });
+        $(hiddenElems).addClass('hidden');
+        $container.isotope('layout');
+
+        //when no more to load, hide show more button
+        if (hiddenElems.length == 0) {
+            $("#load-more-btn").hide();
+        } else {
+            $("#load-more-btn").show();
+        }
+
+    }
+
+    //append load more button
+    $container.after('<div class="load-more"><a href="#" class="btn gray" id="load-more-btn"><i class="fas fa-plus"></i> LOAD MORE</a></div>');
+
+    //when load more button clicked
+    $(document).on("click", "#load-more-btn", function(e) {
+        e.preventDefault();
+
+        if ($('.movie-filter input').data('clicked')) {
+            //when filter button clicked, set initial value for counter
+            counter = initShow;
+            console.log(counter);
+            j$('.movie-filter input').data('clicked', false);
+        } else {
+            counter = counter;
+        }
+
+        counter = counter + initShow;
+
+        loadMore(counter);
+    });
+
 
     /* Movie Filter Slider
     --------------------------------------------------*/
@@ -327,7 +326,7 @@ jQuery(document).ready(function(){
                 settings: {
                     slidesToShow: 1
                 }
-            }            
+            }
         ]
 
     });

@@ -297,7 +297,7 @@ header ul.search-login form input,
 header ul.search-login form input:focus,
 header ul.search-login form input:active{border-radius:0;background:transparent;border:none;border-bottom:1px solid #f10e1f;color:#f10e1f}
 header ul.search-login form input::placeholder{color:#f10e1f}
-header ul.search-login form input{padding:15px 15px 15px 0px;}
+header ul.search-login form input{padding:7px 15px 7px 0px;height:unset;}
 header ul.search-login form button{position:absolute;right:0;top:0;margin:0;background:#0000;color:#f10e1f;border-radius:0;border:none;padding:10px 0px 10px 14px;cursor:pointer;height:100%;min-width:46px;text-align:right;}
 header ul.search-login li .btn{padding:13px 28px;}
 header nav.desktop-menu ul li:last-child{padding-right:0;}
@@ -533,36 +533,31 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 
 /* Movie Single  
 ------------------------------------------------------------------------------*/
-.movie-single{padding:55px 0px 40px 0px;}
-.movie-single .movie{margin-bottom:50px;}
-.movie-single .movie .movie-info{display:flex;flex-wrap:wrap;}
-.movie-single .movie-info .movie-img{width:25%;}
-.movie-single .movie-info .movie-details{width:55%;padding:0 25px;}
-.movie-single .movie-info .movie-details h3{line-height:48px;}
-.movie-single .movie-info .add-movie{width:20%;padding-left:25px;}
-.movie-single .add-movie .ratings{display:flex;align-items:center;padding:0;margin:20px 0 0 0;list-style:none;}
-.movie-single .add-movie .ratings > li{padding:0;margin:0;margin-right:10px;}
-.movie-single .add-movie .ratings > li > ul{padding:0;margin:0;list-style:none;display:flex;align-items:center;}
-.movie-single .add-movie .ratings > li > ul > li{padding:0;margin:0;margin-right:5px;}
-.movie-single .add-movie .ratings .rating-no{color:#0ea4f1}
-
-.movie-single .movie .related-blogs{display:flex;flex-wrap:wrap;}
-.movie-single .related-blogs .blogs-list {
-    width: 40%;
-    padding-right: 50px;
-}
-.movie-single .related-blogs .movie-video {
-    width: 60%;
-
-
-
-}
+.movie-single {padding: 150px 0 43px 0;}
+.movie-single .movie .movie-info{display:flex;flex-wrap:wrap;margin-bottom:50px;}
+.movie-single .movie-info .movie-img{width:26%;}
+.movie-single .movie-info .movie-details-wrap{width:74%;display:flex;flex-wrap:wrap; padding: 0px 0px 0 66px;}
+.movie-single .movie-info .movie-details { width: 82%; margin-top: -8px; }
+.movie-single .movie-info .add-movie { width:18%;}
+.movie-single .movie-info .movie-img img{-webkit-box-shadow:22px 23px 35px 0px rgba(0,0,0,0.48);-moz-box-shadow:22px 23px 35px 0px rgba(0,0,0,0.48);box-shadow:22px 23px 35px 0px rgba(0,0,0,0.48);}
+.movie-single .movie-info .movie-details ul { padding: 0; margin: 0; list-style: none; margin-bottom: 20px; }
+.movie-single .movie-info .movie-details ul li { padding: 0; }
+.movie-single .movie-info .movie-details h3 { line-height: 48px; margin-bottom: 20px; }
+.movie-single .add-movie .ratings { display: flex; align-items: center; padding: 0; margin: 22px 0 0 8px; list-style: none; }
+.movie-single .add-movie .ratings > li { padding: 0; margin: 0; margin-right: 8px; }
+.movie-single .add-movie .ratings > li > ul { padding: 0; margin: 0; list-style: none; display: flex; align-items: center; }
+.movie-single .add-movie .ratings > li > ul > li { padding: 0; margin: 0; margin-right: 3px; }
+.movie-single .add-movie .ratings .rating-no { color: #0ea4f1 }
+.movie-single .movie .related-blogs { display: flex; flex-wrap: wrap;margin-bottom:30px;}
+.movie-single .related-blogs .blogs-list { width: 35%; padding-right: 42px; }
+.movie-single .related-blogs .movie-video { width: 65%; }
+.movie-single .video-wrap,.movie-single .video-wrap iframe{width: 763px;height: 430px;}
 
 .movie-single .related-blogs ul{margin:0;padding:0;list-style:none;}
-.movie-single .related-blogs ul li{display:flex;flex-wrap:wrap;align-items:center;padding:0;margin-bottom:26px;}
-.movie-single .related-blogs .related-blog-img{width:28%;}
-.movie-single .related-blogs .related-blog-info{width:72%;padding-left:27px;}
-.movie-single .related-blogs .related-blog-info h6{font-weight:500;}
+.movie-single .related-blogs ul li{display:flex;flex-wrap:wrap;align-items:center;padding:0;margin-bottom:33px;}
+.movie-single .related-blogs .related-blog-img{width:22%;}
+.movie-single .related-blogs .related-blog-info{width:78%;padding-left:27px;}
+.movie-single .related-blogs .related-blog-info h6{font-weight: 500;line-height: 23px;}
 
 /* Blog
 ------------------------------------------------------------------------------*/
@@ -604,6 +599,7 @@ header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 .blog-single article .blog-details .comment-likes li{margin-right:5px;}
 .blog-single article  .social-share ul{display:flex;align-items:center;}
 .blog-single article  .social-share ul li{margin-right:5px;}
+
 /* Footer 
 ------------------------------------------------------------------------------*/
 footer{padding:50px 0;background:#000b15;}
