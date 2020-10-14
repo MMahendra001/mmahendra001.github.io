@@ -137,6 +137,8 @@
 	.portfolio #filters.mobile-filter{top: 44px;}
 	.portfolio #filters.mobile-filter li{padding: 12px 0px;}
 	.portfolio #filters li button{font-size:12px;}
+	
+	footer nav ul li {padding: 0 5px;}	
 
 
 }
