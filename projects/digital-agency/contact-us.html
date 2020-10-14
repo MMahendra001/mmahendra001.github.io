@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Contact US</title>
@@ -14,42 +15,273 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
+
 <body>
     <main>
         <!-- Preloader -->
-<!--         <div id="preloader">
-          <div id="status">
-            <div class="preloader">
-                <img src="assets/images/logo.png">
+        <div id="preloader">
+            <div id="status">
+                <div class="preloader">
+                    <img src="assets/images/logo.png">
+                </div>
             </div>
-          </div>
-        </div>   -->      
-        
+        </div>
+        <!-- Header -->
         <header id="navbar">
-            <div class="container">            
+            <div class="container">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="assets/images/logo.png" class="default-logo" alt="logo">
+                        <img src="assets/images/footer-logo.png" class="sticky-logo" alt="logo">
+                    </a>
+                </div>
+                <nav class="desktop-menu">
+                    <ul>
+                        <li class="menu-item-has-children">
+                            <a href="our-services.html">Our Services</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">UI/UX</a>
+                                </li>
+                                <li>
+                                    <a href="#">Product Design</a>
+                                </li>
+                                <li>
+                                    <a href="#">SEO</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="our-clients.html">Our Clients</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="btn">Get Started</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="mobile-menu" style="display:none;">
+                    <ul>
+                        <li class="menu-item-has-children">
+                            <a href="our-services.html">Our Services</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">UI/UX</a>
+                                </li>
+                                <li>
+                                    <a href="#">Product Design</a>
+                                </li>
+                                <li>
+                                    <a href="#">SEO</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="our-clients.html">Our Clients</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="btn">Get Started</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-icon" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
             </div>
         </header>
-
         <!-- Home -->
-    
-        <section class="home">
+        <section class="common-banner bg" style="background-image:url('assets/images/common-banner-bg.png');">
             <div class="container">
-                <h1>Comming Soon</h1>
+                <div class="heading">
+                    <h1>Contact Us</h1>
+                    <p>Feel like contacting us? Submit your queries here and we will get back to you as soon as possible.</p>
+                </div>
             </div>
         </section>
-
-    	<footer>
-            <div class="container">                          
+        <!-- Contact Us -->
+        <section class="contact-us">
+            <div class="container">
+                <div class="contact-form">
+                    <form action="javascript:void(0);">
+                        <div class="form-group">
+                            <label for="name" id="name-label">Name</label>
+                            <input type="text" name="name" id="name" placeholder="NAME*" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" id="email-label">Email</label>
+                            <input type="email" name="email" id="email" placeholder="EMAIL*" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone-no" id="phone-no">Phone-no</label>
+                            <input type="text" name="phone-no" id="phone-no" placeholder="PHONE NO*" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" id="message">Message</label>
+                            <textarea name="message" id="message" placeholder="MESSAGE*"></textarea>
+                        </div>
+                        <div class="form-group submit-btn">
+                            <button type="submit" value="Submit" id="submit" class="btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <span class="title-bar"></span>
+                    <h2>We love to hear your personal feedback</h2>
+                    <p>We take our commitment to our users seriously.
+                        If you need our help wiCth your user account, have questions
+                        about how to use the platform or are experiencing technical difficulties,
+                        please do not hesitate to contact us.</p>
+                    <ul>
+                        <li>Sunday: Closed</li>
+                        <li>Monday - Thursday: 9AM - 7PM</li>
+                        <li>Friday: 9AM - 5PM</li>
+                    </ul>
+                </div>
             </div>
-    	</footer>
-
+        </section>
+        <!-- Contact Details -->
+        <section class="contact-details">
+            <div class="container">
+                <div class="heading">
+                    <h2>More contact details</h2>
+                    <p>If there’s anything we can help you with, just let us know. We’ll be glad to help you.</p>
+                </div>
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="assets/images/map-icon.png">
+                        </figure>
+                        <h4>We’re On The Map</h4>
+                        <p>8 The Green St., Suite 4753, Dover, DE 19901</p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="assets/images/phone-icon.png">
+                        </figure>
+                        <h4>Give Us a Call</h4>
+                        <ul>
+                            <li><a href="tel:5428842941">+542 8842 941</a></li>
+                            <li><a href="tel:+011 4814 321">+011 4814 321</a></p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="assets/images/envelop-icon.png">
+                        </figure>
+                        <h4>Send Us a Message</h4>
+                        <ul>
+                            <li><a href="mailto:support@business.com">support@business.com</a></li>
+                            <li><a href="mailto:info@yourname.com">info@yourname.com</a></p>
+                            </li>
+                        </ul>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Testimonail -->
+        <section class="testimonail">
+            <div class="container">
+                <div class="testimonail-info">
+                    <span class="title-bar"></span>
+                    <h2>Our happy customers says about us</h2>
+                    <p>There is some success stories from our happy customers. We work
+                        carefully and hard everyday to give you the best and the
+                        cleanest services in the world.</p>
+                    <a href="#">See more informations</a>
+                </div>
+                <div class="testimonail-slider">
+                    <ul>
+                        <li>
+                            <p>“This company helps you easily grow your business or idea
+                                with his skills. He provides special and unique services.”</p>
+                            <h6>Mark Williams</h6>
+                            <ul class="ratings">
+                                <li>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>“This company helps you easily grow your business or idea
+                                with his skills. He provides special and unique services.”</p>
+                            <h6>Mark Williams</h6>
+                            <ul class="ratings">
+                                <li>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>“This company helps you easily grow your business or idea
+                                with his skills. He provides special and unique services.”</p>
+                            <h6>Mark Williams</h6>
+                            <ul class="ratings">
+                                <li>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-logo">
+                    <a href="#">
+                        <figure>
+                            <img src="assets/images/footer-logo.png">
+                        </figure>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="our-services.html">Our Services</a></li>
+                        <li><a href="our-services.html">Our Clients</a></li>
+                        <li><a href="our-services.html">About Us</a></li>
+                        <li><a href="our-services.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
     </main>
-        
     <script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
     <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <script type='text/javascript' src='assets/js/script.js'></script>
-
 </body>
-</html>
 
+</html>

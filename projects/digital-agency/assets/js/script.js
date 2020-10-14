@@ -47,7 +47,6 @@ Array.prototype.forEach.call(links, function(elem, index) {
 });
 
 
-
 jQuery(document).ready(function() {
 
 
