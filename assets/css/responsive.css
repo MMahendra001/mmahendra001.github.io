@@ -24,7 +24,7 @@
 
 	footer .logo img{width:220px;}
 
-	.home,.about,.portfolio,.contact{padding:50px 0px;}
+	.home,.about,.portfolio,.blogs,.contact{padding:50px 0px;}
 
 }
 @media only screen and (min-width:992px){
@@ -147,7 +147,7 @@ footer nav ul{flex-direction:column;}
 footer nav ul li{padding:0px;}
 footer .social-links ul li a {font-size: 16px;height: 35px;width: 35px;}
 footer .social-links ul li{margin:0px 5px;}
-.back-to-top #scrollToTop{bottom:327px;width:55px;right:0px;}
+.back-to-top #scrollToTop{bottom:360px;width:55px;right:0px;}
 
 .home ul.btn-group{flex-direction:column;}
 .home ul.btn-group li{margin:0px 0px 10px 0px;}

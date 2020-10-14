@@ -264,12 +264,7 @@ footer .social-links ul li a:hover {border-color: #fff;color: #fff;box-shadow: 0
 .home ul.btn-group{display:flex;align-items:center;justify-content:center;margin:0;padding:0px;list-style:none;}
 .home ul.btn-group li{padding:0px;margin:0px;padding:0px;margin-right:20px;}
 .home ul.btn-group li:last-child{margin-right:0px;}
-.about{padding:100px 0px;}
-.portfolio{padding:100px 0px;}
-.contact{padding:100px 0px;}
-
-
-
+.about,.portfolio,.blogs,.contact{padding:100px 0px;}
 
 /*Project Overview*/
 
