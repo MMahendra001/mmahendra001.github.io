@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>About US</title>
@@ -14,42 +15,314 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
+
 <body>
     <main>
         <!-- Preloader -->
-<!--         <div id="preloader">
-          <div id="status">
-            <div class="preloader">
-                <img src="assets/images/logo.png">
+        <div id="preloader">
+            <div id="status">
+                <div class="preloader">
+                    <img src="assets/images/logo.png">
+                </div>
             </div>
-          </div>
-        </div>   -->      
-        
+        </div>
+
+        <!-- Header -->
         <header id="navbar">
-            <div class="container">            
+            <div class="container">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="assets/images/logo.png" class="default-logo" alt="logo">
+                        <img src="assets/images/footer-logo.png" class="sticky-logo" alt="logo">
+                    </a>
+                </div>
+                <nav class="desktop-menu">
+                    <ul>
+                        <li class="menu-item-has-children">
+                            <a href="our-services.html">Our Services</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">UI/UX</a>
+                                </li>
+                                <li>
+                                    <a href="#">Product Design</a>
+                                </li>
+                                <li>
+                                    <a href="#">SEO</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="our-clients.html">Our Clients</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="btn">Get Started</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="mobile-menu" style="display:none;">
+                    <ul>
+                        <li class="menu-item-has-children">
+                            <a href="our-services.html">Our Services</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">UI/UX</a>
+                                </li>
+                                <li>
+                                    <a href="#">Product Design</a>
+                                </li>
+                                <li>
+                                    <a href="#">SEO</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="our-clients.html">Our Clients</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="btn">Get Started</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-icon" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
             </div>
         </header>
-
-        <!-- Home -->
-    
-        <section class="home">
+        <!-- Common Banner -->
+        <section class="common-banner bg" style="background-image:url('assets/images/common-banner-bg.png');">
             <div class="container">
-                <h1>Comming Soon</h1>
+                <div class="heading">
+                    <h1>About Us</h1>
+                    <p>We are a digital content agency that tears through search data to find
+                        lucrative ranking opportunities we know you can capture. Then, we create
+                        content your competitors can’t match, with coverage they can only envy.</p>
+                </div>
+            </div>
+        </section>
+        <!-- About Us -->
+        <section class="about-us">
+            <div class="container">
+                <div class="about-info">
+                    <h1>How it all started in 2015?</h1>
+                    <a href="#">See more informations</a>
+                </div>
+                <div class="about-details">
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                        right at the coast of the Semantics, a large language ocean.</p>
+                    <p>
+                        A small river named Duden flows by their place and supplies it with the necessary
+                        regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                        into your mouth. Even the all-powerful Pointing has no control about the
+                        blind texts it is an almost unorthographic life
+                    </p>
+                    <p> One day however a small line of blind text by the name of Lorem Ipsum
+                        decided to leave for the far World of Grammar. The Big Oxmox advised her not
+                        to do so, because there were thousands of bad Commas, wild Question
+                        Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Our Team -->
+        <section class="out-team">
+            <div class="container">
+                <ul>
+                    <li>
+                        <div class="profile-pic">
+                            <a href="#">
+                                <figure><img src="assets/images/profile-pic.png" alt="profile pic"></figure>
+                            </a>
+                        </div>
+                        <div class="profile-info">
+                            <h4><a href="">James Powell</a></h4>
+                            <p>Art Director</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile-pic">
+                            <a href="#">
+                                <figure><img src="assets/images/profile-pic.png" alt="profile pic"></figure>
+                            </a>
+                        </div>
+                        <div class="profile-info">
+                            <h4><a href="#">Bryan Foster</a></h4>
+                            <p>Front-End Developer</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile-pic">
+                            <a href="#">
+                                <figure><img src="assets/images/profile-pic.png" alt="profile pic"></figure>
+                            </a>
+                        </div>
+                        <div class="profile-info">
+                            <h4><a href="#">Susan Boone</a></h4>
+                            <p>SEO Specialist</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile-pic">
+                            <a href="#">
+                                <figure><img src="assets/images/profile-pic.png" alt="profile pic"></figure>
+                            </a>
+                        </div>
+                        <div class="profile-info">
+                            <h4><a href="#">Kiara Mikey</a></h4>
+                            <p>UX Designer</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile-pic">
+                            <a href="#">
+                                <figure><img src="assets/images/profile-pic.png" alt="profile pic"></figure>
+                            </a>
+                        </div>
+                        <div class="profile-info">
+                            <h4><a href="#">Lisa Smith</a></h4>
+                            <p>Strategy Dreamer</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile-pic">
+                            <a href="#">
+                                <figure><img src="assets/images/profile-pic.png" alt="profile pic"></figure>
+                            </a>
+                        </div>
+                        <div class="profile-info">
+                            <h4><a href="#">Nichole Ryan</a></h4>
+                            <p>Digital Consultant</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile-pic">
+                            <a href="">
+                                <figure><img src="assets/images/profile-pic.png" alt="profile pic"></figure>
+                            </a>
+                        </div>
+                        <div class="profile-info">
+                            <h4><a href="#">Thomas Reed</a></h4>
+                            <p>Senior Designer</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="work-with-us">
+                            <figure><img src="assets/images/company-logo.png" alt="logo"></figure>
+                            <h4><a href="#">Work With Us</a></h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Testimonail -->
+        <section class="testimonail">
+            <div class="container">
+                <div class="testimonail-info">
+                    <span class="title-bar"></span>
+                    <h2>Our happy customers says about us</h2>
+                    <p>There is some success stories from our happy customers. We work
+                        carefully and hard everyday to give you the best and the
+                        cleanest services in the world.</p>
+                    <a href="#">See more informations</a>
+                </div>
+                <div class="testimonail-slider">
+                    <ul>
+                        <li>
+                            <p>“This company helps you easily grow your business or idea
+                                with his skills. He provides special and unique services.”</p>
+                            <h6>Mark Williams</h6>
+                            <ul class="ratings">
+                                <li>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>“This company helps you easily grow your business or idea
+                                with his skills. He provides special and unique services.”</p>
+                            <h6>Mark Williams</h6>
+                            <ul class="ratings">
+                                <li>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>“This company helps you easily grow your business or idea
+                                with his skills. He provides special and unique services.”</p>
+                            <h6>Mark Williams</h6>
+                            <ul class="ratings">
+                                <li>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-    	<footer>
-            <div class="container">                          
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-logo">
+                    <a href="#">
+                        <figure>
+                            <img src="assets/images/footer-logo.png">
+                        </figure>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="our-services.html">Our Services</a></li>
+                        <li><a href="our-services.html">Our Clients</a></li>
+                        <li><a href="our-services.html">About Us</a></li>
+                        <li><a href="our-services.html">Contact Us</a></li>
+                    </ul>
+                </nav>
             </div>
-    	</footer>
+        </footer>
 
     </main>
-        
+
     <script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
     <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <script type='text/javascript' src='assets/js/script.js'></script>
 
 </body>
-</html>
 
+</html>
