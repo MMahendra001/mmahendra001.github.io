@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Our Clients</title>
@@ -14,42 +15,285 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
+
 <body>
     <main>
         <!-- Preloader -->
-<!--         <div id="preloader">
-          <div id="status">
-            <div class="preloader">
-                <img src="assets/images/logo.png">
+        <div id="preloader">
+            <div id="status">
+                <div class="preloader">
+                    <img src="assets/images/logo.png">
+                </div>
             </div>
-          </div>
-        </div>   -->      
-        
+        </div>
+        <!-- Header -->
         <header id="navbar">
-            <div class="container">            
+            <div class="container">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="assets/images/logo.png" class="default-logo" alt="logo">
+                        <img src="assets/images/footer-logo.png" class="sticky-logo" alt="logo">
+                    </a>
+                </div>
+                <nav class="desktop-menu">
+                    <ul>
+                        <li class="menu-item-has-children">
+                            <a href="our-services.html">Our Services</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">UI/UX</a>
+                                </li>
+                                <li>
+                                    <a href="#">Product Design</a>
+                                </li>
+                                <li>
+                                    <a href="#">SEO</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="our-clients.html">Our Clients</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="btn">Get Started</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="mobile-menu" style="display:none;">
+                    <ul>
+                        <li class="menu-item-has-children">
+                            <a href="our-services.html">Our Services</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">UI/UX</a>
+                                </li>
+                                <li>
+                                    <a href="#">Product Design</a>
+                                </li>
+                                <li>
+                                    <a href="#">SEO</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="our-clients.html">Our Clients</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="btn">Get Started</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-icon" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
             </div>
         </header>
-
-        <!-- Home -->
-    
-        <section class="home">
+        <!-- Common Banner -->
+        <section class="common-banner bg" style="background-image:url('assets/images/common-banner-bg.png');">
             <div class="container">
-                <h1>Comming Soon</h1>
+                <div class="heading">
+                    <h1>Our Clients</h1>
+                    <p>We recognise our clients are the experts in their industry
+                        and we make sure to do the best use of their knowledge
+                        to mutually achieve our goals.</p>
+                </div>
             </div>
         </section>
-
-    	<footer>
-            <div class="container">                          
+        <!-- Our Clients -->
+        <section class="our-clients">
+            <div class="container">
+                <div class="heading">
+                    <h2>Our partners are happy
+                        and believe in us</h2>
+                    <p>We make sure to do the best and accessible services
+                        for our customers and partners.</p>
+                </div>
+                <div class="client-list">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <figure><img src="assets/images/client-logo-1.png" alt="client logo"></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure><img src="assets/images/client-logo-2.png" alt="client logo"></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure><img src="assets/images/client-logo-3.png" alt="client logo"></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure><img src="assets/images/client-logo-4.png" alt="client logo"></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure><img src="assets/images/client-logo-5.png" alt="client logo"></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure><img src="assets/images/client-logo-6.png" alt="client logo"></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure><img src="assets/images/client-logo-7.png" alt="client logo"></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure><img src="assets/images/client-logo-8.png" alt="client logo"></figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure><img src="assets/images/client-logo-9.png" alt="client logo"></figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-    	</footer>
+        </section>
+        <!-- Join Us -->
+        <section class="join-us">
+            <div class="container">
+                <div class="join-img">
+                    <ul>
+                        <li>
+                            <figure><img src="assets/images/join-us-img-1.png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="assets/images/join-us-img-2.png" alt=""></figure>
+                        </li>
+                        <li>
+                            <figure><img src="assets/images/join-us-img-3.png" alt=""></figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="join-info">
+                    <span class="title-bar"></span>
+                    <h2>Join us and be part of our success</h2>
+                    <p>What started as a tiny team mostly dedicated to design has grown
+                        to be a creative agency with a diverse skillset.</p>
+                    <p> We want to create awesome and inspiring
+                        work, aligning creative strategy with
+                        exceptional results.</p>
+                    <a href="">See more informations</a>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonail -->
+        <section class="testimonail">
+            <div class="container">
+                <div class="testimonail-info">
+                    <span class="title-bar"></span>
+                    <h2>Our happy customers says about us</h2>
+                    <p>There is some success stories from our happy customers. We work
+                        carefully and hard everyday to give you the best and the
+                        cleanest services in the world.</p>
+                    <a href="#">See more informations</a>
+                </div>
+                <div class="testimonail-slider">
+                    <ul>
+                        <li>
+                            <p>“This company helps you easily grow your business or idea
+                                with his skills. He provides special and unique services.”</p>
+                            <h6>Mark Williams</h6>
+                            <ul class="ratings">
+                                <li>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>“This company helps you easily grow your business or idea
+                                with his skills. He provides special and unique services.”</p>
+                            <h6>Mark Williams</h6>
+                            <ul class="ratings">
+                                <li>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>“This company helps you easily grow your business or idea
+                                with his skills. He provides special and unique services.”</p>
+                            <h6>Mark Williams</h6>
+                            <ul class="ratings">
+                                <li>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-logo">
+                    <a href="#">
+                        <figure>
+                            <img src="assets/images/footer-logo.png">
+                        </figure>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="our-services.html">Our Services</a></li>
+                        <li><a href="our-services.html">Our Clients</a></li>
+                        <li><a href="our-services.html">About Us</a></li>
+                        <li><a href="our-services.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
 
     </main>
-        
+
     <script type='text/javascript' src='assets/js/jquery-3.4.1.min.js'></script>
     <script src="https://kit.fontawesome.com/fe804dddec.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <script type='text/javascript' src='assets/js/script.js'></script>
 
 </body>
-</html>
 
+</html>
