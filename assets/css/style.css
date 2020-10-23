@@ -208,7 +208,7 @@ header.sticky{position:fixed;top:0;left:0;animation:smoothScroll 1s forwards;bac
 header.sticky .logo img.default-logo{display:none;}
 header.sticky .logo img.sticky-logo{display:block;}
 header.sticky nav ul li a{color:#fff;}
-header.sticky nav ul li a:hover {color: #fcae61;}
+header.sticky nav ul li a:hover {color: #ff0000;}
 header.sticky a.btn:hover{border-color:#fff;color:#fff;}
 @keyframes smoothScroll{
     0%{transform:translateY(-40px);}
@@ -225,7 +225,7 @@ footer nav ul{display:flex;flex-wrap:wrap;align-items:center;list-style:none;jus
 footer nav ul li{padding:0 15px;margin:0px;}
 footer nav ul li:last-child{padding-right:0px;}
 footer nav ul li a{color:#fff;}
-footer nav ul li a:hover{color:red;}
+footer nav ul li a:hover{color:#ff0000;}
 
 footer .social-links{}
 footer .social-links ul{display:flex;list-style-type:none;padding:0;margin:0;}
