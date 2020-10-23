@@ -251,9 +251,14 @@
 
 	/* Blog
 	------------------------------------------------------------------------------*/
+	.blog {padding: 100px 0 50px 0;}
 	.blog .blog-list-wrap{flex-direction:column-reverse;}
 	.blog .blog-list-wrap article{width:100%;padding:0;margin-bottom:30px;}
 	.blog .blog-list-wrap aside{width:100%;padding:0;}
+	
+	/* Blog
+	------------------------------------------------------------------------------*/
+	.blog.blog-single .blog-list-wrap article{padding:0}
 
 	/* Footer
 	------------------------------------------------------------------------------*/
